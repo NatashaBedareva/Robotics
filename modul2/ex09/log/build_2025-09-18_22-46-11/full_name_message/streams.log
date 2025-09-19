@@ -1,0 +1,34 @@
+[0.015s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/natalia/Documents/STUDING/robotix/modul2/ex09/full_name_message -DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message
+[0.508s] -- The C compiler identification is GNU 13.3.0
+[0.908s] -- The CXX compiler identification is GNU 13.3.0
+[1.024s] -- Detecting C compiler ABI info
+[1.454s] -- Detecting C compiler ABI info - done
+[1.504s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.513s] -- Detecting C compile features
+[1.517s] -- Detecting C compile features - done
+[1.572s] -- Detecting CXX compiler ABI info
+[2.019s] -- Detecting CXX compiler ABI info - done
+[2.047s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.049s] -- Detecting CXX compile features
+[2.052s] -- Detecting CXX compile features - done
+[2.077s] -- Found ament_cmake: 2.8.4 (/opt/ros/rolling/share/ament_cmake/cmake)
+[2.837s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.455s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[3.457s]   By not providing "Findfull_name_message.cmake" in CMAKE_MODULE_PATH this
+[3.457s]   project has asked CMake to find a package configuration file provided by
+[3.458s]   "full_name_message", but CMake did not find one.
+[3.458s] 
+[3.458s]   Could not find a package configuration file provided by "full_name_message"
+[3.459s]   with any of the following names:
+[3.459s] 
+[3.459s]     full_name_messageConfig.cmake
+[3.459s]     full_name_message-config.cmake
+[3.460s] 
+[3.460s]   Add the installation prefix of "full_name_message" to CMAKE_PREFIX_PATH or
+[3.460s]   set "full_name_message_DIR" to a directory containing one of the above
+[3.460s]   files.  If "full_name_message" provides a separate development package or
+[3.461s]   SDK, be sure it has been installed.
+[3.461s] 
+[3.461s] [0m
+[3.461s] -- Configuring incomplete, errors occurred!
+[3.476s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/natalia/Documents/STUDING/robotix/modul2/ex09/full_name_message -DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message

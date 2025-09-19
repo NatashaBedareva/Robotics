@@ -1,0 +1,12 @@
+{
+  "package_name": "full_name_message",
+  "output_dir": "/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message/rosidl_generator_type_description/full_name_message",
+  "idl_tuples": [
+    "/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message/rosidl_adapter/full_name_message:msg/FullName.idl",
+    "/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message/rosidl_adapter/full_name_message:srv/FullName.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/rolling/share/service_msgs/",
+    "builtin_interfaces:/opt/ros/rolling/share/builtin_interfaces/"
+  ]
+}

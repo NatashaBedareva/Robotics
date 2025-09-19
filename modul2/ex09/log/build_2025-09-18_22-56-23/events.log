@@ -1,0 +1,419 @@
+[0.000000] (-) TimerEvent: {}
+[0.000366] (full_name_message) JobQueued: {'identifier': 'full_name_message', 'dependencies': OrderedDict()}
+[0.000418] (full_name_message) JobStarted: {'identifier': 'full_name_message'}
+[0.004860] (full_name_message) JobProgress: {'identifier': 'full_name_message', 'progress': 'cmake'}
+[0.005194] (full_name_message) Command: {'cmd': ['/usr/bin/cmake', '/home/natalia/Documents/STUDING/robotix/modul2/ex09/full_name_message', '-DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message'], 'cwd': '/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ru_RU:en', 'USER': 'natalia', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/natalia', 'OLDPWD': '/home/natalia/Documents/STUDING/robotix/modul2/ex09/full_name_message', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/natalia/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'less', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3966', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f0afb574933708b1b5badb0a68cc1e94', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'natalia', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/0', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'natalia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/rolling/bin:/home/natalia/.local/bin:/home/natalia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/natalia-Katana-GF66-12UE:@/tmp/.ICE-unix/3966,unix/natalia-Katana-GF66-12UE:/tmp/.ICE-unix/3966', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/443dc6cb_da10_414d_bba2_02e71ffd6acb', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.136', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'P9K_SSH': '0', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f0afb574933708b1b5badb0a68cc1e94', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/natalia/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[0.026827] (full_name_message) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.4 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.100061] (-) TimerEvent: {}
+[0.200878] (-) TimerEvent: {}
+[0.301805] (-) TimerEvent: {}
+[0.402643] (-) TimerEvent: {}
+[0.503535] (-) TimerEvent: {}
+[0.604425] (-) TimerEvent: {}
+[0.705102] (-) TimerEvent: {}
+[0.716274] (full_name_message) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.8.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)\n'}
+[0.717386] (full_name_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.730518] (full_name_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.739909] (full_name_message) StdoutLine: {'line': b'-- Found rosidl_adapter: 5.0.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[0.805308] (-) TimerEvent: {}
+[0.905869] (-) TimerEvent: {}
+[1.006686] (-) TimerEvent: {}
+[1.107432] (-) TimerEvent: {}
+[1.207897] (-) TimerEvent: {}
+[1.308604] (-) TimerEvent: {}
+[1.409081] (-) TimerEvent: {}
+[1.510009] (-) TimerEvent: {}
+[1.610920] (-) TimerEvent: {}
+[1.711704] (-) TimerEvent: {}
+[1.812151] (-) TimerEvent: {}
+[1.913109] (-) TimerEvent: {}
+[2.013993] (-) TimerEvent: {}
+[2.114801] (-) TimerEvent: {}
+[2.215625] (-) TimerEvent: {}
+[2.316509] (-) TimerEvent: {}
+[2.417339] (-) TimerEvent: {}
+[2.518239] (-) TimerEvent: {}
+[2.619471] (-) TimerEvent: {}
+[2.720322] (-) TimerEvent: {}
+[2.821144] (-) TimerEvent: {}
+[2.922343] (-) TimerEvent: {}
+[3.023237] (-) TimerEvent: {}
+[3.124159] (-) TimerEvent: {}
+[3.138914] (full_name_message) StdoutLine: {'line': b'-- Found ament_cmake_ros_core: 0.15.2 (/opt/ros/rolling/share/ament_cmake_ros_core/cmake)\n'}
+[3.224514] (-) TimerEvent: {}
+[3.325354] (-) TimerEvent: {}
+[3.426285] (-) TimerEvent: {}
+[3.527189] (-) TimerEvent: {}
+[3.628086] (-) TimerEvent: {}
+[3.729004] (-) TimerEvent: {}
+[3.829864] (-) TimerEvent: {}
+[3.930711] (-) TimerEvent: {}
+[4.031576] (-) TimerEvent: {}
+[4.132371] (-) TimerEvent: {}
+[4.233196] (-) TimerEvent: {}
+[4.334076] (-) TimerEvent: {}
+[4.434972] (-) TimerEvent: {}
+[4.535842] (-) TimerEvent: {}
+[4.636705] (-) TimerEvent: {}
+[4.737588] (-) TimerEvent: {}
+[4.838492] (-) TimerEvent: {}
+[4.939327] (-) TimerEvent: {}
+[5.040184] (-) TimerEvent: {}
+[5.141054] (-) TimerEvent: {}
+[5.241950] (-) TimerEvent: {}
+[5.283258] (full_name_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.342366] (-) TimerEvent: {}
+[5.443605] (-) TimerEvent: {}
+[5.544712] (-) TimerEvent: {}
+[5.645804] (-) TimerEvent: {}
+[5.746854] (-) TimerEvent: {}
+[5.847650] (-) TimerEvent: {}
+[5.948723] (-) TimerEvent: {}
+[6.049658] (-) TimerEvent: {}
+[6.150776] (-) TimerEvent: {}
+[6.251938] (-) TimerEvent: {}
+[6.353153] (-) TimerEvent: {}
+[6.454330] (-) TimerEvent: {}
+[6.555638] (-) TimerEvent: {}
+[6.656517] (-) TimerEvent: {}
+[6.757355] (-) TimerEvent: {}
+[6.858134] (-) TimerEvent: {}
+[6.958871] (-) TimerEvent: {}
+[7.059667] (-) TimerEvent: {}
+[7.160204] (-) TimerEvent: {}
+[7.260714] (-) TimerEvent: {}
+[7.361203] (-) TimerEvent: {}
+[7.462006] (-) TimerEvent: {}
+[7.562864] (-) TimerEvent: {}
+[7.663678] (-) TimerEvent: {}
+[7.764568] (-) TimerEvent: {}
+[7.814608] (full_name_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.864877] (-) TimerEvent: {}
+[7.965731] (-) TimerEvent: {}
+[8.066567] (-) TimerEvent: {}
+[8.167316] (-) TimerEvent: {}
+[8.267938] (-) TimerEvent: {}
+[8.368716] (-) TimerEvent: {}
+[8.469558] (-) TimerEvent: {}
+[8.570446] (-) TimerEvent: {}
+[8.671309] (-) TimerEvent: {}
+[8.772097] (-) TimerEvent: {}
+[8.872966] (-) TimerEvent: {}
+[8.973839] (-) TimerEvent: {}
+[9.074642] (-) TimerEvent: {}
+[9.175322] (-) TimerEvent: {}
+[9.275923] (-) TimerEvent: {}
+[9.359793] (full_name_message) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[9.376147] (-) TimerEvent: {}
+[9.476726] (-) TimerEvent: {}
+[9.497504] (full_name_message) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.20.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)\n'}
+[9.577032] (-) TimerEvent: {}
+[9.634861] (full_name_message) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.635612] (full_name_message) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[9.639459] (full_name_message) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.644356] (full_name_message) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.656316] (full_name_message) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.668465] (full_name_message) StdoutLine: {'line': b'-- Configuring done (9.7s)\n'}
+[9.677296] (-) TimerEvent: {}
+[9.726669] (full_name_message) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[9.734355] (full_name_message) StdoutLine: {'line': b'-- Build files have been written to: /home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message\n'}
+[9.740624] (full_name_message) CommandEnded: {'returncode': 0}
+[9.740931] (full_name_message) JobProgress: {'identifier': 'full_name_message', 'progress': 'build'}
+[9.740955] (full_name_message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message', '--', '-j20', '-l20'], 'cwd': '/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ru_RU:en', 'USER': 'natalia', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/natalia', 'OLDPWD': '/home/natalia/Documents/STUDING/robotix/modul2/ex09/full_name_message', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/natalia/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'less', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3966', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f0afb574933708b1b5badb0a68cc1e94', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'natalia', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/0', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'natalia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/rolling/bin:/home/natalia/.local/bin:/home/natalia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/natalia-Katana-GF66-12UE:@/tmp/.ICE-unix/3966,unix/natalia-Katana-GF66-12UE:/tmp/.ICE-unix/3966', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/443dc6cb_da10_414d_bba2_02e71ffd6acb', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.136', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'P9K_SSH': '0', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f0afb574933708b1b5badb0a68cc1e94', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/natalia/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[9.777604] (-) TimerEvent: {}
+[9.878473] (-) TimerEvent: {}
+[9.968689] (full_name_message) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[9.978793] (-) TimerEvent: {}
+[10.007568] (full_name_message) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_full_name_message\n'}
+[10.079125] (-) TimerEvent: {}
+[10.179882] (-) TimerEvent: {}
+[10.280243] (-) TimerEvent: {}
+[10.295683] (full_name_message) StdoutLine: {'line': b'running egg_info\n'}
+[10.296169] (full_name_message) StdoutLine: {'line': b'creating full_name_message.egg-info\n'}
+[10.297113] (full_name_message) StdoutLine: {'line': b'[  2%] Built target full_name_message__rosidl_generator_type_description\n'}
+[10.305159] (full_name_message) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.305715] (full_name_message) StdoutLine: {'line': b'writing full_name_message.egg-info/PKG-INFO\n'}
+[10.305918] (full_name_message) StdoutLine: {'line': b'writing dependency_links to full_name_message.egg-info/dependency_links.txt\n'}
+[10.305990] (full_name_message) StdoutLine: {'line': b'writing top-level names to full_name_message.egg-info/top_level.txt\n'}
+[10.306025] (full_name_message) StdoutLine: {'line': b"writing manifest file 'full_name_message.egg-info/SOURCES.txt'\n"}
+[10.313362] (full_name_message) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[10.335006] (full_name_message) StdoutLine: {'line': b"reading manifest file 'full_name_message.egg-info/SOURCES.txt'\n"}
+[10.335238] (full_name_message) StdoutLine: {'line': b"writing manifest file 'full_name_message.egg-info/SOURCES.txt'\n"}
+[10.354721] (full_name_message) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_full_name_message_egg\n'}
+[10.380443] (-) TimerEvent: {}
+[10.481458] (-) TimerEvent: {}
+[10.488774] (full_name_message) StdoutLine: {'line': b'[  6%] Built target full_name_message__cpp\n'}
+[10.511695] (full_name_message) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_generator_c.dir/rosidl_generator_c/full_name_message/srv/detail/full_name__functions.c.o\x1b[0m\n'}
+[10.512114] (full_name_message) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_generator_c.dir/rosidl_generator_c/full_name_message/srv/detail/full_name__type_support.c.o\x1b[0m\n'}
+[10.512366] (full_name_message) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_generator_c.dir/rosidl_generator_c/full_name_message/msg/detail/full_name__description.c.o\x1b[0m\n'}
+[10.513829] (full_name_message) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_generator_c.dir/rosidl_generator_c/full_name_message/srv/detail/full_name__description.c.o\x1b[0m\n'}
+[10.517225] (full_name_message) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_generator_c.dir/rosidl_generator_c/full_name_message/msg/detail/full_name__type_support.c.o\x1b[0m\n'}
+[10.517644] (full_name_message) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_generator_c.dir/rosidl_generator_c/full_name_message/msg/detail/full_name__functions.c.o\x1b[0m\n'}
+[10.581771] (-) TimerEvent: {}
+[10.682710] (-) TimerEvent: {}
+[10.699549] (full_name_message) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libfull_name_message__rosidl_generator_c.so\x1b[0m\n'}
+[10.783139] (-) TimerEvent: {}
+[10.874852] (full_name_message) StdoutLine: {'line': b'[ 22%] Built target full_name_message__rosidl_generator_c\n'}
+[10.883336] (-) TimerEvent: {}
+[10.919326] (full_name_message) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.923705] (full_name_message) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.925363] (full_name_message) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.926702] (full_name_message) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.928735] (full_name_message) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[10.932230] (full_name_message) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.983714] (-) TimerEvent: {}
+[11.084487] (-) TimerEvent: {}
+[11.184829] (-) TimerEvent: {}
+[11.228620] (full_name_message) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/full_name_message/msg/full_name__type_support.cpp.o\x1b[0m\n'}
+[11.228817] (full_name_message) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/full_name_message/srv/full_name__type_support.cpp.o\x1b[0m\n'}
+[11.229529] (full_name_message) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/full_name_message/srv/full_name__type_support.cpp.o\x1b[0m\n'}
+[11.231358] (full_name_message) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/full_name_message/msg/full_name__type_support.cpp.o\x1b[0m\n'}
+[11.245647] (full_name_message) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/full_name_message/srv/detail/full_name__type_support.c.o\x1b[0m\n'}
+[11.245852] (full_name_message) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/full_name_message/msg/detail/full_name__type_support.c.o\x1b[0m\n'}
+[11.269244] (full_name_message) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/full_name_message/msg/detail/full_name__type_support.cpp.o\x1b[0m\n'}
+[11.269478] (full_name_message) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/full_name_message/srv/detail/full_name__type_support.cpp.o\x1b[0m\n'}
+[11.279663] (full_name_message) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/full_name_message/srv/detail/dds_fastrtps/full_name__type_support.cpp.o\x1b[0m\n'}
+[11.279870] (full_name_message) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/full_name_message/msg/detail/dds_fastrtps/full_name__type_support.cpp.o\x1b[0m\n'}
+[11.284941] (-) TimerEvent: {}
+[11.288614] (full_name_message) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/full_name_message/srv/detail/full_name__type_support_c.cpp.o\x1b[0m\n'}
+[11.289007] (full_name_message) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name_message__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.289137] (full_name_message) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libfull_name_message__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.289525] (full_name_message) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/full_name_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/full_name_message/msg/detail/full_name__type_support_c.cpp.o\x1b[0m\n'}
+[11.321679] (full_name_message) StdoutLine: {'line': b'[ 68%] Built target full_name_message__rosidl_typesupport_introspection_c\n'}
+[11.330839] (full_name_message) StdoutLine: {'line': b'[ 68%] Built target full_name_message__rosidl_typesupport_c\n'}
+[11.385095] (-) TimerEvent: {}
+[11.485429] (-) TimerEvent: {}
+[11.585708] (-) TimerEvent: {}
+[11.588116] (full_name_message) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name_message__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.611227] (full_name_message) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name_message__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.648493] (full_name_message) StdoutLine: {'line': b'[ 72%] Built target full_name_message__rosidl_typesupport_cpp\n'}
+[11.673701] (full_name_message) StdoutLine: {'line': b'[ 72%] Built target full_name_message__rosidl_typesupport_introspection_cpp\n'}
+[11.685836] (-) TimerEvent: {}
+[11.692299] (full_name_message) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name_message__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.786043] (-) TimerEvent: {}
+[11.795773] (full_name_message) StdoutLine: {'line': b'[ 75%] Built target full_name_message__rosidl_typesupport_fastrtps_c\n'}
+[11.827934] (full_name_message) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name_message__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.886426] (-) TimerEvent: {}
+[11.987190] (-) TimerEvent: {}
+[12.041962] (full_name_message) StdoutLine: {'line': b'[ 77%] Built target full_name_message__rosidl_typesupport_fastrtps_cpp\n'}
+[12.087537] (-) TimerEvent: {}
+[12.138699] (full_name_message) StdoutLine: {'line': b'[ 77%] Built target full_name_message\n'}
+[12.187840] (-) TimerEvent: {}
+[12.235875] (full_name_message) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.288154] (-) TimerEvent: {}
+[12.389048] (-) TimerEvent: {}
+[12.489722] (-) TimerEvent: {}
+[12.589995] (-) TimerEvent: {}
+[12.631117] (full_name_message) StdoutLine: {'line': b'[ 79%] Built target full_name_message__py\n'}
+[12.659072] (full_name_message) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_generator_py.dir/rosidl_generator_py/full_name_message/srv/_full_name_s.c.o\x1b[0m\n'}
+[12.659967] (full_name_message) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/full_name_message__rosidl_generator_py.dir/rosidl_generator_py/full_name_message/msg/_full_name_s.c.o\x1b[0m\n'}
+[12.690371] (-) TimerEvent: {}
+[12.791622] (-) TimerEvent: {}
+[12.892672] (-) TimerEvent: {}
+[12.993709] (-) TimerEvent: {}
+[13.094640] (-) TimerEvent: {}
+[13.195385] (-) TimerEvent: {}
+[13.243485] (full_name_message) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libfull_name_message__rosidl_generator_py.so\x1b[0m\n'}
+[13.295710] (-) TimerEvent: {}
+[13.396769] (-) TimerEvent: {}
+[13.445503] (full_name_message) StdoutLine: {'line': b'[ 86%] Built target full_name_message__rosidl_generator_py\n'}
+[13.496980] (-) TimerEvent: {}
+[13.550510] (full_name_message) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/full_name_message_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/full_name_message/_full_name_message_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.553274] (full_name_message) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/full_name_message_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/full_name_message/_full_name_message_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.554418] (full_name_message) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/full_name_message_s__rosidl_typesupport_c.dir/rosidl_generator_py/full_name_message/_full_name_message_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.597462] (-) TimerEvent: {}
+[13.698523] (-) TimerEvent: {}
+[13.776016] (full_name_message) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/full_name_message/full_name_message_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.778882] (full_name_message) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/full_name_message/full_name_message_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.779824] (full_name_message) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/full_name_message/full_name_message_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.798838] (-) TimerEvent: {}
+[13.900017] (-) TimerEvent: {}
+[13.917499] (full_name_message) StdoutLine: {'line': b'[100%] Built target full_name_message_s__rosidl_typesupport_introspection_c\n'}
+[13.918832] (full_name_message) StdoutLine: {'line': b'[100%] Built target full_name_message_s__rosidl_typesupport_c\n'}
+[13.919987] (full_name_message) StdoutLine: {'line': b'[100%] Built target full_name_message_s__rosidl_typesupport_fastrtps_c\n'}
+[13.971886] (full_name_message) CommandEnded: {'returncode': 0}
+[13.976582] (full_name_message) JobProgress: {'identifier': 'full_name_message', 'progress': 'install'}
+[14.000442] (-) TimerEvent: {}
+[14.016804] (full_name_message) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message'], 'cwd': '/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ru_RU:en', 'USER': 'natalia', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/zenoh_cpp_vendor/lib:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/natalia', 'OLDPWD': '/home/natalia/Documents/STUDING/robotix/modul2/ex09/full_name_message', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/natalia/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'less', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3966', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f0afb574933708b1b5badb0a68cc1e94', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'natalia', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/0', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'natalia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/rolling/bin:/home/natalia/.local/bin:/home/natalia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/natalia-Katana-GF66-12UE:@/tmp/.ICE-unix/3966,unix/natalia-Katana-GF66-12UE:/tmp/.ICE-unix/3966', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/443dc6cb_da10_414d_bba2_02e71ffd6acb', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.136', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'P9K_SSH': '0', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=f0afb574933708b1b5badb0a68cc1e94', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/natalia/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[14.054223] (full_name_message) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.055766] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/ament_index/resource_index/rosidl_interfaces/full_name_message\n'}
+[14.056785] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/msg/FullName.json\n'}
+[14.058579] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/srv/FullName.json\n'}
+[14.060025] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message\n'}
+[14.061303] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv\n'}
+[14.063053] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail\n'}
+[14.064289] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name__description.c\n'}
+[14.064799] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name__type_support.c\n'}
+[14.065802] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name__struct.h\n'}
+[14.066221] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name__functions.c\n'}
+[14.066590] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name__functions.h\n'}
+[14.067715] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name__type_support.h\n'}
+[14.068826] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/full_name.h\n'}
+[14.069755] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg\n'}
+[14.070430] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail\n'}
+[14.070768] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/full_name__description.c\n'}
+[14.071073] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/full_name__type_support.c\n'}
+[14.071365] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/full_name__struct.h\n'}
+[14.071669] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/full_name__functions.c\n'}
+[14.072978] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/full_name__functions.h\n'}
+[14.073639] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/full_name__type_support.h\n'}
+[14.074082] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.074438] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/full_name.h\n'}
+[14.076507] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/environment/library_path.sh\n'}
+[14.077023] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/environment/library_path.dsv\n'}
+[14.077353] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/libfull_name_message__rosidl_generator_c.so\n'}
+[14.077671] (full_name_message) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/libfull_name_message__rosidl_generator_c.so" to ""\n'}
+[14.077996] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message\n'}
+[14.078282] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv\n'}
+[14.079202] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail\n'}
+[14.079979] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name__rosidl_typesupport_fastrtps_c.h\n'}
+[14.080317] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg\n'}
+[14.080639] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail\n'}
+[14.080947] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/full_name__rosidl_typesupport_fastrtps_c.h\n'}
+[14.081226] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.081539] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_fastrtps_c.so\n'}
+[14.081810] (full_name_message) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.082078] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message\n'}
+[14.082352] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv\n'}
+[14.082650] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail\n'}
+[14.083105] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name__rosidl_typesupport_introspection_c.h\n'}
+[14.083413] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name__type_support.c\n'}
+[14.083703] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg\n'}
+[14.083977] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail\n'}
+[14.084246] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/full_name__rosidl_typesupport_introspection_c.h\n'}
+[14.084552] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/full_name__type_support.c\n'}
+[14.084852] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.085122] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_introspection_c.so\n'}
+[14.085414] (full_name_message) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.085689] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_c.so\n'}
+[14.085961] (full_name_message) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_c.so" to ""\n'}
+[14.086249] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message\n'}
+[14.086550] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv\n'}
+[14.086829] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail\n'}
+[14.087093] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name__struct.hpp\n'}
+[14.087385] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name__builder.hpp\n'}
+[14.087660] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name__traits.hpp\n'}
+[14.087930] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name__type_support.hpp\n'}
+[14.088225] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/full_name.hpp\n'}
+[14.088512] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg\n'}
+[14.088786] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail\n'}
+[14.089062] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/full_name__struct.hpp\n'}
+[14.089338] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/full_name__builder.hpp\n'}
+[14.089621] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/full_name__traits.hpp\n'}
+[14.089900] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/full_name__type_support.hpp\n'}
+[14.090181] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[14.090479] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/full_name.hpp\n'}
+[14.090757] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message\n'}
+[14.091033] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv\n'}
+[14.091301] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail\n'}
+[14.091586] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.091861] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/dds_fastrtps\n'}
+[14.092151] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg\n'}
+[14.092443] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.092720] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail\n'}
+[14.093014] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/full_name__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.094290] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/dds_fastrtps\n'}
+[14.095073] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.095435] (full_name_message) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.095766] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message\n'}
+[14.096060] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv\n'}
+[14.096360] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail\n'}
+[14.096661] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.096939] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/srv/detail/full_name__type_support.cpp\n'}
+[14.097212] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg\n'}
+[14.097489] (full_name_message) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail\n'}
+[14.097770] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/full_name__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.098044] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/include/full_name_message/full_name_message/msg/detail/full_name__type_support.cpp\n'}
+[14.098317] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_introspection_cpp.so\n'}
+[14.098625] (full_name_message) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.098899] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_cpp.so\n'}
+[14.099156] (full_name_message) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/libfull_name_message__rosidl_typesupport_cpp.so" to ""\n'}
+[14.099446] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/environment/pythonpath.sh\n'}
+[14.099718] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/environment/pythonpath.dsv\n'}
+[14.099988] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message-0.0.0-py3.12.egg-info\n'}
+[14.100445] (-) TimerEvent: {}
+[14.100801] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[14.101143] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[14.101422] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[14.101688] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[14.101946] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message\n'}
+[14.102198] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/full_name_message_s__rosidl_typesupport_fastrtps_c.so\n'}
+[14.102455] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/full_name_message_s__rosidl_typesupport_c.so\n'}
+[14.102712] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/srv\n'}
+[14.102948] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/srv/_full_name_s.c\n'}
+[14.103192] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/srv/__init__.py\n'}
+[14.103456] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/srv/_full_name.py\n'}
+[14.103715] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/_full_name_message_s.ep.rosidl_typesupport_c.c\n'}
+[14.103961] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/_full_name_message_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[14.104203] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/__init__.py\n'}
+[14.104463] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/_full_name_message_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[14.104718] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/msg\n'}
+[14.104956] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/msg/_full_name_s.c\n'}
+[14.105199] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/msg/__init__.py\n'}
+[14.105457] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/msg/_full_name.py\n'}
+[14.105707] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/full_name_message_s__rosidl_typesupport_introspection_c.so\n'}
+[14.105954] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/py.typed\n'}
+[14.199535] (full_name_message) StdoutLine: {'line': b"Listing '/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message'...\n"}
+[14.199640] (full_name_message) StdoutLine: {'line': b"Compiling '/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/__init__.py'...\n"}
+[14.199678] (full_name_message) StdoutLine: {'line': b"Listing '/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/msg'...\n"}
+[14.199711] (full_name_message) StdoutLine: {'line': b"Compiling '/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/msg/__init__.py'...\n"}
+[14.199743] (full_name_message) StdoutLine: {'line': b"Compiling '/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/msg/_full_name.py'...\n"}
+[14.199780] (full_name_message) StdoutLine: {'line': b"Listing '/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/srv'...\n"}
+[14.199810] (full_name_message) StdoutLine: {'line': b"Compiling '/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/srv/__init__.py'...\n"}
+[14.199841] (full_name_message) StdoutLine: {'line': b"Compiling '/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/srv/_full_name.py'...\n"}
+[14.200495] (-) TimerEvent: {}
+[14.203258] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/full_name_message_s__rosidl_typesupport_fastrtps_c.so\n'}
+[14.203411] (full_name_message) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/full_name_message_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.203565] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/full_name_message_s__rosidl_typesupport_introspection_c.so\n'}
+[14.203627] (full_name_message) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/full_name_message_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.203666] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/full_name_message_s__rosidl_typesupport_c.so\n'}
+[14.203721] (full_name_message) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/python3.12/site-packages/full_name_message/full_name_message_s__rosidl_typesupport_c.so" to ""\n'}
+[14.203763] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/libfull_name_message__rosidl_generator_py.so\n'}
+[14.203823] (full_name_message) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/lib/libfull_name_message__rosidl_generator_py.so" to ""\n'}
+[14.203859] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/msg/FullName.idl\n'}
+[14.203893] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/srv/FullName.idl\n'}
+[14.203955] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/msg/FullName.msg\n'}
+[14.203987] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/srv/FullName.srv\n'}
+[14.204018] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/ament_index/resource_index/package_run_dependencies/full_name_message\n'}
+[14.204072] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/ament_index/resource_index/parent_prefix_path/full_name_message\n'}
+[14.204130] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/environment/ament_prefix_path.sh\n'}
+[14.204187] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/environment/ament_prefix_path.dsv\n'}
+[14.204243] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/environment/path.sh\n'}
+[14.204298] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/environment/path.dsv\n'}
+[14.204355] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/local_setup.bash\n'}
+[14.204414] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/local_setup.sh\n'}
+[14.204471] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/local_setup.zsh\n'}
+[14.204529] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/local_setup.dsv\n'}
+[14.204598] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/package.dsv\n'}
+[14.204652] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/ament_index/resource_index/packages/full_name_message\n'}
+[14.204708] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_generator_cExport.cmake\n'}
+[14.204801] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.204864] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.204929] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.204993] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.205051] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.205118] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_cExport.cmake\n'}
+[14.205175] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.205237] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_generator_cppExport.cmake\n'}
+[14.205302] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.205362] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.205428] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.205493] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.205560] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_cppExport.cmake\n'}
+[14.205615] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/full_name_message__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.205681] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_generator_pyExport.cmake\n'}
+[14.205735] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/export_full_name_message__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.205793] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/rosidl_cmake-extras.cmake\n'}
+[14.205846] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.205911] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.205973] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.206033] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.206089] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.206146] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.206204] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/full_name_messageConfig.cmake\n'}
+[14.206255] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/cmake/full_name_messageConfig-version.cmake\n'}
+[14.206308] (full_name_message) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message/share/full_name_message/package.xml\n'}
+[14.208230] (full_name_message) CommandEnded: {'returncode': 0}
+[14.301096] (full_name_message) JobEnded: {'identifier': 'full_name_message', 'rc': 0}
+[14.303974] (-) TimerEvent: {}
+[14.304230] (-) EventReactorShutdown: {}

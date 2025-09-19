@@ -1,0 +1,4 @@
+source;share/natalia_pkg/local_setup.bash
+source;share/natalia_pkg/local_setup.dsv
+source;share/natalia_pkg/local_setup.sh
+source;share/natalia_pkg/local_setup.zsh

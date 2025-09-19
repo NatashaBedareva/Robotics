@@ -1,0 +1,20 @@
+[0.006s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg -- -j20 -l20
+[0.071s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg -- -j20 -l20
+[0.114s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg
+[0.149s] -- Install configuration: ""
+[0.149s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/ament_index/resource_index/package_run_dependencies/natalia_pkg
+[0.150s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/ament_index/resource_index/parent_prefix_path/natalia_pkg
+[0.152s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/environment/ament_prefix_path.sh
+[0.152s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/environment/ament_prefix_path.dsv
+[0.153s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/environment/path.sh
+[0.153s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/environment/path.dsv
+[0.153s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/local_setup.bash
+[0.153s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/local_setup.sh
+[0.154s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/local_setup.zsh
+[0.154s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/local_setup.dsv
+[0.154s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/package.dsv
+[0.154s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/ament_index/resource_index/packages/natalia_pkg
+[0.156s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/cmake/natalia_pkgConfig.cmake
+[0.157s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/cmake/natalia_pkgConfig-version.cmake
+[0.157s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/package.xml
+[0.158s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg

@@ -1,0 +1,21 @@
+[0.008s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/natalia/Documents/STUDING/robotix/modul2/ex09/full_name_message -DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message
+[0.065s] -- Found ament_cmake: 2.8.4 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.875s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[0.875s]   By not providing "Findfull_name_message.cmake" in CMAKE_MODULE_PATH this
+[0.875s]   project has asked CMake to find a package configuration file provided by
+[0.875s]   "full_name_message", but CMake did not find one.
+[0.875s] 
+[0.875s]   Could not find a package configuration file provided by "full_name_message"
+[0.875s]   with any of the following names:
+[0.876s] 
+[0.876s]     full_name_messageConfig.cmake
+[0.876s]     full_name_message-config.cmake
+[0.876s] 
+[0.876s]   Add the installation prefix of "full_name_message" to CMAKE_PREFIX_PATH or
+[0.876s]   set "full_name_message_DIR" to a directory containing one of the above
+[0.876s]   files.  If "full_name_message" provides a separate development package or
+[0.876s]   SDK, be sure it has been installed.
+[0.876s] 
+[0.876s] [0m
+[0.876s] -- Configuring incomplete, errors occurred!
+[0.878s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/natalia/Documents/STUDING/robotix/modul2/ex09/full_name_message -DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message

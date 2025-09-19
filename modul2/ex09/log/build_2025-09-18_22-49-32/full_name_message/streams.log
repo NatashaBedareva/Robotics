@@ -1,0 +1,8 @@
+[0.005s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/natalia/Documents/STUDING/robotix/modul2/ex09/full_name_message -DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message
+[0.021s] -- Found ament_cmake: 2.8.4 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.887s] -- Configuring incomplete, errors occurred!
+[0.887s] [31mCMake Error at CMakeLists.txt:17 (rosidl_generate_interfaces):
+[0.887s]   Unknown CMake command "rosidl_generate_interfaces".
+[0.887s] 
+[0.887s] [0m
+[0.890s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul2/ex09/build/full_name_message' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/natalia/Documents/STUDING/robotix/modul2/ex09/full_name_message -DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul2/ex09/install/full_name_message

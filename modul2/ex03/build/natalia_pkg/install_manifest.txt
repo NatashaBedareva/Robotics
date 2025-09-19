@@ -1,0 +1,15 @@
+/home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/ament_index/resource_index/package_run_dependencies/natalia_pkg
+/home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/ament_index/resource_index/parent_prefix_path/natalia_pkg
+/home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/environment/ament_prefix_path.sh
+/home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/environment/ament_prefix_path.dsv
+/home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/environment/path.sh
+/home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/environment/path.dsv
+/home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/local_setup.bash
+/home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/local_setup.sh
+/home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/local_setup.zsh
+/home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/local_setup.dsv
+/home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/package.dsv
+/home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/ament_index/resource_index/packages/natalia_pkg
+/home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/cmake/natalia_pkgConfig.cmake
+/home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/cmake/natalia_pkgConfig-version.cmake
+/home/natalia/Documents/STUDING/robotix/modul2/ex03/install/natalia_pkg/share/natalia_pkg/package.xml
