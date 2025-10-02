@@ -1,0 +1,34 @@
+[0.484s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul2/ex10': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/natalia/Documents/STUDING/robotix/modul2/ex10/build/text_to_cmd_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natalia/Documents/STUDING/robotix/modul2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/text_to_cmd_vel build --build-base /home/natalia/Documents/STUDING/robotix/modul2/ex10/build/text_to_cmd_vel/build install --record /home/natalia/Documents/STUDING/robotix/modul2/ex10/build/text_to_cmd_vel/install.log --single-version-externally-managed install_data
+[0.751s] running egg_info
+[0.752s] creating build/text_to_cmd_vel/text_to_cmd_vel.egg-info
+[0.760s] writing build/text_to_cmd_vel/text_to_cmd_vel.egg-info/PKG-INFO
+[0.760s] writing dependency_links to build/text_to_cmd_vel/text_to_cmd_vel.egg-info/dependency_links.txt
+[0.760s] writing entry points to build/text_to_cmd_vel/text_to_cmd_vel.egg-info/entry_points.txt
+[0.760s] writing requirements to build/text_to_cmd_vel/text_to_cmd_vel.egg-info/requires.txt
+[0.760s] writing top-level names to build/text_to_cmd_vel/text_to_cmd_vel.egg-info/top_level.txt
+[0.760s] writing manifest file 'build/text_to_cmd_vel/text_to_cmd_vel.egg-info/SOURCES.txt'
+[0.778s] reading manifest file 'build/text_to_cmd_vel/text_to_cmd_vel.egg-info/SOURCES.txt'
+[0.778s] writing manifest file 'build/text_to_cmd_vel/text_to_cmd_vel.egg-info/SOURCES.txt'
+[0.778s] running build
+[0.778s] running build_py
+[0.779s] creating /home/natalia/Documents/STUDING/robotix/modul2/ex10/build/text_to_cmd_vel/build
+[0.779s] creating /home/natalia/Documents/STUDING/robotix/modul2/ex10/build/text_to_cmd_vel/build/lib
+[0.779s] creating /home/natalia/Documents/STUDING/robotix/modul2/ex10/build/text_to_cmd_vel/build/lib/text_to_cmd_vel
+[0.779s] copying text_to_cmd_vel/text_to_cmd_vel_node.py -> /home/natalia/Documents/STUDING/robotix/modul2/ex10/build/text_to_cmd_vel/build/lib/text_to_cmd_vel
+[0.779s] running install
+[0.782s] running install_lib
+[0.791s] creating /home/natalia/Documents/STUDING/robotix/modul2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages/text_to_cmd_vel
+[0.791s] copying /home/natalia/Documents/STUDING/robotix/modul2/ex10/build/text_to_cmd_vel/build/lib/text_to_cmd_vel/text_to_cmd_vel_node.py -> /home/natalia/Documents/STUDING/robotix/modul2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages/text_to_cmd_vel
+[0.792s] byte-compiling /home/natalia/Documents/STUDING/robotix/modul2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages/text_to_cmd_vel/text_to_cmd_vel_node.py to text_to_cmd_vel_node.cpython-312.pyc
+[0.792s] running install_data
+[0.792s] creating /home/natalia/Documents/STUDING/robotix/modul2/ex10/install/text_to_cmd_vel/share/ament_index
+[0.792s] creating /home/natalia/Documents/STUDING/robotix/modul2/ex10/install/text_to_cmd_vel/share/ament_index/resource_index
+[0.792s] creating /home/natalia/Documents/STUDING/robotix/modul2/ex10/install/text_to_cmd_vel/share/ament_index/resource_index/packages
+[0.792s] copying resource/text_to_cmd_vel -> /home/natalia/Documents/STUDING/robotix/modul2/ex10/install/text_to_cmd_vel/share/ament_index/resource_index/packages
+[0.792s] copying package.xml -> /home/natalia/Documents/STUDING/robotix/modul2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel
+[0.792s] running install_egg_info
+[0.802s] Copying build/text_to_cmd_vel/text_to_cmd_vel.egg-info to /home/natalia/Documents/STUDING/robotix/modul2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages/text_to_cmd_vel-0.0.0-py3.12.egg-info
+[0.802s] running install_scripts
+[0.865s] Installing text_to_cmd_vel_node script to /home/natalia/Documents/STUDING/robotix/modul2/ex10/install/text_to_cmd_vel/lib/text_to_cmd_vel
+[0.865s] writing list of installed files to '/home/natalia/Documents/STUDING/robotix/modul2/ex10/build/text_to_cmd_vel/install.log'
+[0.879s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul2/ex10' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/natalia/Documents/STUDING/robotix/modul2/ex10/build/text_to_cmd_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natalia/Documents/STUDING/robotix/modul2/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/text_to_cmd_vel build --build-base /home/natalia/Documents/STUDING/robotix/modul2/ex10/build/text_to_cmd_vel/build install --record /home/natalia/Documents/STUDING/robotix/modul2/ex10/build/text_to_cmd_vel/install.log --single-version-externally-managed install_data

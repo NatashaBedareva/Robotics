@@ -1,7 +1,0 @@
-{
-  "package_name": "full_name_message",
-  "non_idl_tuples": [
-    "/home/natalia/Documents/STUDING/robotix/modul2/ex09/full_name_message:src/msg/FullName.msg",
-    "/home/natalia/Documents/STUDING/robotix/modul2/ex09/full_name_message:src/srv/FullName.srv"
-  ]
-}

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: text-to-cmd-vel
+Version: 0.0.0
+Summary: Text to cmd_vel converter for turtlesim
+Maintainer: user
+Maintainer-email: user@todo.todo
+License: Apache-2.0
