@@ -1,0 +1,41 @@
+[0.829s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul3/ex01': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/service_full_name build --build-base /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/build install --record /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/install.log --single-version-externally-managed install_data
+[1.149s] running egg_info
+[1.149s] creating build/service_full_name/service_full_name.egg-info
+[1.159s] writing build/service_full_name/service_full_name.egg-info/PKG-INFO
+[1.159s] writing dependency_links to build/service_full_name/service_full_name.egg-info/dependency_links.txt
+[1.159s] writing entry points to build/service_full_name/service_full_name.egg-info/entry_points.txt
+[1.159s] writing requirements to build/service_full_name/service_full_name.egg-info/requires.txt
+[1.159s] writing top-level names to build/service_full_name/service_full_name.egg-info/top_level.txt
+[1.159s] writing manifest file 'build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[1.179s] reading manifest file 'build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[1.180s] writing manifest file 'build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[1.180s] running build
+[1.180s] running build_py
+[1.180s] creating /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/build
+[1.180s] creating /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/build/lib
+[1.180s] creating /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/build/lib/service_full_name
+[1.180s] copying service_full_name/service_node.py -> /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/build/lib/service_full_name
+[1.180s] copying service_full_name/__init__.py -> /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/build/lib/service_full_name
+[1.180s] copying service_full_name/client_node.py -> /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/build/lib/service_full_name
+[1.180s] running install
+[1.185s] running install_lib
+[1.195s] creating /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name
+[1.195s] copying /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/build/lib/service_full_name/service_node.py -> /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name
+[1.195s] copying /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/build/lib/service_full_name/__init__.py -> /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name
+[1.195s] copying /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/build/lib/service_full_name/client_node.py -> /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name
+[1.196s] byte-compiling /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/service_node.py to service_node.cpython-312.pyc
+[1.196s] byte-compiling /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/__init__.py to __init__.cpython-312.pyc
+[1.196s] byte-compiling /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/client_node.py to client_node.cpython-312.pyc
+[1.197s] running install_data
+[1.197s] creating /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/ament_index
+[1.197s] creating /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/ament_index/resource_index
+[1.197s] creating /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/ament_index/resource_index/packages
+[1.197s] copying resource/service_full_name -> /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/ament_index/resource_index/packages
+[1.197s] copying package.xml -> /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name
+[1.197s] running install_egg_info
+[1.210s] Copying build/service_full_name/service_full_name.egg-info to /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name-0.0.0-py3.12.egg-info
+[1.211s] running install_scripts
+[1.282s] Installing client_name script to /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/service_full_name
+[1.282s] Installing service_name script to /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/service_full_name
+[1.282s] writing list of installed files to '/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/install.log'
+[1.299s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul3/ex01' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/service_full_name build --build-base /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/build install --record /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/install.log --single-version-externally-managed install_data

@@ -1,0 +1,115 @@
+
+   PLATFORM INFORMATION
+system           : Linux
+platform info    : Linux-6.14.0-33-generic-x86_64-with-glibc2.39
+release          : 6.14.0-33-generic
+processor        : x86_64
+
+   
+   RMW MIDDLEWARE
+middleware name    : rmw_fastrtps_cpp
+
+   ROS 2 INFORMATION
+distribution name      : rolling
+distribution type      : ros2
+distribution status    : rolling
+release platforms      : {'debian': ['bookworm'], 'rhel': ['9'], 'ubuntu': ['noble']}
+
+   SERVICE LIST
+service          : /clear
+service count    : 0
+client count     : 0
+service          : /kill
+service count    : 0
+client count     : 0
+service          : /reset
+service count    : 0
+client count     : 0
+service          : /spawn
+service count    : 0
+client count     : 0
+service          : /teleop_turtle/describe_parameters
+service count    : 0
+client count     : 0
+service          : /teleop_turtle/get_parameter_types
+service count    : 0
+client count     : 0
+service          : /teleop_turtle/get_parameters
+service count    : 0
+client count     : 0
+service          : /teleop_turtle/get_type_description
+service count    : 0
+client count     : 0
+service          : /teleop_turtle/list_parameters
+service count    : 0
+client count     : 0
+service          : /teleop_turtle/set_parameters
+service count    : 0
+client count     : 0
+service          : /teleop_turtle/set_parameters_atomically
+service count    : 0
+client count     : 0
+service          : /turtle1/rotate_absolute/_action/cancel_goal
+service count    : 0
+client count     : 0
+service          : /turtle1/rotate_absolute/_action/get_result
+service count    : 0
+client count     : 0
+service          : /turtle1/rotate_absolute/_action/send_goal
+service count    : 0
+client count     : 0
+service          : /turtle1/set_pen
+service count    : 0
+client count     : 0
+service          : /turtle1/teleport_absolute
+service count    : 0
+client count     : 0
+service          : /turtle1/teleport_relative
+service count    : 0
+client count     : 0
+service          : /turtlesim/describe_parameters
+service count    : 0
+client count     : 0
+service          : /turtlesim/get_parameter_types
+service count    : 0
+client count     : 0
+service          : /turtlesim/get_parameters
+service count    : 0
+client count     : 0
+service          : /turtlesim/get_type_description
+service count    : 0
+client count     : 0
+service          : /turtlesim/list_parameters
+service count    : 0
+client count     : 0
+service          : /turtlesim/set_parameters
+service count    : 0
+client count     : 0
+service          : /turtlesim/set_parameters_atomically
+service count    : 0
+client count     : 0
+
+   TOPIC LIST
+topic               : /turtle1/cmd_vel
+publisher count     : 1
+subscriber count    : 1
+topic               : /turtle1/color_sensor
+publisher count     : 1
+subscriber count    : 0
+topic               : /turtle1/pose
+publisher count     : 1
+subscriber count    : 0
+topic               : /turtle1/rotate_absolute/_action/feedback
+publisher count     : 1
+subscriber count    : 1
+topic               : /turtle1/rotate_absolute/_action/status
+publisher count     : 1
+subscriber count    : 1
+
+================================================================================
+                                !!! WARNING !!!                                 
+================================================================================
+The report includes all ROS 2 endpoint information and system platform information.
+Please review the report before sharing, as it may contain sensitive or private data.
+================================================================================
+
