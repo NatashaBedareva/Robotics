@@ -1,0 +1,25 @@
+{
+  "package_name": "service_full_name",
+  "output_dir": "/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/rosidl_typesupport_c/service_full_name",
+  "template_dir": "/opt/ros/rolling/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/rosidl_adapter/service_full_name:srv/SummFullName.idl"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/opt/ros/rolling/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/rolling/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/rolling/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/rolling/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/rolling/lib/python3.12/site-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/rolling/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/rolling/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/rolling/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/rolling/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/rosidl_adapter/service_full_name/srv/SummFullName.idl",
+    "/opt/ros/rolling/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/rolling/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/rolling/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

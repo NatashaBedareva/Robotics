@@ -1,15 +1,17 @@
 <?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematype="http://www.w3.org/2001/XMLSchema"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypelayout="1.0"?>
 <package format="3">
   <name>move_to_goal</name>
   <version>0.0.0</version>
-  <description>Move turtle to specified goal coordinates using only cmd_vel</description>
-  <maintainer email="user@todo.todo">user</maintainer>
-  <license>Apache-2.0</license>
+  <description>Move turtle to specified goal</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
 
   <depend>rclpy</depend>
   <depend>geometry_msgs</depend>
   <depend>turtlesim</depend>
+  <depend>std_msgs</depend>
+  <depend>builtin_interfaces</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

@@ -8,5 +8,6 @@ setup.py
 ../build/move_to_goal/move_to_goal.egg-info/requires.txt
 ../build/move_to_goal/move_to_goal.egg-info/top_level.txt
 ../build/move_to_goal/move_to_goal.egg-info/zip-safe
+move_to_goal/__init__.py
 move_to_goal/move_to_goal_node.py
 resource/move_to_goal

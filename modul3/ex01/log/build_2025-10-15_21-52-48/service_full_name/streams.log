@@ -1,0 +1,236 @@
+[0.008s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/natalia/Documents/STUDING/robotix/modul3/ex01/service_full_name -DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name
+[0.077s] -- The C compiler identification is GNU 13.3.0
+[0.275s] -- The CXX compiler identification is GNU 13.3.0
+[0.291s] -- Detecting C compiler ABI info
+[0.385s] -- Detecting C compiler ABI info - done
+[0.395s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.396s] -- Detecting C compile features
+[0.396s] -- Detecting C compile features - done
+[0.411s] -- Detecting CXX compiler ABI info
+[0.564s] -- Detecting CXX compiler ABI info - done
+[0.573s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.573s] -- Detecting CXX compile features
+[0.573s] -- Detecting CXX compile features - done
+[0.575s] -- Found ament_cmake: 2.8.4 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.805s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.012s] -- Found rclpy: 10.0.0 (/opt/ros/rolling/share/rclpy/cmake)
+[1.015s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)
+[1.026s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.089s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.108s] -- Found rosidl_adapter: 5.0.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[2.637s] -- Found ament_cmake_ros_core: 0.15.2 (/opt/ros/rolling/share/ament_cmake_ros_core/cmake)
+[3.680s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.094s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.021s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.154s] -- Found ament_lint_auto: 0.20.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[6.194s] -- Configuring done (6.2s)
+[6.222s] -- Generating done (0.0s)
+[6.231s] -- Build files have been written to: /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name
+[6.236s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/natalia/Documents/STUDING/robotix/modul3/ex01/service_full_name -DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name
+[6.237s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name -- -j20 -l20
+[6.290s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.297s] [  2%] Built target ament_cmake_python_copy_service_full_name
+[6.461s] [  2%] Built target service_full_name__rosidl_generator_type_description
+[6.471s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.481s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.500s] running egg_info
+[6.501s] creating service_full_name.egg-info
+[6.518s] writing service_full_name.egg-info/PKG-INFO
+[6.518s] writing dependency_links to service_full_name.egg-info/dependency_links.txt
+[6.518s] writing top-level names to service_full_name.egg-info/top_level.txt
+[6.518s] writing manifest file 'service_full_name.egg-info/SOURCES.txt'
+[6.574s] reading manifest file 'service_full_name.egg-info/SOURCES.txt'
+[6.574s] writing manifest file 'service_full_name.egg-info/SOURCES.txt'
+[6.603s] [  8%] Built target ament_cmake_python_build_service_full_name_egg
+[6.748s] [ 11%] [32mBuilding C object CMakeFiles/service_full_name__rosidl_generator_c.dir/rosidl_generator_c/service_full_name/srv/detail/summ_full_name__description.c.o[0m
+[6.749s] [ 14%] [32mBuilding C object CMakeFiles/service_full_name__rosidl_generator_c.dir/rosidl_generator_c/service_full_name/srv/detail/summ_full_name__type_support.c.o[0m
+[6.751s] [ 17%] [32mBuilding C object CMakeFiles/service_full_name__rosidl_generator_c.dir/rosidl_generator_c/service_full_name/srv/detail/summ_full_name__functions.c.o[0m
+[6.754s] [ 17%] Built target service_full_name__cpp
+[6.865s] [ 20%] [32m[1mLinking C shared library libservice_full_name__rosidl_generator_c.so[0m
+[7.006s] [ 20%] Built target service_full_name__rosidl_generator_c
+[7.058s] [ 23%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.059s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.060s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.060s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.062s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.067s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.322s] [ 41%] [32mBuilding CXX object CMakeFiles/service_full_name__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/service_full_name/srv/summ_full_name__type_support.cpp.o[0m
+[7.326s] [ 44%] [32mBuilding CXX object CMakeFiles/service_full_name__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_full_name/srv/summ_full_name__type_support.cpp.o[0m
+[7.337s] [ 47%] [32mBuilding CXX object CMakeFiles/service_full_name__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/service_full_name/srv/detail/summ_full_name__type_support.cpp.o[0m
+[7.375s] [ 50%] [32m[1mLinking CXX shared library libservice_full_name__rosidl_typesupport_c.so[0m
+[7.379s] [ 52%] [32mBuilding CXX object CMakeFiles/service_full_name__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/service_full_name/srv/detail/dds_fastrtps/summ_full_name__type_support.cpp.o[0m
+[7.384s] [ 55%] [32mBuilding C object CMakeFiles/service_full_name__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/service_full_name/srv/detail/summ_full_name__type_support.c.o[0m
+[7.391s] [ 58%] [32mBuilding CXX object CMakeFiles/service_full_name__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/service_full_name/srv/detail/summ_full_name__type_support_c.cpp.o[0m
+[7.423s] [ 58%] Built target service_full_name__rosidl_typesupport_c
+[7.440s] [ 61%] [32m[1mLinking C shared library libservice_full_name__rosidl_typesupport_introspection_c.so[0m
+[7.474s] [ 61%] Built target service_full_name__rosidl_typesupport_introspection_c
+[7.679s] [ 64%] [32m[1mLinking CXX shared library libservice_full_name__rosidl_typesupport_cpp.so[0m
+[7.736s] [ 67%] [32m[1mLinking CXX shared library libservice_full_name__rosidl_typesupport_introspection_cpp.so[0m
+[7.751s] [ 67%] Built target service_full_name__rosidl_typesupport_cpp
+[7.810s] [ 67%] Built target service_full_name__rosidl_typesupport_introspection_cpp
+[7.833s] [ 70%] [32m[1mLinking CXX shared library libservice_full_name__rosidl_typesupport_fastrtps_c.so[0m
+[7.911s] [ 70%] Built target service_full_name__rosidl_typesupport_fastrtps_c
+[8.079s] [ 73%] [32m[1mLinking CXX shared library libservice_full_name__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.304s] [ 73%] Built target service_full_name__rosidl_typesupport_fastrtps_cpp
+[8.342s] [ 73%] Built target service_full_name
+[8.376s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.693s] [ 76%] Built target service_full_name__py
+[8.767s] [ 79%] [32mBuilding C object CMakeFiles/service_full_name__rosidl_generator_py.dir/rosidl_generator_py/service_full_name/srv/_summ_full_name_s.c.o[0m
+[8.991s] [ 82%] [32m[1mLinking C shared library libservice_full_name__rosidl_generator_py.so[0m
+[9.031s] [ 82%] Built target service_full_name__rosidl_generator_py
+[9.046s] [ 88%] [32mBuilding C object CMakeFiles/service_full_name_s__rosidl_typesupport_c.dir/rosidl_generator_py/service_full_name/_service_full_name_s.ep.rosidl_typesupport_c.c.o[0m
+[9.046s] [ 88%] [32mBuilding C object CMakeFiles/service_full_name_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/service_full_name/_service_full_name_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.046s] [ 91%] [32mBuilding C object CMakeFiles/service_full_name_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/service_full_name/_service_full_name_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.165s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/service_full_name/service_full_name_s__rosidl_typesupport_introspection_c.so[0m
+[9.168s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/service_full_name/service_full_name_s__rosidl_typesupport_fastrtps_c.so[0m
+[9.175s] [100%] [32m[1mLinking C shared module rosidl_generator_py/service_full_name/service_full_name_s__rosidl_typesupport_c.so[0m
+[9.195s] [100%] Built target service_full_name_s__rosidl_typesupport_introspection_c
+[9.204s] [100%] Built target service_full_name_s__rosidl_typesupport_fastrtps_c
+[9.217s] [100%] Built target service_full_name_s__rosidl_typesupport_c
+[9.238s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name -- -j20 -l20
+[9.259s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name
+[9.270s] -- Install configuration: ""
+[9.270s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/ament_index/resource_index/rosidl_interfaces/service_full_name
+[9.270s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/srv/SummFullName.json
+[9.270s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name
+[9.271s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv
+[9.271s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail
+[9.271s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/summ_full_name__description.c
+[9.271s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/summ_full_name__struct.h
+[9.271s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/summ_full_name__type_support.c
+[9.271s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/summ_full_name__functions.c
+[9.271s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/summ_full_name__type_support.h
+[9.271s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/summ_full_name__functions.h
+[9.272s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/summ_full_name.h
+[9.272s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/msg
+[9.272s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/msg/rosidl_generator_c__visibility_control.h
+[9.272s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/environment/library_path.sh
+[9.272s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/environment/library_path.dsv
+[9.272s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/libservice_full_name__rosidl_generator_c.so
+[9.272s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/libservice_full_name__rosidl_generator_c.so" to ""
+[9.273s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name
+[9.273s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv
+[9.273s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail
+[9.273s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/summ_full_name__rosidl_typesupport_fastrtps_c.h
+[9.273s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/msg
+[9.273s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.273s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/libservice_full_name__rosidl_typesupport_fastrtps_c.so
+[9.273s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/libservice_full_name__rosidl_typesupport_fastrtps_c.so" to ""
+[9.274s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name
+[9.274s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv
+[9.274s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail
+[9.274s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/summ_full_name__rosidl_typesupport_introspection_c.h
+[9.274s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/summ_full_name__type_support.c
+[9.274s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/msg
+[9.274s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.274s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/libservice_full_name__rosidl_typesupport_introspection_c.so
+[9.274s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/libservice_full_name__rosidl_typesupport_introspection_c.so" to ""
+[9.275s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/libservice_full_name__rosidl_typesupport_c.so
+[9.275s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/libservice_full_name__rosidl_typesupport_c.so" to ""
+[9.275s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name
+[9.275s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv
+[9.275s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail
+[9.275s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/summ_full_name__type_support.hpp
+[9.275s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/summ_full_name__traits.hpp
+[9.275s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/summ_full_name__struct.hpp
+[9.275s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/summ_full_name__builder.hpp
+[9.276s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/summ_full_name.hpp
+[9.276s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/msg
+[9.276s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.276s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name
+[9.276s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv
+[9.276s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail
+[9.276s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/dds_fastrtps
+[9.276s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/summ_full_name__rosidl_typesupport_fastrtps_cpp.hpp
+[9.276s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/msg
+[9.276s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.277s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/libservice_full_name__rosidl_typesupport_fastrtps_cpp.so
+[9.277s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/libservice_full_name__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.277s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name
+[9.277s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv
+[9.277s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail
+[9.277s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/summ_full_name__type_support.cpp
+[9.277s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/include/service_full_name/service_full_name/srv/detail/summ_full_name__rosidl_typesupport_introspection_cpp.hpp
+[9.277s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/libservice_full_name__rosidl_typesupport_introspection_cpp.so
+[9.278s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/libservice_full_name__rosidl_typesupport_introspection_cpp.so" to ""
+[9.278s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/libservice_full_name__rosidl_typesupport_cpp.so
+[9.278s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/libservice_full_name__rosidl_typesupport_cpp.so" to ""
+[9.278s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/environment/pythonpath.sh
+[9.278s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/environment/pythonpath.dsv
+[9.278s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name-0.0.0-py3.12.egg-info
+[9.278s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name-0.0.0-py3.12.egg-info/top_level.txt
+[9.279s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name-0.0.0-py3.12.egg-info/PKG-INFO
+[9.279s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name-0.0.0-py3.12.egg-info/SOURCES.txt
+[9.279s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name-0.0.0-py3.12.egg-info/dependency_links.txt
+[9.279s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name
+[9.279s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/service_full_name_s__rosidl_typesupport_fastrtps_c.so
+[9.279s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/service_full_name_s__rosidl_typesupport_introspection_c.so
+[9.279s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/_service_full_name_s.ep.rosidl_typesupport_introspection_c.c
+[9.279s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/_service_full_name_s.ep.rosidl_typesupport_c.c
+[9.280s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/srv
+[9.280s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/srv/_summ_full_name.py
+[9.280s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/srv/__init__.py
+[9.280s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/srv/_summ_full_name_s.c
+[9.280s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/__init__.py
+[9.280s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/service_full_name_s__rosidl_typesupport_c.so
+[9.280s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/_service_full_name_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.280s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/py.typed
+[9.336s] Listing '/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name'...
+[9.336s] Compiling '/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/__init__.py'...
+[9.336s] Listing '/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/srv'...
+[9.336s] Compiling '/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/srv/__init__.py'...
+[9.336s] Compiling '/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/srv/_summ_full_name.py'...
+[9.342s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/service_full_name_s__rosidl_typesupport_fastrtps_c.so
+[9.342s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/service_full_name_s__rosidl_typesupport_fastrtps_c.so" to ""
+[9.342s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/service_full_name_s__rosidl_typesupport_introspection_c.so
+[9.342s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/service_full_name_s__rosidl_typesupport_introspection_c.so" to ""
+[9.342s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/service_full_name_s__rosidl_typesupport_c.so
+[9.343s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/python3.12/site-packages/service_full_name/service_full_name_s__rosidl_typesupport_c.so" to ""
+[9.343s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/libservice_full_name__rosidl_generator_py.so
+[9.343s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/libservice_full_name__rosidl_generator_py.so" to ""
+[9.343s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/srv/SummFullName.idl
+[9.343s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/srv/SummFullName.srv
+[9.343s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/service_full_name/service_node.py
+[9.343s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/lib/service_full_name/client_node.py
+[9.343s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/srv
+[9.343s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/srv/SummFullName.srv
+[9.343s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/ament_index/resource_index/package_run_dependencies/service_full_name
+[9.344s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/ament_index/resource_index/parent_prefix_path/service_full_name
+[9.344s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/environment/ament_prefix_path.sh
+[9.344s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/environment/ament_prefix_path.dsv
+[9.344s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/environment/path.sh
+[9.344s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/environment/path.dsv
+[9.344s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/local_setup.bash
+[9.344s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/local_setup.sh
+[9.344s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/local_setup.zsh
+[9.344s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/local_setup.dsv
+[9.344s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/package.dsv
+[9.344s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/ament_index/resource_index/packages/service_full_name
+[9.344s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/export_service_full_name__rosidl_generator_cExport.cmake
+[9.345s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/export_service_full_name__rosidl_generator_cExport-noconfig.cmake
+[9.345s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/export_service_full_name__rosidl_typesupport_fastrtps_cExport.cmake
+[9.345s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/export_service_full_name__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.345s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/service_full_name__rosidl_typesupport_introspection_cExport.cmake
+[9.345s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/service_full_name__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.345s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/service_full_name__rosidl_typesupport_cExport.cmake
+[9.345s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/service_full_name__rosidl_typesupport_cExport-noconfig.cmake
+[9.346s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/export_service_full_name__rosidl_generator_cppExport.cmake
+[9.346s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/export_service_full_name__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.346s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/export_service_full_name__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.346s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/service_full_name__rosidl_typesupport_introspection_cppExport.cmake
+[9.346s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/service_full_name__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.346s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/service_full_name__rosidl_typesupport_cppExport.cmake
+[9.346s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/service_full_name__rosidl_typesupport_cppExport-noconfig.cmake
+[9.347s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/export_service_full_name__rosidl_generator_pyExport.cmake
+[9.347s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/export_service_full_name__rosidl_generator_pyExport-noconfig.cmake
+[9.347s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/rosidl_cmake-extras.cmake
+[9.347s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.347s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.347s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/ament_cmake_export_libraries-extras.cmake
+[9.348s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/ament_cmake_export_targets-extras.cmake
+[9.348s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.348s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.348s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/service_full_nameConfig.cmake
+[9.348s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/cmake/service_full_nameConfig-version.cmake
+[9.348s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex01/install/service_full_name/share/service_full_name/package.xml
+[9.353s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name

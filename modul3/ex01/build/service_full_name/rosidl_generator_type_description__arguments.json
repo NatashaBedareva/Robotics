@@ -1,0 +1,11 @@
+{
+  "package_name": "service_full_name",
+  "output_dir": "/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/rosidl_generator_type_description/service_full_name",
+  "idl_tuples": [
+    "/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/rosidl_adapter/service_full_name:srv/SummFullName.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/rolling/share/service_msgs/",
+    "builtin_interfaces:/opt/ros/rolling/share/builtin_interfaces/"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "service_full_name__py",
+		"source" : "/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/service_full_name__py"
+	}
+}

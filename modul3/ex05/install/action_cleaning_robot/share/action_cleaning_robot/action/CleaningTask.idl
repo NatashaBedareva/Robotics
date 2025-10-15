@@ -1,0 +1,62 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_cleaning_robot/action/CleaningTask.action
+// generated code does not contain a copyright notice
+
+
+module action_cleaning_robot {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct CleaningTask_Goal {
+      @verbatim (language="comment", text=
+        "\"clean_square\", \"clean_circle\", \"return_home\"")
+      string task_type;
+
+      @verbatim (language="comment", text=
+        "размер области для уборки (сторона квадрата или радиус круга)")
+      double area_size;
+
+      @verbatim (language="comment", text=
+        "целевая координата X (только для return_home)")
+      double target_x;
+
+      @verbatim (language="comment", text=
+        "целевая координата Y (только для return_home)")
+      double target_y;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct CleaningTask_Result {
+      @verbatim (language="comment", text=
+        "true - задача выполнена успешно, false - не удалось выполнить")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "количество \"убранных\" точек")
+      int32 cleaned_points;
+
+      @verbatim (language="comment", text=
+        "общее пройденное расстояние")
+      double total_distance;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct CleaningTask_Feedback {
+      @verbatim (language="comment", text=
+        "процент выполнения задачи (0-100)")
+      int32 progress_percent;
+
+      @verbatim (language="comment", text=
+        "текущее количество убранных точек")
+      int32 current_cleaned_points;
+
+      @verbatim (language="comment", text=
+        "текущая позиция X")
+      double current_x;
+
+      @verbatim (language="comment", text=
+        "текущая позиция Y")
+      double current_y;
+    };
+  };
+};

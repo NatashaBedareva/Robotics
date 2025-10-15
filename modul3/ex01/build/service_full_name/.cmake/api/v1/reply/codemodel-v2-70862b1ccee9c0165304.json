@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7f2d4d99eda56adeec6f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "service_full_name__py",
+					"jsonFile" : "directory-service_full_name__py-f8deeb6163c7f7b577f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name/service_full_name__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "service_full_name",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_service_full_name_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_service_full_name_egg-e1ce2fe6c3afab8b433f.json",
+					"name" : "ament_cmake_python_build_service_full_name_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_service_full_name::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_service_full_name-592d3cd294bea17363d8.json",
+					"name" : "ament_cmake_python_copy_service_full_name",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_full_name::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_full_name-c929a01cbef623fb6112.json",
+					"name" : "service_full_name",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_full_name__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_full_name__cpp-47d166f7f6d09033ce39.json",
+					"name" : "service_full_name__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "service_full_name__py::@2f0bd84971ef816a4e0e",
+					"jsonFile" : "target-service_full_name__py-83438b89c0a840e3c3b1.json",
+					"name" : "service_full_name__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_full_name__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_full_name__rosidl_generator_c-6002e0d03a8ad5224bf5.json",
+					"name" : "service_full_name__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_full_name__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_full_name__rosidl_generator_py-decb1f5977351eac9e26.json",
+					"name" : "service_full_name__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_full_name__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_full_name__rosidl_generator_type_description-cf9d95c335e2c853542e.json",
+					"name" : "service_full_name__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_full_name__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_full_name__rosidl_typesupport_c-c22b8788d9b85cd4fb52.json",
+					"name" : "service_full_name__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_full_name__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_full_name__rosidl_typesupport_cpp-37b3318f21663fc29679.json",
+					"name" : "service_full_name__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_full_name__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_full_name__rosidl_typesupport_fastrtps_c-ace41d1d518d16b9371d.json",
+					"name" : "service_full_name__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_full_name__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_full_name__rosidl_typesupport_fastrtps_cpp-510bd5a8692129de8c8c.json",
+					"name" : "service_full_name__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_full_name__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_full_name__rosidl_typesupport_introspection_c-10b741c2b261610d5c0c.json",
+					"name" : "service_full_name__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_full_name__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_full_name__rosidl_typesupport_introspection_cpp-2d4eb0abc5146f332a4f.json",
+					"name" : "service_full_name__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_full_name_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_full_name_s__rosidl_typesupport_c-8d320ae71a19863d16cd.json",
+					"name" : "service_full_name_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_full_name_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_full_name_s__rosidl_typesupport_fastrtps_c-23f37f5f5cfdac32ff30.json",
+					"name" : "service_full_name_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_full_name_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_full_name_s__rosidl_typesupport_introspection_c-ff40825b6a4dcb39d309.json",
+					"name" : "service_full_name_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_full_name_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_full_name_uninstall-c31741cd0501b9e43abd.json",
+					"name" : "service_full_name_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1b8546b57ed9dc17372a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/natalia/Documents/STUDING/robotix/modul3/ex01/build/service_full_name",
+		"source" : "/home/natalia/Documents/STUDING/robotix/modul3/ex01/service_full_name"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

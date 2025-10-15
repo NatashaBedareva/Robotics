@@ -1,9 +1,0 @@
-/home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg/CMakeFiles/uninstall.dir
-/home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg/CMakeFiles/natalia_pkg_uninstall.dir
-/home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg/CMakeFiles/test.dir
-/home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg/CMakeFiles/edit_cache.dir
-/home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg/CMakeFiles/rebuild_cache.dir
-/home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg/CMakeFiles/list_install_components.dir
-/home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg/CMakeFiles/install.dir
-/home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg/CMakeFiles/install/local.dir
-/home/natalia/Documents/STUDING/robotix/modul2/ex03/build/natalia_pkg/CMakeFiles/install/strip.dir

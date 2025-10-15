@@ -1,2 +1,2 @@
 [console_scripts]
-move_to_goal = move_to_goal.move_to_goal_node:main
+move_to_goal_node = move_to_goal.move_to_goal_node:main

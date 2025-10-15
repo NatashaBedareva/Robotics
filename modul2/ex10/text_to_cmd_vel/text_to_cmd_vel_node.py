@@ -33,22 +33,22 @@ class TextToCmdVel(Node):
         
         if command == "turn_right":
             # Поворот направо
-            twist_msg.angular.z = -1.5  # радиан/сек
+            twist_msg.angular.z = -1.5  
             self.get_logger().info(f'Command received: {command} - Turning right')
             
         elif command == "turn_left":
             # Поворот налево
-            twist_msg.angular.z = 1.5   # радиан/сек
+            twist_msg.angular.z = 1.5  
             self.get_logger().info(f'Command received: {command} - Turning left')
             
         elif command == "move_forward":
             # Движение вперед
-            twist_msg.linear.x = 1.0    # метр/сек
+            twist_msg.linear.x = 1.0   
             self.get_logger().info(f'Command received: {command} - Moving forward')
             
         elif command == "move_backward":
             # Движение назад
-            twist_msg.linear.x = -1.0   # метр/сек
+            twist_msg.linear.x = -1.0   
             self.get_logger().info(f'Command received: {command} - Moving backward')
             
         else:

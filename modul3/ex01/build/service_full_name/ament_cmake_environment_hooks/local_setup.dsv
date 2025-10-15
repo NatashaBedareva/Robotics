@@ -1,0 +1,4 @@
+source;share/service_full_name/environment/ament_prefix_path.sh
+source;share/service_full_name/environment/library_path.sh
+source;share/service_full_name/environment/path.sh
+source;share/service_full_name/environment/pythonpath.sh

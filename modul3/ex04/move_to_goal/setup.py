@@ -1,6 +1,4 @@
 from setuptools import setup
-import os
-from glob import glob
 
 package_name = 'move_to_goal'
 
@@ -15,14 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='user',
-    maintainer_email='user@todo.todo',
-    description='Move turtle to specified goal coordinates using only cmd_vel',
-    license='Apache-2.0',
+    maintainer='Your Name',
+    maintainer_email='you@example.com',
+    description='Move turtle to specified goal',
+    license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'move_to_goal = move_to_goal.move_to_goal_node:main',
+            'move_to_goal_node = move_to_goal.move_to_goal_node:main',
         ],
     },
 )
