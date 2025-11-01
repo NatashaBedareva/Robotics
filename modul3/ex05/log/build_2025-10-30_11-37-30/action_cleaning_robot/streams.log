@@ -1,0 +1,236 @@
+[0.009s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/natalia/Documents/STUDING/robotix/modul3/ex05/action_cleaning_robot -DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot
+[0.215s] -- The C compiler identification is GNU 13.3.0
+[0.490s] -- The CXX compiler identification is GNU 13.3.0
+[0.571s] -- Detecting C compiler ABI info
+[0.961s] -- Detecting C compiler ABI info - done
+[1.009s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.011s] -- Detecting C compile features
+[1.013s] -- Detecting C compile features - done
+[1.060s] -- Detecting CXX compiler ABI info
+[1.502s] -- Detecting CXX compiler ABI info - done
+[1.552s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.553s] -- Detecting CXX compile features
+[1.556s] -- Detecting CXX compile features - done
+[1.564s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.144s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.273s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.626s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.132s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[7.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.917s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[10.527s] -- Found PythonExtra: /usr/bin/python3  
+[11.961s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[12.096s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[12.175s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.176s] -- Configured 'flake8' exclude dirs and/or files: 
+[12.178s] -- Added test 'lint_cmake' to check CMake code style
+[12.180s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[12.184s] -- Added test 'xmllint' to check XML markup files
+[12.191s] -- Configuring done (12.2s)
+[12.232s] -- Generating done (0.0s)
+[12.239s] -- Build files have been written to: /home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot
+[12.247s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/natalia/Documents/STUDING/robotix/modul3/ex05/action_cleaning_robot -DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot
+[12.247s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot -- -j20 -l20
+[12.448s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[12.490s] [  2%] Built target ament_cmake_python_copy_action_cleaning_robot
+[12.785s] running egg_info
+[12.786s] creating action_cleaning_robot.egg-info
+[12.787s] [  2%] Built target action_cleaning_robot__rosidl_generator_type_description
+[12.798s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.802s] writing action_cleaning_robot.egg-info/PKG-INFO
+[12.802s] writing dependency_links to action_cleaning_robot.egg-info/dependency_links.txt
+[12.802s] writing top-level names to action_cleaning_robot.egg-info/top_level.txt
+[12.802s] writing manifest file 'action_cleaning_robot.egg-info/SOURCES.txt'
+[12.812s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.847s] reading manifest file 'action_cleaning_robot.egg-info/SOURCES.txt'
+[12.848s] writing manifest file 'action_cleaning_robot.egg-info/SOURCES.txt'
+[12.874s] [  8%] Built target ament_cmake_python_build_action_cleaning_robot_egg
+[13.131s] [  8%] Built target action_cleaning_robot__cpp
+[13.160s] [ 11%] [32mBuilding C object CMakeFiles/action_cleaning_robot__rosidl_generator_c.dir/rosidl_generator_c/action_cleaning_robot/action/detail/cleaning_task__description.c.o[0m
+[13.161s] [ 14%] [32mBuilding C object CMakeFiles/action_cleaning_robot__rosidl_generator_c.dir/rosidl_generator_c/action_cleaning_robot/action/detail/cleaning_task__functions.c.o[0m
+[13.165s] [ 17%] [32mBuilding C object CMakeFiles/action_cleaning_robot__rosidl_generator_c.dir/rosidl_generator_c/action_cleaning_robot/action/detail/cleaning_task__type_support.c.o[0m
+[13.411s] [ 20%] [32m[1mLinking C shared library libaction_cleaning_robot__rosidl_generator_c.so[0m
+[13.589s] [ 20%] Built target action_cleaning_robot__rosidl_generator_c
+[13.633s] [ 23%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.636s] [ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.642s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.643s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.644s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.647s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.056s] [ 41%] [32mBuilding CXX object CMakeFiles/action_cleaning_robot__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_cleaning_robot/action/cleaning_task__type_support.cpp.o[0m
+[14.061s] [ 44%] [32mBuilding CXX object CMakeFiles/action_cleaning_robot__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_cleaning_robot/action/cleaning_task__type_support.cpp.o[0m
+[14.119s] [ 47%] [32mBuilding CXX object CMakeFiles/action_cleaning_robot__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_cleaning_robot/action/detail/cleaning_task__type_support.cpp.o[0m
+[14.127s] [ 50%] [32m[1mLinking CXX shared library libaction_cleaning_robot__rosidl_typesupport_c.so[0m
+[14.141s] [ 52%] [32mBuilding C object CMakeFiles/action_cleaning_robot__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_cleaning_robot/action/detail/cleaning_task__type_support.c.o[0m
+[14.185s] [ 52%] Built target action_cleaning_robot__rosidl_typesupport_c
+[14.216s] [ 55%] [32m[1mLinking C shared library libaction_cleaning_robot__rosidl_typesupport_introspection_c.so[0m
+[14.252s] [ 55%] Built target action_cleaning_robot__rosidl_typesupport_introspection_c
+[14.253s] [ 58%] [32mBuilding CXX object CMakeFiles/action_cleaning_robot__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_cleaning_robot/action/detail/dds_fastrtps/cleaning_task__type_support.cpp.o[0m
+[14.285s] [ 61%] [32mBuilding CXX object CMakeFiles/action_cleaning_robot__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_cleaning_robot/action/detail/cleaning_task__type_support_c.cpp.o[0m
+[14.690s] [ 64%] [32m[1mLinking CXX shared library libaction_cleaning_robot__rosidl_typesupport_cpp.so[0m
+[14.769s] [ 64%] Built target action_cleaning_robot__rosidl_typesupport_cpp
+[14.796s] [ 67%] [32m[1mLinking CXX shared library libaction_cleaning_robot__rosidl_typesupport_introspection_cpp.so[0m
+[14.824s] [ 70%] [32m[1mLinking CXX shared library libaction_cleaning_robot__rosidl_typesupport_fastrtps_c.so[0m
+[14.868s] [ 70%] Built target action_cleaning_robot__rosidl_typesupport_introspection_cpp
+[14.890s] [ 70%] Built target action_cleaning_robot__rosidl_typesupport_fastrtps_c
+[15.058s] [ 73%] [32m[1mLinking CXX shared library libaction_cleaning_robot__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.162s] [ 73%] Built target action_cleaning_robot__rosidl_typesupport_fastrtps_cpp
+[15.254s] [ 73%] Built target action_cleaning_robot
+[15.344s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.870s] [ 76%] Built target action_cleaning_robot__py
+[15.915s] [ 79%] [32mBuilding C object CMakeFiles/action_cleaning_robot__rosidl_generator_py.dir/rosidl_generator_py/action_cleaning_robot/action/_cleaning_task_s.c.o[0m
+[16.179s] [ 82%] [32m[1mLinking C shared library libaction_cleaning_robot__rosidl_generator_py.so[0m
+[16.301s] [ 82%] Built target action_cleaning_robot__rosidl_generator_py
+[16.402s] [ 85%] [32mBuilding C object CMakeFiles/action_cleaning_robot_s__rosidl_typesupport_c.dir/rosidl_generator_py/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_c.c.o[0m
+[16.403s] [ 88%] [32mBuilding C object CMakeFiles/action_cleaning_robot_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.404s] [ 91%] [32mBuilding C object CMakeFiles/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.632s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so[0m
+[16.633s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so[0m
+[16.639s] [100%] [32m[1mLinking C shared module rosidl_generator_py/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so[0m
+[16.736s] [100%] Built target action_cleaning_robot_s__rosidl_typesupport_c
+[16.744s] [100%] Built target action_cleaning_robot_s__rosidl_typesupport_fastrtps_c
+[16.751s] [100%] Built target action_cleaning_robot_s__rosidl_typesupport_introspection_c
+[16.801s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot -- -j20 -l20
+[16.844s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot
+[16.880s] -- Install configuration: ""
+[16.881s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/ament_index/resource_index/rosidl_interfaces/action_cleaning_robot
+[16.882s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/action/CleaningTask.json
+[16.883s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot
+[16.883s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action
+[16.884s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/cleaning_task.h
+[16.884s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail
+[16.884s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__functions.h
+[16.885s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__struct.h
+[16.886s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__functions.c
+[16.886s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__type_support.h
+[16.886s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__type_support.c
+[16.887s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__description.c
+[16.887s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg
+[16.887s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg/rosidl_generator_c__visibility_control.h
+[16.888s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/environment/library_path.sh
+[16.888s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/environment/library_path.dsv
+[16.888s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_generator_c.so
+[16.889s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_generator_c.so" to ""
+[16.889s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot
+[16.889s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action
+[16.890s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail
+[16.890s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__rosidl_typesupport_fastrtps_c.h
+[16.890s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg
+[16.891s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.891s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_c.so
+[16.892s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_c.so" to ""
+[16.892s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot
+[16.892s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action
+[16.893s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail
+[16.893s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__rosidl_typesupport_introspection_c.h
+[16.893s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__type_support.c
+[16.894s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg
+[16.894s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.894s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_c.so
+[16.895s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_c.so" to ""
+[16.895s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_c.so
+[16.896s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_c.so" to ""
+[16.897s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot
+[16.897s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action
+[16.898s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail
+[16.898s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__traits.hpp
+[16.898s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__struct.hpp
+[16.899s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__builder.hpp
+[16.899s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__type_support.hpp
+[16.900s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/cleaning_task.hpp
+[16.900s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg
+[16.901s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.901s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot
+[16.901s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action
+[16.901s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail
+[16.902s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__rosidl_typesupport_fastrtps_cpp.hpp
+[16.902s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/dds_fastrtps
+[16.902s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg
+[16.903s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.903s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_cpp.so
+[16.903s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.904s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot
+[16.904s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action
+[16.904s] -- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail
+[16.905s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__rosidl_typesupport_introspection_cpp.hpp
+[16.905s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__type_support.cpp
+[16.905s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_cpp.so
+[16.906s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_cpp.so" to ""
+[16.906s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_cpp.so
+[16.908s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_cpp.so" to ""
+[16.909s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/environment/pythonpath.sh
+[16.910s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/environment/pythonpath.dsv
+[16.910s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot-0.0.0-py3.12.egg-info
+[16.910s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot-0.0.0-py3.12.egg-info/top_level.txt
+[16.911s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot-0.0.0-py3.12.egg-info/PKG-INFO
+[16.911s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot-0.0.0-py3.12.egg-info/SOURCES.txt
+[16.912s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot-0.0.0-py3.12.egg-info/dependency_links.txt
+[16.913s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot
+[16.914s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_introspection_c.c
+[16.915s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_c.c
+[16.916s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.917s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action
+[16.917s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action/_cleaning_task.py
+[16.918s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action/_cleaning_task_s.c
+[16.918s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action/__init__.py
+[16.918s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so
+[16.919s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/__init__.py
+[16.919s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so
+[16.919s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so
+[17.084s] Listing '/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot'...
+[17.084s] Compiling '/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/__init__.py'...
+[17.084s] Listing '/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action'...
+[17.084s] Compiling '/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action/__init__.py'...
+[17.084s] Compiling '/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action/_cleaning_task.py'...
+[17.089s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so
+[17.089s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so" to ""
+[17.089s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so
+[17.089s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so" to ""
+[17.090s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so
+[17.090s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so" to ""
+[17.090s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_generator_py.so
+[17.090s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_generator_py.so" to ""
+[17.090s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/action/CleaningTask.idl
+[17.090s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/action/CleaningTask.action
+[17.090s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/ament_index/resource_index/package_run_dependencies/action_cleaning_robot
+[17.090s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/ament_index/resource_index/parent_prefix_path/action_cleaning_robot
+[17.090s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/environment/ament_prefix_path.sh
+[17.090s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/environment/ament_prefix_path.dsv
+[17.090s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/environment/path.sh
+[17.090s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/environment/path.dsv
+[17.091s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/local_setup.bash
+[17.091s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/local_setup.sh
+[17.091s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/local_setup.zsh
+[17.091s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/local_setup.dsv
+[17.091s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/package.dsv
+[17.091s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/ament_index/resource_index/packages/action_cleaning_robot
+[17.091s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_generator_cExport.cmake
+[17.091s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_generator_cExport-noconfig.cmake
+[17.091s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_typesupport_fastrtps_cExport.cmake
+[17.091s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[17.091s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_introspection_cExport.cmake
+[17.091s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.091s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_cExport.cmake
+[17.091s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_cExport-noconfig.cmake
+[17.091s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_generator_cppExport.cmake
+[17.092s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.092s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[17.092s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_introspection_cppExport.cmake
+[17.092s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.092s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_cppExport.cmake
+[17.092s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_cppExport-noconfig.cmake
+[17.092s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_generator_pyExport.cmake
+[17.092s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_generator_pyExport-noconfig.cmake
+[17.092s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/rosidl_cmake-extras.cmake
+[17.092s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.092s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.092s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/ament_cmake_export_libraries-extras.cmake
+[17.092s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/ament_cmake_export_targets-extras.cmake
+[17.092s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.093s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.093s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robotConfig.cmake
+[17.093s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robotConfig-version.cmake
+[17.093s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/package.xml
+[17.095s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot

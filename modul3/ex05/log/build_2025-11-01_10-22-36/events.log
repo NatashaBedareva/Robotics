@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000389] (action_cleaning_robot) JobQueued: {'identifier': 'action_cleaning_robot', 'dependencies': OrderedDict()}
+[0.000502] (action_cleaning_robot) JobStarted: {'identifier': 'action_cleaning_robot'}
+[0.005288] (action_cleaning_robot) JobProgress: {'identifier': 'action_cleaning_robot', 'progress': 'cmake'}
+[0.005932] (action_cleaning_robot) JobProgress: {'identifier': 'action_cleaning_robot', 'progress': 'build'}
+[0.006546] (action_cleaning_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot', '--', '-j20', '-l20'], 'cwd': '/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ru_RU:en', 'USER': 'natalia', 'LC_TIME': 'ru_RU.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/natalia/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/natalia', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.105.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/211/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/natalia/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/211/usr/share/code/code', 'MANAGERPID': '2844', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3300', 'BUNDLED_DEBUGPY_PATH': '/home/natalia/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4434', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/natalia/Documents/STUDING/robotix/modul3/ex05/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'natalia', 'JOURNAL_STREAM': '9:31033', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/home/natalia/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'natalia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/natalia/.local/bin:/home/natalia/.local/bin:/opt/ros/jazzy/bin:/home/natalia/.local/bin:/home/natalia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/natalia/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/natalia-Katana-GF66-12UE:@/tmp/.ICE-unix/3265,unix/natalia-Katana-GF66-12UE:/tmp/.ICE-unix/3265', 'GTK_EXE_PREFIX': '/snap/code/211/usr', 'INVOCATION_ID': '713200194dd54950aaf2a4431f46ed6a', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LOCPATH': '/snap/code/211/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/natalia/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-86f9a7aa2eff9ba8.txt', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/natalia/.config/Code/User/workspaceStorage/319c3adfefa43c91b595d02f7630d866/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/natalia/snap/code/211/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6f5ab34972.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/natalia/snap/code/211/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/natalia/snap/code/211/.local/share/flatpak/exports/share:/home/natalia/snap/code/211/.local/share:/home/natalia/snap/code/211:/snap/code/211/usr/share:/usr/share/ubuntu:/usr/share/gnome:/home/natalia/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.026791] (action_cleaning_robot) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.054702] (action_cleaning_robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.100242] (-) TimerEvent: {}
+[0.201521] (-) TimerEvent: {}
+[0.302691] (-) TimerEvent: {}
+[0.403914] (-) TimerEvent: {}
+[0.496466] (action_cleaning_robot) StdoutLine: {'line': b'-- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[0.498076] (action_cleaning_robot) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.504264] (-) TimerEvent: {}
+[0.595131] (action_cleaning_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.604471] (-) TimerEvent: {}
+[0.605019] (action_cleaning_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.684134] (action_cleaning_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.704813] (-) TimerEvent: {}
+[0.768974] (action_cleaning_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.805121] (-) TimerEvent: {}
+[0.906031] (-) TimerEvent: {}
+[1.004965] (action_cleaning_robot) StdoutLine: {'line': b'-- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)\n'}
+[1.006150] (-) TimerEvent: {}
+[1.106627] (-) TimerEvent: {}
+[1.125739] (action_cleaning_robot) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.130433] (action_cleaning_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.206800] (-) TimerEvent: {}
+[1.307158] (-) TimerEvent: {}
+[1.407902] (-) TimerEvent: {}
+[1.483128] (action_cleaning_robot) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.507986] (-) TimerEvent: {}
+[1.608511] (-) TimerEvent: {}
+[1.709305] (-) TimerEvent: {}
+[1.810175] (-) TimerEvent: {}
+[1.911008] (-) TimerEvent: {}
+[2.011838] (-) TimerEvent: {}
+[2.112654] (-) TimerEvent: {}
+[2.213413] (-) TimerEvent: {}
+[2.314195] (-) TimerEvent: {}
+[2.415041] (-) TimerEvent: {}
+[2.516020] (-) TimerEvent: {}
+[2.616980] (-) TimerEvent: {}
+[2.717785] (-) TimerEvent: {}
+[2.746756] (action_cleaning_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.818184] (-) TimerEvent: {}
+[2.919490] (-) TimerEvent: {}
+[3.020067] (-) TimerEvent: {}
+[3.121032] (-) TimerEvent: {}
+[3.221751] (-) TimerEvent: {}
+[3.226943] (action_cleaning_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.228586] (action_cleaning_robot) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.322061] (-) TimerEvent: {}
+[3.422932] (-) TimerEvent: {}
+[3.523904] (-) TimerEvent: {}
+[3.624858] (-) TimerEvent: {}
+[3.725798] (-) TimerEvent: {}
+[3.826554] (-) TimerEvent: {}
+[3.926959] (-) TimerEvent: {}
+[3.975683] (action_cleaning_robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.027274] (-) TimerEvent: {}
+[4.128183] (-) TimerEvent: {}
+[4.136495] (action_cleaning_robot) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:122 (add_custom_target):\n'}
+[4.139163] (action_cleaning_robot) StderrLine: {'line': b'  add_custom_target cannot create target\n'}
+[4.140010] (action_cleaning_robot) StderrLine: {'line': b'  "ament_cmake_python_copy_action_cleaning_robot" because another target with\n'}
+[4.141306] (action_cleaning_robot) StderrLine: {'line': b'  the same name already exists.  The existing target is a custom target\n'}
+[4.142047] (action_cleaning_robot) StderrLine: {'line': b'  created in source directory\n'}
+[4.142721] (action_cleaning_robot) StderrLine: {'line': b'  "/home/natalia/Documents/STUDING/robotix/modul3/ex05/action_cleaning_robot".\n'}
+[4.143400] (action_cleaning_robot) StderrLine: {'line': b'  See documentation for policy CMP0002 for more details.\n'}
+[4.144035] (action_cleaning_robot) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.144713] (action_cleaning_robot) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[4.145391] (action_cleaning_robot) StderrLine: {'line': b'  CMakeLists.txt:19 (ament_python_install_package)\n'}
+[4.146057] (action_cleaning_robot) StderrLine: {'line': b'\n'}
+[4.146743] (action_cleaning_robot) StderrLine: {'line': b'\x1b[0m\n'}
+[4.147397] (action_cleaning_robot) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:144 (add_custom_target):\n'}
+[4.148028] (action_cleaning_robot) StderrLine: {'line': b'  add_custom_target cannot create target\n'}
+[4.148669] (action_cleaning_robot) StderrLine: {'line': b'  "ament_cmake_python_build_action_cleaning_robot_egg" because another target\n'}
+[4.149279] (action_cleaning_robot) StderrLine: {'line': b'  with the same name already exists.  The existing target is a custom target\n'}
+[4.149931] (action_cleaning_robot) StderrLine: {'line': b'  created in source directory\n'}
+[4.150574] (action_cleaning_robot) StderrLine: {'line': b'  "/home/natalia/Documents/STUDING/robotix/modul3/ex05/action_cleaning_robot".\n'}
+[4.151185] (action_cleaning_robot) StderrLine: {'line': b'  See documentation for policy CMP0002 for more details.\n'}
+[4.151840] (action_cleaning_robot) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.152481] (action_cleaning_robot) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[4.153098] (action_cleaning_robot) StderrLine: {'line': b'  CMakeLists.txt:19 (ament_python_install_package)\n'}
+[4.153758] (action_cleaning_robot) StderrLine: {'line': b'\n'}
+[4.154411] (action_cleaning_robot) StderrLine: {'line': b'\x1b[0m\n'}
+[4.155027] (action_cleaning_robot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[4.204540] (action_cleaning_robot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.205686] (action_cleaning_robot) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[4.207087] (action_cleaning_robot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.209064] (action_cleaning_robot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.215510] (action_cleaning_robot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.222994] (action_cleaning_robot) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.228476] (-) TimerEvent: {}
+[4.242745] (action_cleaning_robot) StderrLine: {'line': b'gmake: *** [Makefile:815: cmake_check_build_system] \xd0\x9e\xd1\x88\xd0\xb8\xd0\xb1\xd0\xba\xd0\xb0 1\n'}
+[4.250219] (action_cleaning_robot) CommandEnded: {'returncode': 2}
+[4.279923] (action_cleaning_robot) JobEnded: {'identifier': 'action_cleaning_robot', 'rc': 2}
+[4.291787] (-) EventReactorShutdown: {}

@@ -55,7 +55,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_cleaning_robot/environment" TYPE FILE FILES "/opt/ros/rolling/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_cleaning_robot/environment" TYPE FILE FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -74,7 +74,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_generator_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_generator_c.so"
-         OLD_RPATH "/opt/ros/rolling/lib:"
+         OLD_RPATH "/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_generator_c.so")
@@ -101,7 +101,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/rolling/lib:"
+         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_c.so")
@@ -128,7 +128,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_c.so"
-         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/rolling/lib:"
+         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_c.so")
@@ -151,7 +151,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_c.so"
-         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/rolling/lib:"
+         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_c.so")
@@ -182,7 +182,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_cpp.so"
-         OLD_RPATH "/opt/ros/rolling/lib:/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:"
+         OLD_RPATH "/opt/ros/jazzy/lib:/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_cpp.so")
@@ -209,7 +209,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_cpp.so"
-         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/rolling/lib:"
+         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_cpp.so")
@@ -232,7 +232,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_cpp.so"
-         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/rolling/lib:"
+         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_typesupport_cpp.so")
@@ -279,7 +279,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/rolling/lib:"
+         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so")
@@ -303,7 +303,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so"
-         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/rolling/lib:"
+         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so")
@@ -327,7 +327,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so"
-         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/rolling/lib:"
+         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so")
@@ -351,7 +351,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_generator_py.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_generator_py.so"
-         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/rolling/lib:"
+         OLD_RPATH "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaction_cleaning_robot__rosidl_generator_py.so")
@@ -371,17 +371,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/action_cleaning_robot" TYPE PROGRAM FILES
-    "/home/natalia/Documents/STUDING/robotix/modul3/ex05/action_cleaning_robot/action_cleaning_robot/cleaning_action_server.py"
-    "/home/natalia/Documents/STUDING/robotix/modul3/ex05/action_cleaning_robot/action_cleaning_robot/cleaning_action_client.py"
-    )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_cleaning_robot" TYPE DIRECTORY FILES "/home/natalia/Documents/STUDING/robotix/modul3/ex05/action_cleaning_robot/action")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/action_cleaning_robot")
 endif()
 
@@ -390,7 +379,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_cleaning_robot/environment" TYPE FILE FILES "/opt/ros/rolling/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_cleaning_robot/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -398,7 +387,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_cleaning_robot/environment" TYPE FILE FILES "/opt/ros/rolling/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_cleaning_robot/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

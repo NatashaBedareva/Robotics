@@ -5,9 +5,9 @@
     "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot/rosidl_adapter/action_cleaning_robot:action/CleaningTask.idl"
   ],
   "include_paths": [
-    "service_msgs:/opt/ros/rolling/share/service_msgs/",
-    "builtin_interfaces:/opt/ros/rolling/share/builtin_interfaces/",
-    "action_msgs:/opt/ros/rolling/share/action_msgs/",
-    "unique_identifier_msgs:/opt/ros/rolling/share/unique_identifier_msgs/"
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
   ]
 }

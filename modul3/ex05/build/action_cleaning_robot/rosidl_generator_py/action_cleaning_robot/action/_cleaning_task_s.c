@@ -25,29 +25,32 @@ bool action_cleaning_robot__action__cleaning_task__goal__convert_from_py(PyObjec
 {
   // check that the passed message is of the expected Python class
   {
-    PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
-    if (class_attr == NULL) {
-      return false;
+    char full_classname_dest[62];
+    {
+      char * class_name = NULL;
+      char * module_name = NULL;
+      {
+        PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
+        if (class_attr) {
+          PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
+          if (name_attr) {
+            class_name = (char *)PyUnicode_1BYTE_DATA(name_attr);
+            Py_DECREF(name_attr);
+          }
+          PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
+          if (module_attr) {
+            module_name = (char *)PyUnicode_1BYTE_DATA(module_attr);
+            Py_DECREF(module_attr);
+          }
+          Py_DECREF(class_attr);
+        }
+      }
+      if (!class_name || !module_name) {
+        return false;
+      }
+      snprintf(full_classname_dest, sizeof(full_classname_dest), "%s.%s", module_name, class_name);
     }
-    PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
-    if (name_attr == NULL) {
-      Py_DECREF(class_attr);
-      return false;
-    }
-    PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
-    if (module_attr == NULL) {
-      Py_DECREF(name_attr);
-      Py_DECREF(class_attr);
-      return false;
-    }
-
-    // PyUnicode_1BYTE_DATA is just a cast
-    assert(strncmp("action_cleaning_robot.action._cleaning_task", (char *)PyUnicode_1BYTE_DATA(module_attr), 43) == 0);
-    assert(strncmp("CleaningTask_Goal", (char *)PyUnicode_1BYTE_DATA(name_attr), 17) == 0);
-
-    Py_DECREF(module_attr);
-    Py_DECREF(name_attr);
-    Py_DECREF(class_attr);
+    assert(strncmp("action_cleaning_robot.action._cleaning_task.CleaningTask_Goal", full_classname_dest, 61) == 0);
   }
   action_cleaning_robot__action__CleaningTask_Goal * ros_message = _ros_message;
   {  // task_type
@@ -189,29 +192,32 @@ bool action_cleaning_robot__action__cleaning_task__result__convert_from_py(PyObj
 {
   // check that the passed message is of the expected Python class
   {
-    PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
-    if (class_attr == NULL) {
-      return false;
+    char full_classname_dest[64];
+    {
+      char * class_name = NULL;
+      char * module_name = NULL;
+      {
+        PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
+        if (class_attr) {
+          PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
+          if (name_attr) {
+            class_name = (char *)PyUnicode_1BYTE_DATA(name_attr);
+            Py_DECREF(name_attr);
+          }
+          PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
+          if (module_attr) {
+            module_name = (char *)PyUnicode_1BYTE_DATA(module_attr);
+            Py_DECREF(module_attr);
+          }
+          Py_DECREF(class_attr);
+        }
+      }
+      if (!class_name || !module_name) {
+        return false;
+      }
+      snprintf(full_classname_dest, sizeof(full_classname_dest), "%s.%s", module_name, class_name);
     }
-    PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
-    if (name_attr == NULL) {
-      Py_DECREF(class_attr);
-      return false;
-    }
-    PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
-    if (module_attr == NULL) {
-      Py_DECREF(name_attr);
-      Py_DECREF(class_attr);
-      return false;
-    }
-
-    // PyUnicode_1BYTE_DATA is just a cast
-    assert(strncmp("action_cleaning_robot.action._cleaning_task", (char *)PyUnicode_1BYTE_DATA(module_attr), 43) == 0);
-    assert(strncmp("CleaningTask_Result", (char *)PyUnicode_1BYTE_DATA(name_attr), 19) == 0);
-
-    Py_DECREF(module_attr);
-    Py_DECREF(name_attr);
-    Py_DECREF(class_attr);
+    assert(strncmp("action_cleaning_robot.action._cleaning_task.CleaningTask_Result", full_classname_dest, 63) == 0);
   }
   action_cleaning_robot__action__CleaningTask_Result * ros_message = _ros_message;
   {  // success
@@ -321,29 +327,32 @@ bool action_cleaning_robot__action__cleaning_task__feedback__convert_from_py(PyO
 {
   // check that the passed message is of the expected Python class
   {
-    PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
-    if (class_attr == NULL) {
-      return false;
+    char full_classname_dest[66];
+    {
+      char * class_name = NULL;
+      char * module_name = NULL;
+      {
+        PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
+        if (class_attr) {
+          PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
+          if (name_attr) {
+            class_name = (char *)PyUnicode_1BYTE_DATA(name_attr);
+            Py_DECREF(name_attr);
+          }
+          PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
+          if (module_attr) {
+            module_name = (char *)PyUnicode_1BYTE_DATA(module_attr);
+            Py_DECREF(module_attr);
+          }
+          Py_DECREF(class_attr);
+        }
+      }
+      if (!class_name || !module_name) {
+        return false;
+      }
+      snprintf(full_classname_dest, sizeof(full_classname_dest), "%s.%s", module_name, class_name);
     }
-    PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
-    if (name_attr == NULL) {
-      Py_DECREF(class_attr);
-      return false;
-    }
-    PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
-    if (module_attr == NULL) {
-      Py_DECREF(name_attr);
-      Py_DECREF(class_attr);
-      return false;
-    }
-
-    // PyUnicode_1BYTE_DATA is just a cast
-    assert(strncmp("action_cleaning_robot.action._cleaning_task", (char *)PyUnicode_1BYTE_DATA(module_attr), 43) == 0);
-    assert(strncmp("CleaningTask_Feedback", (char *)PyUnicode_1BYTE_DATA(name_attr), 21) == 0);
-
-    Py_DECREF(module_attr);
-    Py_DECREF(name_attr);
-    Py_DECREF(class_attr);
+    assert(strncmp("action_cleaning_robot.action._cleaning_task.CleaningTask_Feedback", full_classname_dest, 65) == 0);
   }
   action_cleaning_robot__action__CleaningTask_Feedback * ros_message = _ros_message;
   {  // progress_percent
@@ -479,29 +488,32 @@ bool action_cleaning_robot__action__cleaning_task__send_goal__request__convert_f
 {
   // check that the passed message is of the expected Python class
   {
-    PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
-    if (class_attr == NULL) {
-      return false;
+    char full_classname_dest[74];
+    {
+      char * class_name = NULL;
+      char * module_name = NULL;
+      {
+        PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
+        if (class_attr) {
+          PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
+          if (name_attr) {
+            class_name = (char *)PyUnicode_1BYTE_DATA(name_attr);
+            Py_DECREF(name_attr);
+          }
+          PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
+          if (module_attr) {
+            module_name = (char *)PyUnicode_1BYTE_DATA(module_attr);
+            Py_DECREF(module_attr);
+          }
+          Py_DECREF(class_attr);
+        }
+      }
+      if (!class_name || !module_name) {
+        return false;
+      }
+      snprintf(full_classname_dest, sizeof(full_classname_dest), "%s.%s", module_name, class_name);
     }
-    PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
-    if (name_attr == NULL) {
-      Py_DECREF(class_attr);
-      return false;
-    }
-    PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
-    if (module_attr == NULL) {
-      Py_DECREF(name_attr);
-      Py_DECREF(class_attr);
-      return false;
-    }
-
-    // PyUnicode_1BYTE_DATA is just a cast
-    assert(strncmp("action_cleaning_robot.action._cleaning_task", (char *)PyUnicode_1BYTE_DATA(module_attr), 43) == 0);
-    assert(strncmp("CleaningTask_SendGoal_Request", (char *)PyUnicode_1BYTE_DATA(name_attr), 29) == 0);
-
-    Py_DECREF(module_attr);
-    Py_DECREF(name_attr);
-    Py_DECREF(class_attr);
+    assert(strncmp("action_cleaning_robot.action._cleaning_task.CleaningTask_SendGoal_Request", full_classname_dest, 73) == 0);
   }
   action_cleaning_robot__action__CleaningTask_SendGoal_Request * ros_message = _ros_message;
   {  // goal_id
@@ -605,29 +617,32 @@ bool action_cleaning_robot__action__cleaning_task__send_goal__response__convert_
 {
   // check that the passed message is of the expected Python class
   {
-    PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
-    if (class_attr == NULL) {
-      return false;
+    char full_classname_dest[75];
+    {
+      char * class_name = NULL;
+      char * module_name = NULL;
+      {
+        PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
+        if (class_attr) {
+          PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
+          if (name_attr) {
+            class_name = (char *)PyUnicode_1BYTE_DATA(name_attr);
+            Py_DECREF(name_attr);
+          }
+          PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
+          if (module_attr) {
+            module_name = (char *)PyUnicode_1BYTE_DATA(module_attr);
+            Py_DECREF(module_attr);
+          }
+          Py_DECREF(class_attr);
+        }
+      }
+      if (!class_name || !module_name) {
+        return false;
+      }
+      snprintf(full_classname_dest, sizeof(full_classname_dest), "%s.%s", module_name, class_name);
     }
-    PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
-    if (name_attr == NULL) {
-      Py_DECREF(class_attr);
-      return false;
-    }
-    PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
-    if (module_attr == NULL) {
-      Py_DECREF(name_attr);
-      Py_DECREF(class_attr);
-      return false;
-    }
-
-    // PyUnicode_1BYTE_DATA is just a cast
-    assert(strncmp("action_cleaning_robot.action._cleaning_task", (char *)PyUnicode_1BYTE_DATA(module_attr), 43) == 0);
-    assert(strncmp("CleaningTask_SendGoal_Response", (char *)PyUnicode_1BYTE_DATA(name_attr), 30) == 0);
-
-    Py_DECREF(module_attr);
-    Py_DECREF(name_attr);
-    Py_DECREF(class_attr);
+    assert(strncmp("action_cleaning_robot.action._cleaning_task.CleaningTask_SendGoal_Response", full_classname_dest, 74) == 0);
   }
   action_cleaning_robot__action__CleaningTask_SendGoal_Response * ros_message = _ros_message;
   {  // accepted
@@ -737,29 +752,32 @@ bool action_cleaning_robot__action__cleaning_task__send_goal__event__convert_fro
 {
   // check that the passed message is of the expected Python class
   {
-    PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
-    if (class_attr == NULL) {
-      return false;
+    char full_classname_dest[72];
+    {
+      char * class_name = NULL;
+      char * module_name = NULL;
+      {
+        PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
+        if (class_attr) {
+          PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
+          if (name_attr) {
+            class_name = (char *)PyUnicode_1BYTE_DATA(name_attr);
+            Py_DECREF(name_attr);
+          }
+          PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
+          if (module_attr) {
+            module_name = (char *)PyUnicode_1BYTE_DATA(module_attr);
+            Py_DECREF(module_attr);
+          }
+          Py_DECREF(class_attr);
+        }
+      }
+      if (!class_name || !module_name) {
+        return false;
+      }
+      snprintf(full_classname_dest, sizeof(full_classname_dest), "%s.%s", module_name, class_name);
     }
-    PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
-    if (name_attr == NULL) {
-      Py_DECREF(class_attr);
-      return false;
-    }
-    PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
-    if (module_attr == NULL) {
-      Py_DECREF(name_attr);
-      Py_DECREF(class_attr);
-      return false;
-    }
-
-    // PyUnicode_1BYTE_DATA is just a cast
-    assert(strncmp("action_cleaning_robot.action._cleaning_task", (char *)PyUnicode_1BYTE_DATA(module_attr), 43) == 0);
-    assert(strncmp("CleaningTask_SendGoal_Event", (char *)PyUnicode_1BYTE_DATA(name_attr), 27) == 0);
-
-    Py_DECREF(module_attr);
-    Py_DECREF(name_attr);
-    Py_DECREF(class_attr);
+    assert(strncmp("action_cleaning_robot.action._cleaning_task.CleaningTask_SendGoal_Event", full_classname_dest, 71) == 0);
   }
   action_cleaning_robot__action__CleaningTask_SendGoal_Event * ros_message = _ros_message;
   {  // info
@@ -960,29 +978,32 @@ bool action_cleaning_robot__action__cleaning_task__get_result__request__convert_
 {
   // check that the passed message is of the expected Python class
   {
-    PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
-    if (class_attr == NULL) {
-      return false;
+    char full_classname_dest[75];
+    {
+      char * class_name = NULL;
+      char * module_name = NULL;
+      {
+        PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
+        if (class_attr) {
+          PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
+          if (name_attr) {
+            class_name = (char *)PyUnicode_1BYTE_DATA(name_attr);
+            Py_DECREF(name_attr);
+          }
+          PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
+          if (module_attr) {
+            module_name = (char *)PyUnicode_1BYTE_DATA(module_attr);
+            Py_DECREF(module_attr);
+          }
+          Py_DECREF(class_attr);
+        }
+      }
+      if (!class_name || !module_name) {
+        return false;
+      }
+      snprintf(full_classname_dest, sizeof(full_classname_dest), "%s.%s", module_name, class_name);
     }
-    PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
-    if (name_attr == NULL) {
-      Py_DECREF(class_attr);
-      return false;
-    }
-    PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
-    if (module_attr == NULL) {
-      Py_DECREF(name_attr);
-      Py_DECREF(class_attr);
-      return false;
-    }
-
-    // PyUnicode_1BYTE_DATA is just a cast
-    assert(strncmp("action_cleaning_robot.action._cleaning_task", (char *)PyUnicode_1BYTE_DATA(module_attr), 43) == 0);
-    assert(strncmp("CleaningTask_GetResult_Request", (char *)PyUnicode_1BYTE_DATA(name_attr), 30) == 0);
-
-    Py_DECREF(module_attr);
-    Py_DECREF(name_attr);
-    Py_DECREF(class_attr);
+    assert(strncmp("action_cleaning_robot.action._cleaning_task.CleaningTask_GetResult_Request", full_classname_dest, 74) == 0);
   }
   action_cleaning_robot__action__CleaningTask_GetResult_Request * ros_message = _ros_message;
   {  // goal_id
@@ -1059,29 +1080,32 @@ bool action_cleaning_robot__action__cleaning_task__get_result__response__convert
 {
   // check that the passed message is of the expected Python class
   {
-    PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
-    if (class_attr == NULL) {
-      return false;
+    char full_classname_dest[76];
+    {
+      char * class_name = NULL;
+      char * module_name = NULL;
+      {
+        PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
+        if (class_attr) {
+          PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
+          if (name_attr) {
+            class_name = (char *)PyUnicode_1BYTE_DATA(name_attr);
+            Py_DECREF(name_attr);
+          }
+          PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
+          if (module_attr) {
+            module_name = (char *)PyUnicode_1BYTE_DATA(module_attr);
+            Py_DECREF(module_attr);
+          }
+          Py_DECREF(class_attr);
+        }
+      }
+      if (!class_name || !module_name) {
+        return false;
+      }
+      snprintf(full_classname_dest, sizeof(full_classname_dest), "%s.%s", module_name, class_name);
     }
-    PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
-    if (name_attr == NULL) {
-      Py_DECREF(class_attr);
-      return false;
-    }
-    PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
-    if (module_attr == NULL) {
-      Py_DECREF(name_attr);
-      Py_DECREF(class_attr);
-      return false;
-    }
-
-    // PyUnicode_1BYTE_DATA is just a cast
-    assert(strncmp("action_cleaning_robot.action._cleaning_task", (char *)PyUnicode_1BYTE_DATA(module_attr), 43) == 0);
-    assert(strncmp("CleaningTask_GetResult_Response", (char *)PyUnicode_1BYTE_DATA(name_attr), 31) == 0);
-
-    Py_DECREF(module_attr);
-    Py_DECREF(name_attr);
-    Py_DECREF(class_attr);
+    assert(strncmp("action_cleaning_robot.action._cleaning_task.CleaningTask_GetResult_Response", full_classname_dest, 75) == 0);
   }
   action_cleaning_robot__action__CleaningTask_GetResult_Response * ros_message = _ros_message;
   {  // status
@@ -1193,29 +1217,32 @@ bool action_cleaning_robot__action__cleaning_task__get_result__event__convert_fr
 {
   // check that the passed message is of the expected Python class
   {
-    PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
-    if (class_attr == NULL) {
-      return false;
+    char full_classname_dest[73];
+    {
+      char * class_name = NULL;
+      char * module_name = NULL;
+      {
+        PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
+        if (class_attr) {
+          PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
+          if (name_attr) {
+            class_name = (char *)PyUnicode_1BYTE_DATA(name_attr);
+            Py_DECREF(name_attr);
+          }
+          PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
+          if (module_attr) {
+            module_name = (char *)PyUnicode_1BYTE_DATA(module_attr);
+            Py_DECREF(module_attr);
+          }
+          Py_DECREF(class_attr);
+        }
+      }
+      if (!class_name || !module_name) {
+        return false;
+      }
+      snprintf(full_classname_dest, sizeof(full_classname_dest), "%s.%s", module_name, class_name);
     }
-    PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
-    if (name_attr == NULL) {
-      Py_DECREF(class_attr);
-      return false;
-    }
-    PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
-    if (module_attr == NULL) {
-      Py_DECREF(name_attr);
-      Py_DECREF(class_attr);
-      return false;
-    }
-
-    // PyUnicode_1BYTE_DATA is just a cast
-    assert(strncmp("action_cleaning_robot.action._cleaning_task", (char *)PyUnicode_1BYTE_DATA(module_attr), 43) == 0);
-    assert(strncmp("CleaningTask_GetResult_Event", (char *)PyUnicode_1BYTE_DATA(name_attr), 28) == 0);
-
-    Py_DECREF(module_attr);
-    Py_DECREF(name_attr);
-    Py_DECREF(class_attr);
+    assert(strncmp("action_cleaning_robot.action._cleaning_task.CleaningTask_GetResult_Event", full_classname_dest, 72) == 0);
   }
   action_cleaning_robot__action__CleaningTask_GetResult_Event * ros_message = _ros_message;
   {  // info
@@ -1418,29 +1445,32 @@ bool action_cleaning_robot__action__cleaning_task__feedback_message__convert_fro
 {
   // check that the passed message is of the expected Python class
   {
-    PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
-    if (class_attr == NULL) {
-      return false;
+    char full_classname_dest[73];
+    {
+      char * class_name = NULL;
+      char * module_name = NULL;
+      {
+        PyObject * class_attr = PyObject_GetAttrString(_pymsg, "__class__");
+        if (class_attr) {
+          PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
+          if (name_attr) {
+            class_name = (char *)PyUnicode_1BYTE_DATA(name_attr);
+            Py_DECREF(name_attr);
+          }
+          PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
+          if (module_attr) {
+            module_name = (char *)PyUnicode_1BYTE_DATA(module_attr);
+            Py_DECREF(module_attr);
+          }
+          Py_DECREF(class_attr);
+        }
+      }
+      if (!class_name || !module_name) {
+        return false;
+      }
+      snprintf(full_classname_dest, sizeof(full_classname_dest), "%s.%s", module_name, class_name);
     }
-    PyObject * name_attr = PyObject_GetAttrString(class_attr, "__name__");
-    if (name_attr == NULL) {
-      Py_DECREF(class_attr);
-      return false;
-    }
-    PyObject * module_attr = PyObject_GetAttrString(class_attr, "__module__");
-    if (module_attr == NULL) {
-      Py_DECREF(name_attr);
-      Py_DECREF(class_attr);
-      return false;
-    }
-
-    // PyUnicode_1BYTE_DATA is just a cast
-    assert(strncmp("action_cleaning_robot.action._cleaning_task", (char *)PyUnicode_1BYTE_DATA(module_attr), 43) == 0);
-    assert(strncmp("CleaningTask_FeedbackMessage", (char *)PyUnicode_1BYTE_DATA(name_attr), 28) == 0);
-
-    Py_DECREF(module_attr);
-    Py_DECREF(name_attr);
-    Py_DECREF(class_attr);
+    assert(strncmp("action_cleaning_robot.action._cleaning_task.CleaningTask_FeedbackMessage", full_classname_dest, 72) == 0);
   }
   action_cleaning_robot__action__CleaningTask_FeedbackMessage * ros_message = _ros_message;
   {  // goal_id

@@ -1,0 +1,354 @@
+[0.000000] (-) TimerEvent: {}
+[0.000188] (action_cleaning_robot) JobQueued: {'identifier': 'action_cleaning_robot', 'dependencies': OrderedDict()}
+[0.000230] (action_cleaning_robot) JobStarted: {'identifier': 'action_cleaning_robot'}
+[0.015642] (action_cleaning_robot) JobProgress: {'identifier': 'action_cleaning_robot', 'progress': 'cmake'}
+[0.021141] (action_cleaning_robot) JobProgress: {'identifier': 'action_cleaning_robot', 'progress': 'build'}
+[0.021689] (action_cleaning_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot', '--', '-j20', '-l20'], 'cwd': '/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ru_RU:en', 'USER': 'natalia', 'LC_TIME': 'ru_RU.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/natalia/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/natalia', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/natalia/Documents/STUDING/robotix/modul3', 'TERM_PROGRAM_VERSION': '1.105.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/211/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/natalia/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/211/usr/share/code/code', 'MANAGERPID': '2635', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3090', 'BUNDLED_DEBUGPY_PATH': '/home/natalia/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4383', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'natalia', 'JOURNAL_STREAM': '9:32896', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/home/natalia/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'natalia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/natalia/.local/bin:/home/natalia/.local/bin:/opt/ros/jazzy/bin:/home/natalia/.local/bin:/home/natalia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/natalia/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/natalia-Katana-GF66-12UE:@/tmp/.ICE-unix/3055,unix/natalia-Katana-GF66-12UE:/tmp/.ICE-unix/3055', 'GTK_EXE_PREFIX': '/snap/code/211/usr', 'INVOCATION_ID': '224ae15e6e93425b91badd4e6f9a186c', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LOCPATH': '/snap/code/211/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/natalia/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-86f9a7aa2eff9ba8.txt', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/natalia/.config/Code/User/workspaceStorage/319c3adfefa43c91b595d02f7630d866/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/natalia/snap/code/211/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6f5ab34972.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/natalia/snap/code/211/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/natalia/snap/code/211/.local/share/flatpak/exports/share:/home/natalia/snap/code/211/.local/share:/home/natalia/snap/code/211:/snap/code/211/usr/share:/usr/share/ubuntu:/usr/share/gnome:/home/natalia/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099712] (-) TimerEvent: {}
+[0.200715] (-) TimerEvent: {}
+[0.278937] (action_cleaning_robot) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.301056] (-) TimerEvent: {}
+[0.402143] (-) TimerEvent: {}
+[0.442622] (action_cleaning_robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.502513] (-) TimerEvent: {}
+[0.603593] (-) TimerEvent: {}
+[0.704739] (-) TimerEvent: {}
+[0.806114] (-) TimerEvent: {}
+[0.907082] (-) TimerEvent: {}
+[0.949116] (action_cleaning_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.007356] (-) TimerEvent: {}
+[1.108557] (-) TimerEvent: {}
+[1.209706] (-) TimerEvent: {}
+[1.289200] (action_cleaning_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.310098] (-) TimerEvent: {}
+[1.398089] (action_cleaning_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.410432] (-) TimerEvent: {}
+[1.511179] (-) TimerEvent: {}
+[1.612023] (-) TimerEvent: {}
+[1.712874] (-) TimerEvent: {}
+[1.813714] (-) TimerEvent: {}
+[1.914558] (-) TimerEvent: {}
+[2.015345] (-) TimerEvent: {}
+[2.116157] (-) TimerEvent: {}
+[2.217020] (-) TimerEvent: {}
+[2.317854] (-) TimerEvent: {}
+[2.418720] (-) TimerEvent: {}
+[2.519659] (-) TimerEvent: {}
+[2.620550] (-) TimerEvent: {}
+[2.721355] (-) TimerEvent: {}
+[2.822169] (-) TimerEvent: {}
+[2.922986] (-) TimerEvent: {}
+[3.023810] (-) TimerEvent: {}
+[3.124672] (-) TimerEvent: {}
+[3.225603] (-) TimerEvent: {}
+[3.324233] (action_cleaning_robot) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.325712] (-) TimerEvent: {}
+[3.426310] (-) TimerEvent: {}
+[3.527101] (-) TimerEvent: {}
+[3.627955] (-) TimerEvent: {}
+[3.728757] (-) TimerEvent: {}
+[3.827232] (action_cleaning_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.828884] (-) TimerEvent: {}
+[3.929515] (-) TimerEvent: {}
+[4.030300] (-) TimerEvent: {}
+[4.131743] (-) TimerEvent: {}
+[4.232462] (-) TimerEvent: {}
+[4.333217] (-) TimerEvent: {}
+[4.434071] (-) TimerEvent: {}
+[4.470522] (action_cleaning_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.484331] (action_cleaning_robot) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.534549] (-) TimerEvent: {}
+[4.635589] (-) TimerEvent: {}
+[4.736819] (-) TimerEvent: {}
+[4.838080] (-) TimerEvent: {}
+[4.939138] (-) TimerEvent: {}
+[5.040261] (-) TimerEvent: {}
+[5.141564] (-) TimerEvent: {}
+[5.242585] (-) TimerEvent: {}
+[5.344000] (-) TimerEvent: {}
+[5.445089] (-) TimerEvent: {}
+[5.546151] (-) TimerEvent: {}
+[5.647018] (-) TimerEvent: {}
+[5.747817] (-) TimerEvent: {}
+[5.827112] (action_cleaning_robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.848136] (-) TimerEvent: {}
+[5.879039] (action_cleaning_robot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.948592] (-) TimerEvent: {}
+[5.972670] (action_cleaning_robot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.973843] (action_cleaning_robot) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[5.975652] (action_cleaning_robot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.978812] (action_cleaning_robot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.988023] (action_cleaning_robot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.008067] (action_cleaning_robot) StdoutLine: {'line': b'-- Configuring done (5.8s)\n'}
+[6.048869] (-) TimerEvent: {}
+[6.150313] (-) TimerEvent: {}
+[6.224993] (action_cleaning_robot) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[6.250919] (-) TimerEvent: {}
+[6.301054] (action_cleaning_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot\n'}
+[6.350966] (-) TimerEvent: {}
+[6.452066] (-) TimerEvent: {}
+[6.485004] (action_cleaning_robot) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[6.544659] (action_cleaning_robot) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_action_cleaning_robot\n'}
+[6.552434] (-) TimerEvent: {}
+[6.653577] (-) TimerEvent: {}
+[6.754541] (-) TimerEvent: {}
+[6.855331] (-) TimerEvent: {}
+[6.956601] (-) TimerEvent: {}
+[7.057798] (-) TimerEvent: {}
+[7.158958] (-) TimerEvent: {}
+[7.260147] (-) TimerEvent: {}
+[7.361361] (-) TimerEvent: {}
+[7.442347] (action_cleaning_robot) StdoutLine: {'line': b'running egg_info\n'}
+[7.447479] (action_cleaning_robot) StdoutLine: {'line': b'[  2%] Built target action_cleaning_robot__rosidl_generator_type_description\n'}
+[7.455623] (action_cleaning_robot) StdoutLine: {'line': b'writing action_cleaning_robot.egg-info/PKG-INFO\n'}
+[7.455824] (action_cleaning_robot) StdoutLine: {'line': b'writing dependency_links to action_cleaning_robot.egg-info/dependency_links.txt\n'}
+[7.455976] (action_cleaning_robot) StdoutLine: {'line': b'writing top-level names to action_cleaning_robot.egg-info/top_level.txt\n'}
+[7.457059] (action_cleaning_robot) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.461426] (-) TimerEvent: {}
+[7.463640] (action_cleaning_robot) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.489036] (action_cleaning_robot) StdoutLine: {'line': b"reading manifest file 'action_cleaning_robot.egg-info/SOURCES.txt'\n"}
+[7.489810] (action_cleaning_robot) StdoutLine: {'line': b"writing manifest file 'action_cleaning_robot.egg-info/SOURCES.txt'\n"}
+[7.509042] (action_cleaning_robot) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_action_cleaning_robot_egg\n'}
+[7.561637] (-) TimerEvent: {}
+[7.662007] (-) TimerEvent: {}
+[7.730027] (action_cleaning_robot) StdoutLine: {'line': b'[  8%] Built target action_cleaning_robot__cpp\n'}
+[7.762298] (-) TimerEvent: {}
+[7.811020] (action_cleaning_robot) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/action_cleaning_robot__rosidl_generator_c.dir/rosidl_generator_c/action_cleaning_robot/action/detail/cleaning_task__description.c.o\x1b[0m\n'}
+[7.817289] (action_cleaning_robot) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/action_cleaning_robot__rosidl_generator_c.dir/rosidl_generator_c/action_cleaning_robot/action/detail/cleaning_task__functions.c.o\x1b[0m\n'}
+[7.820538] (action_cleaning_robot) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/action_cleaning_robot__rosidl_generator_c.dir/rosidl_generator_c/action_cleaning_robot/action/detail/cleaning_task__type_support.c.o\x1b[0m\n'}
+[7.862549] (-) TimerEvent: {}
+[7.963314] (-) TimerEvent: {}
+[8.064011] (-) TimerEvent: {}
+[8.164566] (-) TimerEvent: {}
+[8.265463] (-) TimerEvent: {}
+[8.366335] (-) TimerEvent: {}
+[8.467252] (-) TimerEvent: {}
+[8.568205] (-) TimerEvent: {}
+[8.582898] (action_cleaning_robot) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libaction_cleaning_robot__rosidl_generator_c.so\x1b[0m\n'}
+[8.668529] (-) TimerEvent: {}
+[8.769818] (-) TimerEvent: {}
+[8.837853] (action_cleaning_robot) StdoutLine: {'line': b'[ 20%] Built target action_cleaning_robot__rosidl_generator_c\n'}
+[8.870088] (-) TimerEvent: {}
+[8.885355] (action_cleaning_robot) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.888496] (action_cleaning_robot) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.890406] (action_cleaning_robot) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.895171] (action_cleaning_robot) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.896965] (action_cleaning_robot) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.898225] (action_cleaning_robot) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.970337] (-) TimerEvent: {}
+[9.070807] (-) TimerEvent: {}
+[9.171082] (-) TimerEvent: {}
+[9.204632] (action_cleaning_robot) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/action_cleaning_robot__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_cleaning_robot/action/cleaning_task__type_support.cpp.o\x1b[0m\n'}
+[9.214550] (action_cleaning_robot) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/action_cleaning_robot__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_cleaning_robot/action/cleaning_task__type_support.cpp.o\x1b[0m\n'}
+[9.250104] (action_cleaning_robot) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/action_cleaning_robot__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_cleaning_robot/action/detail/cleaning_task__type_support.cpp.o\x1b[0m\n'}
+[9.270277] (action_cleaning_robot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/action_cleaning_robot__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_cleaning_robot/action/detail/cleaning_task__type_support.c.o\x1b[0m\n'}
+[9.271150] (-) TimerEvent: {}
+[9.327097] (action_cleaning_robot) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libaction_cleaning_robot__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.343283] (action_cleaning_robot) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libaction_cleaning_robot__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.353032] (action_cleaning_robot) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/action_cleaning_robot__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_cleaning_robot/action/detail/dds_fastrtps/cleaning_task__type_support.cpp.o\x1b[0m\n'}
+[9.371289] (-) TimerEvent: {}
+[9.371556] (action_cleaning_robot) StdoutLine: {'line': b'[ 58%] Built target action_cleaning_robot__rosidl_typesupport_c\n'}
+[9.377072] (action_cleaning_robot) StdoutLine: {'line': b'[ 58%] Built target action_cleaning_robot__rosidl_typesupport_introspection_c\n'}
+[9.388124] (action_cleaning_robot) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/action_cleaning_robot__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_cleaning_robot/action/detail/cleaning_task__type_support_c.cpp.o\x1b[0m\n'}
+[9.471412] (-) TimerEvent: {}
+[9.571726] (-) TimerEvent: {}
+[9.672111] (-) TimerEvent: {}
+[9.772429] (-) TimerEvent: {}
+[9.781169] (action_cleaning_robot) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libaction_cleaning_robot__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.798208] (action_cleaning_robot) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libaction_cleaning_robot__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.815027] (action_cleaning_robot) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaction_cleaning_robot__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.853999] (action_cleaning_robot) StdoutLine: {'line': b'[ 70%] Built target action_cleaning_robot__rosidl_typesupport_cpp\n'}
+[9.872527] (-) TimerEvent: {}
+[9.875795] (action_cleaning_robot) StdoutLine: {'line': b'[ 70%] Built target action_cleaning_robot__rosidl_typesupport_fastrtps_c\n'}
+[9.879829] (action_cleaning_robot) StdoutLine: {'line': b'[ 70%] Built target action_cleaning_robot__rosidl_typesupport_introspection_cpp\n'}
+[9.972741] (-) TimerEvent: {}
+[10.073034] (-) TimerEvent: {}
+[10.089772] (action_cleaning_robot) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libaction_cleaning_robot__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.173245] (-) TimerEvent: {}
+[10.174329] (action_cleaning_robot) StdoutLine: {'line': b'[ 73%] Built target action_cleaning_robot__rosidl_typesupport_fastrtps_cpp\n'}
+[10.273910] (-) TimerEvent: {}
+[10.276633] (action_cleaning_robot) StdoutLine: {'line': b'[ 73%] Built target action_cleaning_robot\n'}
+[10.374234] (-) TimerEvent: {}
+[10.375252] (action_cleaning_robot) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.474548] (-) TimerEvent: {}
+[10.575468] (-) TimerEvent: {}
+[10.676255] (-) TimerEvent: {}
+[10.777022] (-) TimerEvent: {}
+[10.877900] (-) TimerEvent: {}
+[10.978839] (-) TimerEvent: {}
+[11.079524] (-) TimerEvent: {}
+[11.179841] (-) TimerEvent: {}
+[11.280045] (-) TimerEvent: {}
+[11.380321] (-) TimerEvent: {}
+[11.392963] (action_cleaning_robot) StdoutLine: {'line': b'[ 76%] Built target action_cleaning_robot__py\n'}
+[11.431395] (action_cleaning_robot) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/action_cleaning_robot__rosidl_generator_py.dir/rosidl_generator_py/action_cleaning_robot/action/_cleaning_task_s.c.o\x1b[0m\n'}
+[11.480509] (-) TimerEvent: {}
+[11.581030] (-) TimerEvent: {}
+[11.681634] (-) TimerEvent: {}
+[11.782656] (-) TimerEvent: {}
+[11.883671] (-) TimerEvent: {}
+[11.984633] (-) TimerEvent: {}
+[12.085316] (-) TimerEvent: {}
+[12.094304] (action_cleaning_robot) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libaction_cleaning_robot__rosidl_generator_py.so\x1b[0m\n'}
+[12.185616] (-) TimerEvent: {}
+[12.286635] (-) TimerEvent: {}
+[12.289015] (action_cleaning_robot) StdoutLine: {'line': b'[ 82%] Built target action_cleaning_robot__rosidl_generator_py\n'}
+[12.386932] (-) TimerEvent: {}
+[12.434254] (action_cleaning_robot) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/action_cleaning_robot_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.447940] (action_cleaning_robot) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/action_cleaning_robot_s__rosidl_typesupport_c.dir/rosidl_generator_py/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.451330] (action_cleaning_robot) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.487093] (-) TimerEvent: {}
+[12.576737] (action_cleaning_robot) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.577351] (action_cleaning_robot) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.578488] (action_cleaning_robot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.587193] (-) TimerEvent: {}
+[12.601637] (action_cleaning_robot) StdoutLine: {'line': b'[100%] Built target action_cleaning_robot_s__rosidl_typesupport_fastrtps_c\n'}
+[12.602865] (action_cleaning_robot) StdoutLine: {'line': b'[100%] Built target action_cleaning_robot_s__rosidl_typesupport_c\n'}
+[12.605003] (action_cleaning_robot) StdoutLine: {'line': b'[100%] Built target action_cleaning_robot_s__rosidl_typesupport_introspection_c\n'}
+[12.613549] (action_cleaning_robot) CommandEnded: {'returncode': 0}
+[12.613800] (action_cleaning_robot) JobProgress: {'identifier': 'action_cleaning_robot', 'progress': 'install'}
+[12.620677] (action_cleaning_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot'], 'cwd': '/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ru_RU:en', 'USER': 'natalia', 'LC_TIME': 'ru_RU.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/natalia/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/natalia', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/natalia/Documents/STUDING/robotix/modul3', 'TERM_PROGRAM_VERSION': '1.105.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/211/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/natalia/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/211/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/211/usr/share/code/code', 'MANAGERPID': '2635', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3090', 'BUNDLED_DEBUGPY_PATH': '/home/natalia/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4383', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'natalia', 'JOURNAL_STREAM': '9:32896', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/home/natalia/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'natalia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/natalia/.local/bin:/home/natalia/.local/bin:/opt/ros/jazzy/bin:/home/natalia/.local/bin:/home/natalia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/natalia/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/natalia-Katana-GF66-12UE:@/tmp/.ICE-unix/3055,unix/natalia-Katana-GF66-12UE:/tmp/.ICE-unix/3055', 'GTK_EXE_PREFIX': '/snap/code/211/usr', 'INVOCATION_ID': '224ae15e6e93425b91badd4e6f9a186c', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LOCPATH': '/snap/code/211/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/natalia/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-86f9a7aa2eff9ba8.txt', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/natalia/.config/Code/User/workspaceStorage/319c3adfefa43c91b595d02f7630d866/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/natalia/snap/code/211/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6f5ab34972.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/natalia/snap/code/211/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/natalia/snap/code/211/.local/share/flatpak/exports/share:/home/natalia/snap/code/211/.local/share:/home/natalia/snap/code/211:/snap/code/211/usr/share:/usr/share/ubuntu:/usr/share/gnome:/home/natalia/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[12.631647] (action_cleaning_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.632005] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/ament_index/resource_index/rosidl_interfaces/action_cleaning_robot\n'}
+[12.632258] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/action/CleaningTask.json\n'}
+[12.632453] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot\n'}
+[12.632726] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action\n'}
+[12.632926] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/cleaning_task.h\n'}
+[12.633109] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail\n'}
+[12.633260] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__functions.h\n'}
+[12.633683] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__struct.h\n'}
+[12.634006] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__functions.c\n'}
+[12.634259] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__type_support.h\n'}
+[12.634600] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__type_support.c\n'}
+[12.634904] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__description.c\n'}
+[12.635136] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg\n'}
+[12.635406] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.635542] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/environment/library_path.sh\n'}
+[12.635659] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/environment/library_path.dsv\n'}
+[12.637168] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_generator_c.so\n'}
+[12.638077] (action_cleaning_robot) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_generator_c.so" to ""\n'}
+[12.638355] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot\n'}
+[12.638494] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action\n'}
+[12.638617] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail\n'}
+[12.638737] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__rosidl_typesupport_fastrtps_c.h\n'}
+[12.638917] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg\n'}
+[12.639125] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.640810] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_c.so\n'}
+[12.641609] (action_cleaning_robot) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.641943] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot\n'}
+[12.642083] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action\n'}
+[12.642282] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail\n'}
+[12.642412] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__rosidl_typesupport_introspection_c.h\n'}
+[12.642530] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__type_support.c\n'}
+[12.642700] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg\n'}
+[12.642866] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.643026] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_c.so\n'}
+[12.643464] (action_cleaning_robot) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.643706] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_c.so\n'}
+[12.644257] (action_cleaning_robot) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_c.so" to ""\n'}
+[12.644466] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot\n'}
+[12.644667] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action\n'}
+[12.644789] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail\n'}
+[12.644902] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__traits.hpp\n'}
+[12.645067] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__struct.hpp\n'}
+[12.645238] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__builder.hpp\n'}
+[12.645441] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__type_support.hpp\n'}
+[12.645678] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/cleaning_task.hpp\n'}
+[12.645902] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg\n'}
+[12.646072] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.646264] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot\n'}
+[12.646471] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action\n'}
+[12.646588] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail\n'}
+[12.646748] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.646990] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/dds_fastrtps\n'}
+[12.647103] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg\n'}
+[12.647217] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.648012] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.648861] (action_cleaning_robot) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.649030] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot\n'}
+[12.649211] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action\n'}
+[12.649320] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail\n'}
+[12.649437] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.649708] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__type_support.cpp\n'}
+[12.650003] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_cpp.so\n'}
+[12.650627] (action_cleaning_robot) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.650862] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_cpp.so\n'}
+[12.651539] (action_cleaning_robot) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_cpp.so" to ""\n'}
+[12.651692] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/environment/pythonpath.sh\n'}
+[12.651838] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/environment/pythonpath.dsv\n'}
+[12.652011] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot-0.0.0-py3.12.egg-info\n'}
+[12.652157] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[12.652317] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[12.652479] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[12.652616] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[12.652785] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot\n'}
+[12.652925] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.653180] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_c.c\n'}
+[12.653570] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.654045] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action\n'}
+[12.654603] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action/_cleaning_task.py\n'}
+[12.655224] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action/_cleaning_task_s.c\n'}
+[12.655645] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action/__init__.py\n'}
+[12.655901] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so\n'}
+[12.656148] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/__init__.py\n'}
+[12.656484] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so\n'}
+[12.656728] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.687309] (-) TimerEvent: {}
+[12.720255] (action_cleaning_robot) StdoutLine: {'line': b"Listing '/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot'...\n"}
+[12.720447] (action_cleaning_robot) StdoutLine: {'line': b"Compiling '/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/__init__.py'...\n"}
+[12.720509] (action_cleaning_robot) StdoutLine: {'line': b"Listing '/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action'...\n"}
+[12.720552] (action_cleaning_robot) StdoutLine: {'line': b"Compiling '/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action/__init__.py'...\n"}
+[12.720593] (action_cleaning_robot) StdoutLine: {'line': b"Compiling '/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action/_cleaning_task.py'...\n"}
+[12.726547] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.726891] (action_cleaning_robot) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.727234] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so\n'}
+[12.727465] (action_cleaning_robot) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.727602] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so\n'}
+[12.727852] (action_cleaning_robot) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so" to ""\n'}
+[12.728881] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_generator_py.so\n'}
+[12.729437] (action_cleaning_robot) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_generator_py.so" to ""\n'}
+[12.729597] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/action/CleaningTask.idl\n'}
+[12.729745] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/action/CleaningTask.action\n'}
+[12.729923] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/ament_index/resource_index/package_run_dependencies/action_cleaning_robot\n'}
+[12.730006] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/ament_index/resource_index/parent_prefix_path/action_cleaning_robot\n'}
+[12.730171] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/environment/ament_prefix_path.sh\n'}
+[12.730255] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/environment/ament_prefix_path.dsv\n'}
+[12.730333] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/environment/path.sh\n'}
+[12.730487] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/environment/path.dsv\n'}
+[12.730575] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/local_setup.bash\n'}
+[12.730723] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/local_setup.sh\n'}
+[12.730820] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/local_setup.zsh\n'}
+[12.730909] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/local_setup.dsv\n'}
+[12.731049] (action_cleaning_robot) StdoutLine: {'line': b'-- Installing: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/package.dsv\n'}
+[12.731146] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/ament_index/resource_index/packages/action_cleaning_robot\n'}
+[12.731284] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_generator_cExport.cmake\n'}
+[12.731377] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.731565] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.731651] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.731740] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.731838] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.731931] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_cExport.cmake\n'}
+[12.732021] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.732156] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_generator_cppExport.cmake\n'}
+[12.732354] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.732452] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.732548] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.732648] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.732743] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_cppExport.cmake\n'}
+[12.732837] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.732992] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_generator_pyExport.cmake\n'}
+[12.733179] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.733301] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/rosidl_cmake-extras.cmake\n'}
+[12.733425] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.733537] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.733651] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.733764] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.733882] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.734101] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.734223] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robotConfig.cmake\n'}
+[12.734340] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robotConfig-version.cmake\n'}
+[12.734459] (action_cleaning_robot) StdoutLine: {'line': b'-- Up-to-date: /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/package.xml\n'}
+[12.737320] (action_cleaning_robot) CommandEnded: {'returncode': 0}
+[12.788001] (-) TimerEvent: {}
+[12.855124] (action_cleaning_robot) JobEnded: {'identifier': 'action_cleaning_robot', 'rc': 0}
+[12.859183] (-) EventReactorShutdown: {}

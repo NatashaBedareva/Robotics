@@ -10,7 +10,7 @@ class ServiceName(Node):
         self.get_logger().info('Service SummFullName is ready')
 
     def summ_full_name_callback(self, request, response):
-        # Склеивание фамилии, имени и отчества
+
         response.full_name = f"{request.last_name} {request.name} {request.first_name}"
         self.get_logger().info(f'Received: {request.last_name} {request.name} {request.first_name}')
         self.get_logger().info(f'Sending: {response.full_name}')

@@ -68,11 +68,11 @@ include CMakeFiles/action_cleaning_robot__rosidl_generator_type_description.dir/
 
 CMakeFiles/action_cleaning_robot__rosidl_generator_type_description: rosidl_generator_type_description/action_cleaning_robot/action/CleaningTask.json
 
-rosidl_generator_type_description/action_cleaning_robot/action/CleaningTask.json: /opt/ros/rolling/lib/rosidl_generator_type_description/rosidl_generator_type_description
-rosidl_generator_type_description/action_cleaning_robot/action/CleaningTask.json: /opt/ros/rolling/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
+rosidl_generator_type_description/action_cleaning_robot/action/CleaningTask.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
+rosidl_generator_type_description/action_cleaning_robot/action/CleaningTask.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/action_cleaning_robot/action/CleaningTask.json: rosidl_adapter/action_cleaning_robot/action/CleaningTask.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/usr/bin/python3 /opt/ros/rolling/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot/rosidl_generator_type_description__arguments.json
+	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot/rosidl_generator_type_description__arguments.json
 
 action_cleaning_robot__rosidl_generator_type_description: CMakeFiles/action_cleaning_robot__rosidl_generator_type_description
 action_cleaning_robot__rosidl_generator_type_description: rosidl_generator_type_description/action_cleaning_robot/action/CleaningTask.json

@@ -47,16 +47,12 @@
 /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so
 /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/__init__.py
 /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so
-/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/py.typed
 /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so
 /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so
 /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so
 /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so
 /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_generator_py.so
 /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/action/CleaningTask.idl
-/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/action/CleaningTask.action
-/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/action_cleaning_robot/cleaning_action_server.py
-/home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/lib/action_cleaning_robot/cleaning_action_client.py
 /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/action_cleaning_robot/action/CleaningTask.action
 /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/ament_index/resource_index/package_run_dependencies/action_cleaning_robot
 /home/natalia/Documents/STUDING/robotix/modul3/ex05/install/action_cleaning_robot/share/ament_index/resource_index/parent_prefix_path/action_cleaning_robot

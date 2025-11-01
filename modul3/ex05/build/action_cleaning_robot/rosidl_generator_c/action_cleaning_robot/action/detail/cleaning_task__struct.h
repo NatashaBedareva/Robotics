@@ -1,4 +1,3 @@
-﻿// NOLINT: This file starts with a BOM since it contain non-ASCII characters
 // generated from rosidl_generator_c/resource/idl__struct.h.em
 // with input from action_cleaning_robot:action/CleaningTask.idl
 // generated code does not contain a copyright notice
@@ -28,13 +27,9 @@ extern "C"
 /// Struct defined in action/CleaningTask in the package action_cleaning_robot.
 typedef struct action_cleaning_robot__action__CleaningTask_Goal
 {
-  /// "clean_square", "clean_circle", "return_home"
   rosidl_runtime_c__String task_type;
-  /// размер области для уборки (сторона квадрата или радиус круга)
   double area_size;
-  /// целевая координата X (только для return_home)
   double target_x;
-  /// целевая координата Y (только для return_home)
   double target_y;
 } action_cleaning_robot__action__CleaningTask_Goal;
 
@@ -53,11 +48,8 @@ typedef struct action_cleaning_robot__action__CleaningTask_Goal__Sequence
 /// Struct defined in action/CleaningTask in the package action_cleaning_robot.
 typedef struct action_cleaning_robot__action__CleaningTask_Result
 {
-  /// true - задача выполнена успешно, false - не удалось выполнить
   bool success;
-  /// количество "убранных" точек
   int32_t cleaned_points;
-  /// общее пройденное расстояние
   double total_distance;
 } action_cleaning_robot__action__CleaningTask_Result;
 
@@ -76,13 +68,9 @@ typedef struct action_cleaning_robot__action__CleaningTask_Result__Sequence
 /// Struct defined in action/CleaningTask in the package action_cleaning_robot.
 typedef struct action_cleaning_robot__action__CleaningTask_Feedback
 {
-  /// процент выполнения задачи (0-100)
   int32_t progress_percent;
-  /// текущее количество убранных точек
   int32_t current_cleaned_points;
-  /// текущая позиция X
   double current_x;
-  /// текущая позиция Y
   double current_y;
 } action_cleaning_robot__action__CleaningTask_Feedback;
 

@@ -3,8 +3,8 @@ CMakeFiles/action_cleaning_robot__rosidl_typesupport_fastrtps_c.dir/rosidl_types
  /usr/include/stdc-predef.h \
  /home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot/rosidl_typesupport_fastrtps_c/action_cleaning_robot/action/detail/cleaning_task__rosidl_typesupport_fastrtps_c.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
- /opt/ros/rolling/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
- /opt/ros/rolling/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -22,27 +22,27 @@ CMakeFiles/action_cleaning_robot__rosidl_typesupport_fastrtps_c.dir/rosidl_types
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /opt/ros/rolling/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
- /opt/ros/rolling/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
- /opt/ros/rolling/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /opt/ros/rolling/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
- /opt/ros/rolling/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
- /opt/ros/rolling/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h \
- /opt/ros/rolling/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h \
- /opt/ros/rolling/include/rcutils/rcutils/allocator.h \
- /opt/ros/rolling/include/rcutils/rcutils/macros.h \
- /opt/ros/rolling/include/rcutils/rcutils/types/rcutils_ret.h \
- /opt/ros/rolling/include/rcutils/rcutils/visibility_control.h \
- /opt/ros/rolling/include/rcutils/rcutils/visibility_control_macros.h \
- /opt/ros/rolling/include/rcutils/rcutils/sha256.h \
- /opt/ros/rolling/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /opt/ros/rolling/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/allocator.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/macros.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/types/rcutils_ret.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/visibility_control.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/visibility_control_macros.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/sha256.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+ /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot/rosidl_typesupport_fastrtps_c/action_cleaning_robot/msg/rosidl_typesupport_fastrtps_c__visibility_control.h \
  /home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot/rosidl_generator_c/action_cleaning_robot/action/detail/cleaning_task__struct.h \
- /opt/ros/rolling/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
- /opt/ros/rolling/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
- /opt/ros/rolling/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
- /opt/ros/rolling/include/fastcdr/fastcdr/Cdr.h /usr/include/c++/13/array \
+ /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+ /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/Cdr.h /usr/include/c++/13/array \
  /usr/include/c++/13/compare /usr/include/c++/13/initializer_list \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -142,10 +142,9 @@ CMakeFiles/action_cleaning_robot__rosidl_typesupport_fastrtps_c.dir/rosidl_types
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
  /usr/include/c++/13/cassert /usr/include/assert.h \
- /usr/include/c++/13/cstdint /usr/include/c++/13/cstring \
- /usr/include/string.h /usr/include/strings.h \
- /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
- /usr/include/c++/13/typeinfo /usr/include/c++/13/unordered_map \
+ /usr/include/c++/13/cstdint /usr/include/c++/13/functional \
+ /usr/include/c++/13/bits/std_function.h /usr/include/c++/13/typeinfo \
+ /usr/include/c++/13/unordered_map \
  /usr/include/c++/13/bits/unordered_map.h \
  /usr/include/c++/13/bits/hashtable.h \
  /usr/include/c++/13/bits/hashtable_policy.h \
@@ -164,19 +163,23 @@ CMakeFiles/action_cleaning_robot__rosidl_typesupport_fastrtps_c.dir/rosidl_types
  /usr/include/c++/13/bits/stl_tree.h /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h /usr/include/c++/13/utility \
  /usr/include/c++/13/bits/stl_relops.h \
- /opt/ros/rolling/include/fastcdr/fastcdr/fastcdr_dll.h \
- /opt/ros/rolling/include/fastcdr/fastcdr/config.h \
- /opt/ros/rolling/include/fastcdr/fastcdr/eProsima_auto_link.h \
- /opt/ros/rolling/include/fastcdr/fastcdr/CdrEncoding.hpp \
- /opt/ros/rolling/include/fastcdr/fastcdr/cdr/fixed_size_string.hpp \
- /opt/ros/rolling/include/fastcdr/fastcdr/detail/container_recursive_inspector.hpp \
- /opt/ros/rolling/include/fastcdr/fastcdr/exceptions/BadParamException.h \
- /opt/ros/rolling/include/fastcdr/fastcdr/exceptions/Exception.h \
- /opt/ros/rolling/include/fastcdr/fastcdr/fastcdr_dll.h \
- /opt/ros/rolling/include/fastcdr/fastcdr/exceptions/Exception.h \
- /opt/ros/rolling/include/fastcdr/fastcdr/exceptions/NotEnoughMemoryException.h \
- /opt/ros/rolling/include/fastcdr/fastcdr/FastBuffer.h \
- /opt/ros/rolling/include/fastcdr/fastcdr/xcdr/external.hpp \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/fastcdr_dll.h \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/config.h \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/eProsima_auto_link.h \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/CdrEncoding.hpp \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/cdr/fixed_size_string.hpp \
+ /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/detail/container_recursive_inspector.hpp \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/exceptions/BadParamException.h \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/exceptions/Exception.h \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/fastcdr_dll.h \
+ /usr/include/c++/13/exception /usr/include/c++/13/bits/exception_ptr.h \
+ /usr/include/c++/13/bits/cxxabi_init_exception.h \
+ /usr/include/c++/13/bits/nested_exception.h \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/exceptions/Exception.h \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/exceptions/NotEnoughMemoryException.h \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/FastBuffer.h \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/xcdr/external.hpp \
  /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
@@ -199,83 +202,79 @@ CMakeFiles/action_cleaning_robot__rosidl_typesupport_fastrtps_c.dir/rosidl_types
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
- /usr/include/c++/13/ext/concurrence.h /usr/include/c++/13/exception \
- /usr/include/c++/13/bits/exception_ptr.h \
- /usr/include/c++/13/bits/cxxabi_init_exception.h \
- /usr/include/c++/13/bits/nested_exception.h \
+ /usr/include/c++/13/ext/concurrence.h \
  /usr/include/c++/13/bits/shared_ptr_atomic.h \
  /usr/include/c++/13/bits/atomic_base.h \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /opt/ros/rolling/include/fastcdr/fastcdr/exceptions/LockedExternalAccessException.hpp \
- /opt/ros/rolling/include/fastcdr/fastcdr/xcdr/MemberId.hpp \
- /opt/ros/rolling/include/fastcdr/fastcdr/fastcdr_dll.h \
- /opt/ros/rolling/include/fastcdr/fastcdr/xcdr/optional.hpp \
- /opt/ros/rolling/include/fastcdr/fastcdr/xcdr/detail/optional.hpp \
- /opt/ros/rolling/include/fastcdr/fastcdr/exceptions/BadOptionalAccessException.hpp \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/exceptions/LockedExternalAccessException.hpp \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/xcdr/MemberId.hpp \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/fastcdr_dll.h \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/xcdr/optional.hpp \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/xcdr/detail/optional.hpp \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/exceptions/BadOptionalAccessException.hpp \
  /usr/include/malloc.h \
- /opt/ros/rolling/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /usr/include/c++/13/limits \
- /opt/ros/rolling/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/identifier.h \
- /opt/ros/rolling/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/visibility_control.h \
- /opt/ros/rolling/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/serialization_helpers.hpp \
+ /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/identifier.h \
+ /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/visibility_control.h \
+ /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/serialization_helpers.hpp \
  /usr/include/c++/13/stdexcept \
- /opt/ros/rolling/include/fastcdr/fastcdr/exceptions/BadParamException.h \
- /opt/ros/rolling/include/rosidl_runtime_c/rosidl_runtime_c/u16string.h \
- /opt/ros/rolling/include/rosidl_runtime_c/rosidl_runtime_c/u16string_functions.h \
- /opt/ros/rolling/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp \
- /opt/ros/rolling/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/message_type_support.h \
+ /opt/ros/jazzy/include/fastcdr/fastcdr/exceptions/BadParamException.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/u16string.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/u16string_functions.h \
+ /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp \
+ /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/message_type_support.h \
  /home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot/rosidl_generator_c/action_cleaning_robot/action/detail/cleaning_task__functions.h \
  /usr/include/c++/13/stdlib.h \
- /opt/ros/rolling/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot/rosidl_generator_c/action_cleaning_robot/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/rolling/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
- /opt/ros/rolling/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__functions.h \
- /opt/ros/rolling/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/rolling/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.h \
- /opt/ros/rolling/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/rolling/include/service_msgs/service_msgs/msg/detail/service_event_info__functions.h \
- /opt/ros/rolling/include/service_msgs/service_msgs/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/rolling/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/service_type_support.h \
- /opt/ros/rolling/include/rmw/rmw/types.h \
- /opt/ros/rolling/include/rcutils/rcutils/logging.h \
- /opt/ros/rolling/include/rcutils/rcutils/error_handling.h \
- /opt/ros/rolling/include/rcutils/rcutils/snprintf.h \
- /opt/ros/rolling/include/rcutils/rcutils/strnlen.h \
- /opt/ros/rolling/include/rcutils/rcutils/testing/fault_injection.h \
- /opt/ros/rolling/include/rcutils/rcutils/time.h \
- /opt/ros/rolling/include/rcutils/rcutils/types.h \
- /opt/ros/rolling/include/rcutils/rcutils/types/array_list.h \
- /opt/ros/rolling/include/rcutils/rcutils/types/char_array.h \
- /opt/ros/rolling/include/rcutils/rcutils/types/hash_map.h \
- /opt/ros/rolling/include/rcutils/rcutils/types/string_array.h \
- /opt/ros/rolling/include/rcutils/rcutils/qsort.h \
- /opt/ros/rolling/include/rcutils/rcutils/types/string_map.h \
- /opt/ros/rolling/include/rcutils/rcutils/types/uint8_array.h \
- /opt/ros/rolling/include/rmw/rmw/events_statuses/events_statuses.h \
- /opt/ros/rolling/include/rmw/rmw/events_statuses/incompatible_qos.h \
- /opt/ros/rolling/include/rmw/rmw/qos_policy_kind.h \
- /opt/ros/rolling/include/rmw/rmw/visibility_control.h \
- /opt/ros/rolling/include/rmw/rmw/events_statuses/incompatible_type.h \
- /opt/ros/rolling/include/rmw/rmw/events_statuses/liveliness_changed.h \
- /opt/ros/rolling/include/rmw/rmw/events_statuses/liveliness_lost.h \
- /opt/ros/rolling/include/rmw/rmw/events_statuses/matched.h \
- /opt/ros/rolling/include/rmw/rmw/events_statuses/message_lost.h \
- /opt/ros/rolling/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
- /opt/ros/rolling/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
- /opt/ros/rolling/include/rmw/rmw/init.h \
- /opt/ros/rolling/include/rmw/rmw/init_options.h \
- /opt/ros/rolling/include/rmw/rmw/discovery_options.h \
- /opt/ros/rolling/include/rmw/rmw/macros.h \
- /opt/ros/rolling/include/rmw/rmw/ret_types.h \
- /opt/ros/rolling/include/rmw/rmw/domain_id.h \
- /opt/ros/rolling/include/rmw/rmw/enclave.h \
- /opt/ros/rolling/include/rmw/rmw/security_options.h \
- /opt/ros/rolling/include/rmw/rmw/serialized_message.h \
- /opt/ros/rolling/include/rmw/rmw/subscription_content_filter_options.h \
- /opt/ros/rolling/include/rmw/rmw/time.h \
- /opt/ros/rolling/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
+ /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__functions.h \
+ /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.h \
+ /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__functions.h \
+ /opt/ros/jazzy/include/service_msgs/service_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/service_type_support.h \
+ /opt/ros/jazzy/include/rmw/rmw/types.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/logging.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/error_handling.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/snprintf.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/testing/fault_injection.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/time.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/types.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/types/array_list.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/types/char_array.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/types/hash_map.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/types/string_array.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/qsort.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/types/string_map.h \
+ /opt/ros/jazzy/include/rcutils/rcutils/types/uint8_array.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/events_statuses.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_qos.h \
+ /opt/ros/jazzy/include/rmw/rmw/qos_policy_kind.h \
+ /opt/ros/jazzy/include/rmw/rmw/visibility_control.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_type.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_changed.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_lost.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/matched.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/message_lost.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
+ /opt/ros/jazzy/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
+ /opt/ros/jazzy/include/rmw/rmw/init.h \
+ /opt/ros/jazzy/include/rmw/rmw/init_options.h \
+ /opt/ros/jazzy/include/rmw/rmw/discovery_options.h \
+ /opt/ros/jazzy/include/rmw/rmw/macros.h \
+ /opt/ros/jazzy/include/rmw/rmw/ret_types.h \
+ /opt/ros/jazzy/include/rmw/rmw/domain_id.h \
+ /opt/ros/jazzy/include/rmw/rmw/localhost.h \
+ /opt/ros/jazzy/include/rmw/rmw/security_options.h \
+ /opt/ros/jazzy/include/rmw/rmw/serialized_message.h \
+ /opt/ros/jazzy/include/rmw/rmw/subscription_content_filter_options.h \
+ /opt/ros/jazzy/include/rmw/rmw/time.h \
+ /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
  /home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot/rosidl_generator_c/action_cleaning_robot/action/cleaning_task.h \
  /home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot/rosidl_generator_c/action_cleaning_robot/action/detail/cleaning_task__type_support.h

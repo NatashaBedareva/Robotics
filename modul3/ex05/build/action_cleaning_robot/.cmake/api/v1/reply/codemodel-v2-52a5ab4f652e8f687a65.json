@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-97699cdbfce6074036b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "action_cleaning_robot__py",
+					"jsonFile" : "directory-action_cleaning_robot__py-a1bc7c620308f88dfc12.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot/action_cleaning_robot__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "action_cleaning_robot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "action_cleaning_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_cleaning_robot-c76b72bf15b23eca1048.json",
+					"name" : "action_cleaning_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_cleaning_robot__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_cleaning_robot__cpp-0b91c85f2d8c7a3f3505.json",
+					"name" : "action_cleaning_robot__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "action_cleaning_robot__py::@0259e1736d8eea0aa713",
+					"jsonFile" : "target-action_cleaning_robot__py-8f862f45e436289bb719.json",
+					"name" : "action_cleaning_robot__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_cleaning_robot__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_cleaning_robot__rosidl_generator_c-91ab1d6aaa75de297bd4.json",
+					"name" : "action_cleaning_robot__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_cleaning_robot__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_cleaning_robot__rosidl_generator_py-7c265e8caf6f2e2242e3.json",
+					"name" : "action_cleaning_robot__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_cleaning_robot__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_cleaning_robot__rosidl_generator_type_description-b0e2b3e3eaa642ba8714.json",
+					"name" : "action_cleaning_robot__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_cleaning_robot__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_cleaning_robot__rosidl_typesupport_c-cdd4f7e14fa429282f4e.json",
+					"name" : "action_cleaning_robot__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_cleaning_robot__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_cleaning_robot__rosidl_typesupport_cpp-612b46d0dbb7c40bdc93.json",
+					"name" : "action_cleaning_robot__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_cleaning_robot__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_cleaning_robot__rosidl_typesupport_fastrtps_c-bcac17ae7194e8d885b8.json",
+					"name" : "action_cleaning_robot__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_cleaning_robot__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_cleaning_robot__rosidl_typesupport_fastrtps_cpp-e213e04f1d11fbd7ad25.json",
+					"name" : "action_cleaning_robot__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_cleaning_robot__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_cleaning_robot__rosidl_typesupport_introspection_c-a01dc50827cd357a18ab.json",
+					"name" : "action_cleaning_robot__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_cleaning_robot__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_cleaning_robot__rosidl_typesupport_introspection_cpp-443eb4e5095c9d7493e4.json",
+					"name" : "action_cleaning_robot__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_cleaning_robot_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_cleaning_robot_s__rosidl_typesupport_c-3663cfa735a26d86171b.json",
+					"name" : "action_cleaning_robot_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_cleaning_robot_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_cleaning_robot_s__rosidl_typesupport_fastrtps_c-cad3e8408f1eb57879d3.json",
+					"name" : "action_cleaning_robot_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_cleaning_robot_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_cleaning_robot_s__rosidl_typesupport_introspection_c-591c8f3f26afd497aa0b.json",
+					"name" : "action_cleaning_robot_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_cleaning_robot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_cleaning_robot_uninstall-8fc34870019f01e57445.json",
+					"name" : "action_cleaning_robot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_action_cleaning_robot_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_action_cleaning_robot_egg-c4ac25af1f73ab48e91b.json",
+					"name" : "ament_cmake_python_build_action_cleaning_robot_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_action_cleaning_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_action_cleaning_robot-f89fb7edc950b0bae016.json",
+					"name" : "ament_cmake_python_copy_action_cleaning_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e1b65a33f0365c1055b0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/natalia/Documents/STUDING/robotix/modul3/ex05/build/action_cleaning_robot",
+		"source" : "/home/natalia/Documents/STUDING/robotix/modul3/ex05/action_cleaning_robot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

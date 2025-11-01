@@ -120,6 +120,20 @@ inline std::string to_yaml(const CleaningTask_Goal & msg, bool use_flow_style = 
 namespace rosidl_generator_traits
 {
 
+[[deprecated("use action_cleaning_robot::action::to_block_style_yaml() instead")]]
+inline void to_yaml(
+  const action_cleaning_robot::action::CleaningTask_Goal & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  action_cleaning_robot::action::to_block_style_yaml(msg, out, indentation);
+}
+
+[[deprecated("use action_cleaning_robot::action::to_yaml() instead")]]
+inline std::string to_yaml(const action_cleaning_robot::action::CleaningTask_Goal & msg)
+{
+  return action_cleaning_robot::action::to_yaml(msg);
+}
+
 template<>
 inline const char * data_type<action_cleaning_robot::action::CleaningTask_Goal>()
 {
@@ -231,6 +245,20 @@ inline std::string to_yaml(const CleaningTask_Result & msg, bool use_flow_style 
 
 namespace rosidl_generator_traits
 {
+
+[[deprecated("use action_cleaning_robot::action::to_block_style_yaml() instead")]]
+inline void to_yaml(
+  const action_cleaning_robot::action::CleaningTask_Result & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  action_cleaning_robot::action::to_block_style_yaml(msg, out, indentation);
+}
+
+[[deprecated("use action_cleaning_robot::action::to_yaml() instead")]]
+inline std::string to_yaml(const action_cleaning_robot::action::CleaningTask_Result & msg)
+{
+  return action_cleaning_robot::action::to_yaml(msg);
+}
 
 template<>
 inline const char * data_type<action_cleaning_robot::action::CleaningTask_Result>()
@@ -361,6 +389,20 @@ inline std::string to_yaml(const CleaningTask_Feedback & msg, bool use_flow_styl
 namespace rosidl_generator_traits
 {
 
+[[deprecated("use action_cleaning_robot::action::to_block_style_yaml() instead")]]
+inline void to_yaml(
+  const action_cleaning_robot::action::CleaningTask_Feedback & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  action_cleaning_robot::action::to_block_style_yaml(msg, out, indentation);
+}
+
+[[deprecated("use action_cleaning_robot::action::to_yaml() instead")]]
+inline std::string to_yaml(const action_cleaning_robot::action::CleaningTask_Feedback & msg)
+{
+  return action_cleaning_robot::action::to_yaml(msg);
+}
+
 template<>
 inline const char * data_type<action_cleaning_robot::action::CleaningTask_Feedback>()
 {
@@ -460,6 +502,20 @@ inline std::string to_yaml(const CleaningTask_SendGoal_Request & msg, bool use_f
 namespace rosidl_generator_traits
 {
 
+[[deprecated("use action_cleaning_robot::action::to_block_style_yaml() instead")]]
+inline void to_yaml(
+  const action_cleaning_robot::action::CleaningTask_SendGoal_Request & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  action_cleaning_robot::action::to_block_style_yaml(msg, out, indentation);
+}
+
+[[deprecated("use action_cleaning_robot::action::to_yaml() instead")]]
+inline std::string to_yaml(const action_cleaning_robot::action::CleaningTask_SendGoal_Request & msg)
+{
+  return action_cleaning_robot::action::to_yaml(msg);
+}
+
 template<>
 inline const char * data_type<action_cleaning_robot::action::CleaningTask_SendGoal_Request>()
 {
@@ -557,6 +613,20 @@ inline std::string to_yaml(const CleaningTask_SendGoal_Response & msg, bool use_
 
 namespace rosidl_generator_traits
 {
+
+[[deprecated("use action_cleaning_robot::action::to_block_style_yaml() instead")]]
+inline void to_yaml(
+  const action_cleaning_robot::action::CleaningTask_SendGoal_Response & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  action_cleaning_robot::action::to_block_style_yaml(msg, out, indentation);
+}
+
+[[deprecated("use action_cleaning_robot::action::to_yaml() instead")]]
+inline std::string to_yaml(const action_cleaning_robot::action::CleaningTask_SendGoal_Response & msg)
+{
+  return action_cleaning_robot::action::to_yaml(msg);
+}
 
 template<>
 inline const char * data_type<action_cleaning_robot::action::CleaningTask_SendGoal_Response>()
@@ -713,6 +783,20 @@ inline std::string to_yaml(const CleaningTask_SendGoal_Event & msg, bool use_flo
 namespace rosidl_generator_traits
 {
 
+[[deprecated("use action_cleaning_robot::action::to_block_style_yaml() instead")]]
+inline void to_yaml(
+  const action_cleaning_robot::action::CleaningTask_SendGoal_Event & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  action_cleaning_robot::action::to_block_style_yaml(msg, out, indentation);
+}
+
+[[deprecated("use action_cleaning_robot::action::to_yaml() instead")]]
+inline std::string to_yaml(const action_cleaning_robot::action::CleaningTask_SendGoal_Event & msg)
+{
+  return action_cleaning_robot::action::to_yaml(msg);
+}
+
 template<>
 inline const char * data_type<action_cleaning_robot::action::CleaningTask_SendGoal_Event>()
 {
@@ -850,6 +934,20 @@ inline std::string to_yaml(const CleaningTask_GetResult_Request & msg, bool use_
 namespace rosidl_generator_traits
 {
 
+[[deprecated("use action_cleaning_robot::action::to_block_style_yaml() instead")]]
+inline void to_yaml(
+  const action_cleaning_robot::action::CleaningTask_GetResult_Request & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  action_cleaning_robot::action::to_block_style_yaml(msg, out, indentation);
+}
+
+[[deprecated("use action_cleaning_robot::action::to_yaml() instead")]]
+inline std::string to_yaml(const action_cleaning_robot::action::CleaningTask_GetResult_Request & msg)
+{
+  return action_cleaning_robot::action::to_yaml(msg);
+}
+
 template<>
 inline const char * data_type<action_cleaning_robot::action::CleaningTask_GetResult_Request>()
 {
@@ -948,6 +1046,20 @@ inline std::string to_yaml(const CleaningTask_GetResult_Response & msg, bool use
 
 namespace rosidl_generator_traits
 {
+
+[[deprecated("use action_cleaning_robot::action::to_block_style_yaml() instead")]]
+inline void to_yaml(
+  const action_cleaning_robot::action::CleaningTask_GetResult_Response & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  action_cleaning_robot::action::to_block_style_yaml(msg, out, indentation);
+}
+
+[[deprecated("use action_cleaning_robot::action::to_yaml() instead")]]
+inline std::string to_yaml(const action_cleaning_robot::action::CleaningTask_GetResult_Response & msg)
+{
+  return action_cleaning_robot::action::to_yaml(msg);
+}
 
 template<>
 inline const char * data_type<action_cleaning_robot::action::CleaningTask_GetResult_Response>()
@@ -1105,6 +1217,20 @@ inline std::string to_yaml(const CleaningTask_GetResult_Event & msg, bool use_fl
 namespace rosidl_generator_traits
 {
 
+[[deprecated("use action_cleaning_robot::action::to_block_style_yaml() instead")]]
+inline void to_yaml(
+  const action_cleaning_robot::action::CleaningTask_GetResult_Event & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  action_cleaning_robot::action::to_block_style_yaml(msg, out, indentation);
+}
+
+[[deprecated("use action_cleaning_robot::action::to_yaml() instead")]]
+inline std::string to_yaml(const action_cleaning_robot::action::CleaningTask_GetResult_Event & msg)
+{
+  return action_cleaning_robot::action::to_yaml(msg);
+}
+
 template<>
 inline const char * data_type<action_cleaning_robot::action::CleaningTask_GetResult_Event>()
 {
@@ -1261,6 +1387,20 @@ inline std::string to_yaml(const CleaningTask_FeedbackMessage & msg, bool use_fl
 namespace rosidl_generator_traits
 {
 
+[[deprecated("use action_cleaning_robot::action::to_block_style_yaml() instead")]]
+inline void to_yaml(
+  const action_cleaning_robot::action::CleaningTask_FeedbackMessage & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  action_cleaning_robot::action::to_block_style_yaml(msg, out, indentation);
+}
+
+[[deprecated("use action_cleaning_robot::action::to_yaml() instead")]]
+inline std::string to_yaml(const action_cleaning_robot::action::CleaningTask_FeedbackMessage & msg)
+{
+  return action_cleaning_robot::action::to_yaml(msg);
+}
+
 template<>
 inline const char * data_type<action_cleaning_robot::action::CleaningTask_FeedbackMessage>()
 {
@@ -1290,18 +1430,6 @@ struct is_message<action_cleaning_robot::action::CleaningTask_FeedbackMessage>
 
 namespace rosidl_generator_traits
 {
-
-template<>
-inline const char * data_type<action_cleaning_robot::action::CleaningTask>()
-{
-  return "action_cleaning_robot::action::CleaningTask";
-}
-
-template<>
-inline const char * name<action_cleaning_robot::action::CleaningTask>()
-{
-  return "action_cleaning_robot/action/CleaningTask";
-}
 
 template<>
 struct is_action<action_cleaning_robot::action::CleaningTask>

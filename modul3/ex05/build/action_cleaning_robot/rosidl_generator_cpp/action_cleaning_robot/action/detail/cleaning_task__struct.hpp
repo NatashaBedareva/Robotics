@@ -10,7 +10,6 @@
 
 #include <algorithm>
 #include <array>
-#include <cstdint>
 #include <memory>
 #include <string>
 #include <vector>

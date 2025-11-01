@@ -67,11 +67,11 @@ include CMakeFiles/action_cleaning_robot.dir/compiler_depend.make
 include CMakeFiles/action_cleaning_robot.dir/progress.make
 
 CMakeFiles/action_cleaning_robot: /home/natalia/Documents/STUDING/robotix/modul3/ex05/action_cleaning_robot/action/CleaningTask.action
-CMakeFiles/action_cleaning_robot: /opt/ros/rolling/share/service_msgs/msg/ServiceEventInfo.idl
-CMakeFiles/action_cleaning_robot: /opt/ros/rolling/share/action_msgs/msg/GoalInfo.idl
-CMakeFiles/action_cleaning_robot: /opt/ros/rolling/share/action_msgs/msg/GoalStatus.idl
-CMakeFiles/action_cleaning_robot: /opt/ros/rolling/share/action_msgs/msg/GoalStatusArray.idl
-CMakeFiles/action_cleaning_robot: /opt/ros/rolling/share/action_msgs/srv/CancelGoal.idl
+CMakeFiles/action_cleaning_robot: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+CMakeFiles/action_cleaning_robot: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/action_cleaning_robot: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/action_cleaning_robot: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/action_cleaning_robot: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
 
 action_cleaning_robot: CMakeFiles/action_cleaning_robot
 action_cleaning_robot: CMakeFiles/action_cleaning_robot.dir/build.make

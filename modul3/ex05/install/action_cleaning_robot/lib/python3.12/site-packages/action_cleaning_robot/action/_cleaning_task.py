@@ -2,23 +2,12 @@
 # with input from action_cleaning_robot:action/CleaningTask.idl
 # generated code does not contain a copyright notice
 
-from __future__ import annotations
-
-import collections.abc
-from os import getenv
-import typing
-
 # This is being done at the module level and not on the instance level to avoid looking
 # for the same variable multiple times on each instance. This variable is not supposed to
 # change during runtime so it makes sense to only look for it once.
+from os import getenv
+
 ros_python_check_fields = getenv('ROS_PYTHON_CHECK_FIELDS', default='')
-
-
-if typing.TYPE_CHECKING:
-    from ctypes import Structure
-
-    class PyCapsule(Structure):
-        pass  # don't need to define the full structure
 
 
 # Import statements for member types
@@ -33,22 +22,19 @@ import rosidl_parser.definition  # noqa: E402, I100
 class Metaclass_CleaningTask_Goal(type):
     """Metaclass of message 'CleaningTask_Goal'."""
 
-    _CREATE_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_FROM_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_TO_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _DESTROY_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _TYPE_SUPPORT: typing.ClassVar[typing.Optional[PyCapsule]] = None
+    _CREATE_ROS_MESSAGE = None
+    _CONVERT_FROM_PY = None
+    _CONVERT_TO_PY = None
+    _DESTROY_ROS_MESSAGE = None
+    _TYPE_SUPPORT = None
 
-    class CleaningTask_GoalConstants(typing.TypedDict):
-        pass
-
-    __constants: CleaningTask_GoalConstants = {
+    __constants = {
     }
 
     @classmethod
-    def __import_type_support__(cls) -> None:
+    def __import_type_support__(cls):
         try:
-            from rosidl_generator_py import import_type_support  # type: ignore[attr-defined]
+            from rosidl_generator_py import import_type_support
             module = import_type_support('action_cleaning_robot')
         except ImportError:
             import logging
@@ -66,7 +52,7 @@ class Metaclass_CleaningTask_Goal(type):
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__action__cleaning_task__goal
 
     @classmethod
-    def __prepare__(metacls, name: str, bases: tuple[type[typing.Any], ...], /, **kwds: typing.Any) -> collections.abc.MutableMapping[str, object]:
+    def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
@@ -85,7 +71,7 @@ class CleaningTask_Goal(metaclass=Metaclass_CleaningTask_Goal):
         '_check_fields',
     ]
 
-    _fields_and_field_types: dict[str, str] = {
+    _fields_and_field_types = {
         'task_type': 'string',
         'area_size': 'double',
         'target_x': 'double',
@@ -94,33 +80,32 @@ class CleaningTask_Goal(metaclass=Metaclass_CleaningTask_Goal):
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
-    SLOT_TYPES: tuple[rosidl_parser.definition.AbstractType, ...] = (
+    SLOT_TYPES = (
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
     )
 
-    def __init__(self, *,
-                 task_type: typing.Optional[str] = None,  # noqa: E501
-                 area_size: typing.Optional[float] = None,  # noqa: E501
-                 target_x: typing.Optional[float] = None,  # noqa: E501
-                 target_y: typing.Optional[float] = None,  # noqa: E501
-                 check_fields: typing.Optional[bool] = None) -> None:
-        if check_fields is not None:
-            self._check_fields = check_fields
+    def __init__(self, **kwargs):
+        if 'check_fields' in kwargs:
+            self._check_fields = kwargs['check_fields']
         else:
             self._check_fields = ros_python_check_fields == '1'
-        self.task_type = task_type if task_type is not None else str()
-        self.area_size = area_size if area_size is not None else float()
-        self.target_x = target_x if target_x is not None else float()
-        self.target_y = target_y if target_y is not None else float()
+        if self._check_fields:
+            assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
+                'Invalid arguments passed to constructor: %s' % \
+                ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        self.task_type = kwargs.get('task_type', str())
+        self.area_size = kwargs.get('area_size', float())
+        self.target_x = kwargs.get('target_x', float())
+        self.target_y = kwargs.get('target_y', float())
 
-    def __repr__(self) -> str:
+    def __repr__(self):
         typename = self.__class__.__module__.split('.')
         typename.pop()
         typename.append(self.__class__.__name__)
-        args: list[str] = []
+        args = []
         for s, t in zip(self.get_fields_and_field_types().keys(), self.SLOT_TYPES):
             field = getattr(self, s)
             fieldstr = repr(field)
@@ -143,8 +128,8 @@ class CleaningTask_Goal(metaclass=Metaclass_CleaningTask_Goal):
             args.append(s + '=' + fieldstr)
         return '%s(%s)' % ('.'.join(typename), ', '.join(args))
 
-    def __eq__(self, other: object) -> bool:
-        if not isinstance(other, CleaningTask_Goal):
+    def __eq__(self, other):
+        if not isinstance(other, self.__class__):
             return False
         if self.task_type != other.task_type:
             return False
@@ -157,17 +142,17 @@ class CleaningTask_Goal(metaclass=Metaclass_CleaningTask_Goal):
         return True
 
     @classmethod
-    def get_fields_and_field_types(cls) -> dict[str, str]:
+    def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def task_type(self) -> str:
+    def task_type(self):
         """Message field 'task_type'."""
         return self._task_type
 
     @task_type.setter
-    def task_type(self, value: str) -> None:
+    def task_type(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, str), \
@@ -175,12 +160,12 @@ class CleaningTask_Goal(metaclass=Metaclass_CleaningTask_Goal):
         self._task_type = value
 
     @builtins.property
-    def area_size(self) -> float:
+    def area_size(self):
         """Message field 'area_size'."""
         return self._area_size
 
     @area_size.setter
-    def area_size(self, value: float) -> None:
+    def area_size(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
@@ -190,12 +175,12 @@ class CleaningTask_Goal(metaclass=Metaclass_CleaningTask_Goal):
         self._area_size = value
 
     @builtins.property
-    def target_x(self) -> float:
+    def target_x(self):
         """Message field 'target_x'."""
         return self._target_x
 
     @target_x.setter
-    def target_x(self, value: float) -> None:
+    def target_x(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
@@ -205,12 +190,12 @@ class CleaningTask_Goal(metaclass=Metaclass_CleaningTask_Goal):
         self._target_x = value
 
     @builtins.property
-    def target_y(self) -> float:
+    def target_y(self):
         """Message field 'target_y'."""
         return self._target_y
 
     @target_y.setter
-    def target_y(self, value: float) -> None:
+    def target_y(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
@@ -218,10 +203,6 @@ class CleaningTask_Goal(metaclass=Metaclass_CleaningTask_Goal):
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
                 "The 'target_y' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._target_y = value
-
-
-if typing.TYPE_CHECKING:
-    pass
 
 
 # Import statements for member types
@@ -239,22 +220,19 @@ if typing.TYPE_CHECKING:
 class Metaclass_CleaningTask_Result(type):
     """Metaclass of message 'CleaningTask_Result'."""
 
-    _CREATE_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_FROM_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_TO_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _DESTROY_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _TYPE_SUPPORT: typing.ClassVar[typing.Optional[PyCapsule]] = None
+    _CREATE_ROS_MESSAGE = None
+    _CONVERT_FROM_PY = None
+    _CONVERT_TO_PY = None
+    _DESTROY_ROS_MESSAGE = None
+    _TYPE_SUPPORT = None
 
-    class CleaningTask_ResultConstants(typing.TypedDict):
-        pass
-
-    __constants: CleaningTask_ResultConstants = {
+    __constants = {
     }
 
     @classmethod
-    def __import_type_support__(cls) -> None:
+    def __import_type_support__(cls):
         try:
-            from rosidl_generator_py import import_type_support  # type: ignore[attr-defined]
+            from rosidl_generator_py import import_type_support
             module = import_type_support('action_cleaning_robot')
         except ImportError:
             import logging
@@ -272,7 +250,7 @@ class Metaclass_CleaningTask_Result(type):
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__action__cleaning_task__result
 
     @classmethod
-    def __prepare__(metacls, name: str, bases: tuple[type[typing.Any], ...], /, **kwds: typing.Any) -> collections.abc.MutableMapping[str, object]:
+    def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
@@ -290,7 +268,7 @@ class CleaningTask_Result(metaclass=Metaclass_CleaningTask_Result):
         '_check_fields',
     ]
 
-    _fields_and_field_types: dict[str, str] = {
+    _fields_and_field_types = {
         'success': 'boolean',
         'cleaned_points': 'int32',
         'total_distance': 'double',
@@ -298,30 +276,30 @@ class CleaningTask_Result(metaclass=Metaclass_CleaningTask_Result):
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
-    SLOT_TYPES: tuple[rosidl_parser.definition.AbstractType, ...] = (
+    SLOT_TYPES = (
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
     )
 
-    def __init__(self, *,
-                 success: typing.Optional[bool] = None,  # noqa: E501
-                 cleaned_points: typing.Optional[int] = None,  # noqa: E501
-                 total_distance: typing.Optional[float] = None,  # noqa: E501
-                 check_fields: typing.Optional[bool] = None) -> None:
-        if check_fields is not None:
-            self._check_fields = check_fields
+    def __init__(self, **kwargs):
+        if 'check_fields' in kwargs:
+            self._check_fields = kwargs['check_fields']
         else:
             self._check_fields = ros_python_check_fields == '1'
-        self.success = success if success is not None else bool()
-        self.cleaned_points = cleaned_points if cleaned_points is not None else int()
-        self.total_distance = total_distance if total_distance is not None else float()
+        if self._check_fields:
+            assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
+                'Invalid arguments passed to constructor: %s' % \
+                ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        self.success = kwargs.get('success', bool())
+        self.cleaned_points = kwargs.get('cleaned_points', int())
+        self.total_distance = kwargs.get('total_distance', float())
 
-    def __repr__(self) -> str:
+    def __repr__(self):
         typename = self.__class__.__module__.split('.')
         typename.pop()
         typename.append(self.__class__.__name__)
-        args: list[str] = []
+        args = []
         for s, t in zip(self.get_fields_and_field_types().keys(), self.SLOT_TYPES):
             field = getattr(self, s)
             fieldstr = repr(field)
@@ -344,8 +322,8 @@ class CleaningTask_Result(metaclass=Metaclass_CleaningTask_Result):
             args.append(s + '=' + fieldstr)
         return '%s(%s)' % ('.'.join(typename), ', '.join(args))
 
-    def __eq__(self, other: object) -> bool:
-        if not isinstance(other, CleaningTask_Result):
+    def __eq__(self, other):
+        if not isinstance(other, self.__class__):
             return False
         if self.success != other.success:
             return False
@@ -356,17 +334,17 @@ class CleaningTask_Result(metaclass=Metaclass_CleaningTask_Result):
         return True
 
     @classmethod
-    def get_fields_and_field_types(cls) -> dict[str, str]:
+    def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def success(self) -> bool:
+    def success(self):
         """Message field 'success'."""
         return self._success
 
     @success.setter
-    def success(self, value: bool) -> None:
+    def success(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, bool), \
@@ -374,12 +352,12 @@ class CleaningTask_Result(metaclass=Metaclass_CleaningTask_Result):
         self._success = value
 
     @builtins.property
-    def cleaned_points(self) -> int:
+    def cleaned_points(self):
         """Message field 'cleaned_points'."""
         return self._cleaned_points
 
     @cleaned_points.setter
-    def cleaned_points(self, value: int) -> None:
+    def cleaned_points(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, int), \
@@ -389,12 +367,12 @@ class CleaningTask_Result(metaclass=Metaclass_CleaningTask_Result):
         self._cleaned_points = value
 
     @builtins.property
-    def total_distance(self) -> float:
+    def total_distance(self):
         """Message field 'total_distance'."""
         return self._total_distance
 
     @total_distance.setter
-    def total_distance(self, value: float) -> None:
+    def total_distance(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
@@ -402,10 +380,6 @@ class CleaningTask_Result(metaclass=Metaclass_CleaningTask_Result):
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
                 "The 'total_distance' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._total_distance = value
-
-
-if typing.TYPE_CHECKING:
-    pass
 
 
 # Import statements for member types
@@ -423,22 +397,19 @@ if typing.TYPE_CHECKING:
 class Metaclass_CleaningTask_Feedback(type):
     """Metaclass of message 'CleaningTask_Feedback'."""
 
-    _CREATE_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_FROM_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_TO_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _DESTROY_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _TYPE_SUPPORT: typing.ClassVar[typing.Optional[PyCapsule]] = None
+    _CREATE_ROS_MESSAGE = None
+    _CONVERT_FROM_PY = None
+    _CONVERT_TO_PY = None
+    _DESTROY_ROS_MESSAGE = None
+    _TYPE_SUPPORT = None
 
-    class CleaningTask_FeedbackConstants(typing.TypedDict):
-        pass
-
-    __constants: CleaningTask_FeedbackConstants = {
+    __constants = {
     }
 
     @classmethod
-    def __import_type_support__(cls) -> None:
+    def __import_type_support__(cls):
         try:
-            from rosidl_generator_py import import_type_support  # type: ignore[attr-defined]
+            from rosidl_generator_py import import_type_support
             module = import_type_support('action_cleaning_robot')
         except ImportError:
             import logging
@@ -456,7 +427,7 @@ class Metaclass_CleaningTask_Feedback(type):
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__action__cleaning_task__feedback
 
     @classmethod
-    def __prepare__(metacls, name: str, bases: tuple[type[typing.Any], ...], /, **kwds: typing.Any) -> collections.abc.MutableMapping[str, object]:
+    def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
@@ -475,7 +446,7 @@ class CleaningTask_Feedback(metaclass=Metaclass_CleaningTask_Feedback):
         '_check_fields',
     ]
 
-    _fields_and_field_types: dict[str, str] = {
+    _fields_and_field_types = {
         'progress_percent': 'int32',
         'current_cleaned_points': 'int32',
         'current_x': 'double',
@@ -484,33 +455,32 @@ class CleaningTask_Feedback(metaclass=Metaclass_CleaningTask_Feedback):
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
-    SLOT_TYPES: tuple[rosidl_parser.definition.AbstractType, ...] = (
+    SLOT_TYPES = (
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
     )
 
-    def __init__(self, *,
-                 progress_percent: typing.Optional[int] = None,  # noqa: E501
-                 current_cleaned_points: typing.Optional[int] = None,  # noqa: E501
-                 current_x: typing.Optional[float] = None,  # noqa: E501
-                 current_y: typing.Optional[float] = None,  # noqa: E501
-                 check_fields: typing.Optional[bool] = None) -> None:
-        if check_fields is not None:
-            self._check_fields = check_fields
+    def __init__(self, **kwargs):
+        if 'check_fields' in kwargs:
+            self._check_fields = kwargs['check_fields']
         else:
             self._check_fields = ros_python_check_fields == '1'
-        self.progress_percent = progress_percent if progress_percent is not None else int()
-        self.current_cleaned_points = current_cleaned_points if current_cleaned_points is not None else int()
-        self.current_x = current_x if current_x is not None else float()
-        self.current_y = current_y if current_y is not None else float()
+        if self._check_fields:
+            assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
+                'Invalid arguments passed to constructor: %s' % \
+                ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        self.progress_percent = kwargs.get('progress_percent', int())
+        self.current_cleaned_points = kwargs.get('current_cleaned_points', int())
+        self.current_x = kwargs.get('current_x', float())
+        self.current_y = kwargs.get('current_y', float())
 
-    def __repr__(self) -> str:
+    def __repr__(self):
         typename = self.__class__.__module__.split('.')
         typename.pop()
         typename.append(self.__class__.__name__)
-        args: list[str] = []
+        args = []
         for s, t in zip(self.get_fields_and_field_types().keys(), self.SLOT_TYPES):
             field = getattr(self, s)
             fieldstr = repr(field)
@@ -533,8 +503,8 @@ class CleaningTask_Feedback(metaclass=Metaclass_CleaningTask_Feedback):
             args.append(s + '=' + fieldstr)
         return '%s(%s)' % ('.'.join(typename), ', '.join(args))
 
-    def __eq__(self, other: object) -> bool:
-        if not isinstance(other, CleaningTask_Feedback):
+    def __eq__(self, other):
+        if not isinstance(other, self.__class__):
             return False
         if self.progress_percent != other.progress_percent:
             return False
@@ -547,17 +517,17 @@ class CleaningTask_Feedback(metaclass=Metaclass_CleaningTask_Feedback):
         return True
 
     @classmethod
-    def get_fields_and_field_types(cls) -> dict[str, str]:
+    def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def progress_percent(self) -> int:
+    def progress_percent(self):
         """Message field 'progress_percent'."""
         return self._progress_percent
 
     @progress_percent.setter
-    def progress_percent(self, value: int) -> None:
+    def progress_percent(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, int), \
@@ -567,12 +537,12 @@ class CleaningTask_Feedback(metaclass=Metaclass_CleaningTask_Feedback):
         self._progress_percent = value
 
     @builtins.property
-    def current_cleaned_points(self) -> int:
+    def current_cleaned_points(self):
         """Message field 'current_cleaned_points'."""
         return self._current_cleaned_points
 
     @current_cleaned_points.setter
-    def current_cleaned_points(self, value: int) -> None:
+    def current_cleaned_points(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, int), \
@@ -582,12 +552,12 @@ class CleaningTask_Feedback(metaclass=Metaclass_CleaningTask_Feedback):
         self._current_cleaned_points = value
 
     @builtins.property
-    def current_x(self) -> float:
+    def current_x(self):
         """Message field 'current_x'."""
         return self._current_x
 
     @current_x.setter
-    def current_x(self, value: float) -> None:
+    def current_x(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
@@ -597,12 +567,12 @@ class CleaningTask_Feedback(metaclass=Metaclass_CleaningTask_Feedback):
         self._current_x = value
 
     @builtins.property
-    def current_y(self) -> float:
+    def current_y(self):
         """Message field 'current_y'."""
         return self._current_y
 
     @current_y.setter
-    def current_y(self, value: float) -> None:
+    def current_y(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
@@ -610,10 +580,6 @@ class CleaningTask_Feedback(metaclass=Metaclass_CleaningTask_Feedback):
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
                 "The 'current_y' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._current_y = value
-
-
-if typing.TYPE_CHECKING:
-    from unique_identifier_msgs.msg import UUID
 
 
 # Import statements for member types
@@ -628,22 +594,19 @@ if typing.TYPE_CHECKING:
 class Metaclass_CleaningTask_SendGoal_Request(type):
     """Metaclass of message 'CleaningTask_SendGoal_Request'."""
 
-    _CREATE_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_FROM_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_TO_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _DESTROY_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _TYPE_SUPPORT: typing.ClassVar[typing.Optional[PyCapsule]] = None
+    _CREATE_ROS_MESSAGE = None
+    _CONVERT_FROM_PY = None
+    _CONVERT_TO_PY = None
+    _DESTROY_ROS_MESSAGE = None
+    _TYPE_SUPPORT = None
 
-    class CleaningTask_SendGoal_RequestConstants(typing.TypedDict):
-        pass
-
-    __constants: CleaningTask_SendGoal_RequestConstants = {
+    __constants = {
     }
 
     @classmethod
-    def __import_type_support__(cls) -> None:
+    def __import_type_support__(cls):
         try:
-            from rosidl_generator_py import import_type_support  # type: ignore[attr-defined]
+            from rosidl_generator_py import import_type_support
             module = import_type_support('action_cleaning_robot')
         except ImportError:
             import logging
@@ -661,15 +624,15 @@ class Metaclass_CleaningTask_SendGoal_Request(type):
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__action__cleaning_task__send_goal__request
 
             from action_cleaning_robot.action import CleaningTask
-            if CleaningTask.Goal._TYPE_SUPPORT is None:
-                CleaningTask.Goal.__import_type_support__()
+            if CleaningTask.Goal.__class__._TYPE_SUPPORT is None:
+                CleaningTask.Goal.__class__.__import_type_support__()
 
             from unique_identifier_msgs.msg import UUID
-            if UUID._TYPE_SUPPORT is None:
-                UUID.__import_type_support__()
+            if UUID.__class__._TYPE_SUPPORT is None:
+                UUID.__class__.__import_type_support__()
 
     @classmethod
-    def __prepare__(metacls, name: str, bases: tuple[type[typing.Any], ...], /, **kwds: typing.Any) -> collections.abc.MutableMapping[str, object]:
+    def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
@@ -686,36 +649,37 @@ class CleaningTask_SendGoal_Request(metaclass=Metaclass_CleaningTask_SendGoal_Re
         '_check_fields',
     ]
 
-    _fields_and_field_types: dict[str, str] = {
+    _fields_and_field_types = {
         'goal_id': 'unique_identifier_msgs/UUID',
         'goal': 'action_cleaning_robot/CleaningTask_Goal',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
-    SLOT_TYPES: tuple[rosidl_parser.definition.AbstractType, ...] = (
+    SLOT_TYPES = (
         rosidl_parser.definition.NamespacedType(['unique_identifier_msgs', 'msg'], 'UUID'),  # noqa: E501
         rosidl_parser.definition.NamespacedType(['action_cleaning_robot', 'action'], 'CleaningTask_Goal'),  # noqa: E501
     )
 
-    def __init__(self, *,
-                 goal_id: typing.Optional[UUID] = None,  # noqa: E501
-                 goal: typing.Optional[CleaningTask_Goal] = None,  # noqa: E501
-                 check_fields: typing.Optional[bool] = None) -> None:
-        if check_fields is not None:
-            self._check_fields = check_fields
+    def __init__(self, **kwargs):
+        if 'check_fields' in kwargs:
+            self._check_fields = kwargs['check_fields']
         else:
             self._check_fields = ros_python_check_fields == '1'
+        if self._check_fields:
+            assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
+                'Invalid arguments passed to constructor: %s' % \
+                ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         from unique_identifier_msgs.msg import UUID
-        self.goal_id = goal_id if goal_id is not None else UUID()
+        self.goal_id = kwargs.get('goal_id', UUID())
         from action_cleaning_robot.action._cleaning_task import CleaningTask_Goal
-        self.goal = goal if goal is not None else CleaningTask_Goal()
+        self.goal = kwargs.get('goal', CleaningTask_Goal())
 
-    def __repr__(self) -> str:
+    def __repr__(self):
         typename = self.__class__.__module__.split('.')
         typename.pop()
         typename.append(self.__class__.__name__)
-        args: list[str] = []
+        args = []
         for s, t in zip(self.get_fields_and_field_types().keys(), self.SLOT_TYPES):
             field = getattr(self, s)
             fieldstr = repr(field)
@@ -738,8 +702,8 @@ class CleaningTask_SendGoal_Request(metaclass=Metaclass_CleaningTask_SendGoal_Re
             args.append(s + '=' + fieldstr)
         return '%s(%s)' % ('.'.join(typename), ', '.join(args))
 
-    def __eq__(self, other: object) -> bool:
-        if not isinstance(other, CleaningTask_SendGoal_Request):
+    def __eq__(self, other):
+        if not isinstance(other, self.__class__):
             return False
         if self.goal_id != other.goal_id:
             return False
@@ -748,17 +712,17 @@ class CleaningTask_SendGoal_Request(metaclass=Metaclass_CleaningTask_SendGoal_Re
         return True
 
     @classmethod
-    def get_fields_and_field_types(cls) -> dict[str, str]:
+    def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def goal_id(self) -> UUID:
+    def goal_id(self):
         """Message field 'goal_id'."""
         return self._goal_id
 
     @goal_id.setter
-    def goal_id(self, value: UUID) -> None:
+    def goal_id(self, value):
         if self._check_fields:
             from unique_identifier_msgs.msg import UUID
             assert \
@@ -767,22 +731,18 @@ class CleaningTask_SendGoal_Request(metaclass=Metaclass_CleaningTask_SendGoal_Re
         self._goal_id = value
 
     @builtins.property
-    def goal(self) -> CleaningTask_Goal:
+    def goal(self):
         """Message field 'goal'."""
         return self._goal
 
     @goal.setter
-    def goal(self, value: CleaningTask_Goal) -> None:
+    def goal(self, value):
         if self._check_fields:
             from action_cleaning_robot.action._cleaning_task import CleaningTask_Goal
             assert \
                 isinstance(value, CleaningTask_Goal), \
                 "The 'goal' field must be a sub message of type 'CleaningTask_Goal'"
         self._goal = value
-
-
-if typing.TYPE_CHECKING:
-    from builtin_interfaces.msg import Time
 
 
 # Import statements for member types
@@ -797,22 +757,19 @@ if typing.TYPE_CHECKING:
 class Metaclass_CleaningTask_SendGoal_Response(type):
     """Metaclass of message 'CleaningTask_SendGoal_Response'."""
 
-    _CREATE_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_FROM_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_TO_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _DESTROY_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _TYPE_SUPPORT: typing.ClassVar[typing.Optional[PyCapsule]] = None
+    _CREATE_ROS_MESSAGE = None
+    _CONVERT_FROM_PY = None
+    _CONVERT_TO_PY = None
+    _DESTROY_ROS_MESSAGE = None
+    _TYPE_SUPPORT = None
 
-    class CleaningTask_SendGoal_ResponseConstants(typing.TypedDict):
-        pass
-
-    __constants: CleaningTask_SendGoal_ResponseConstants = {
+    __constants = {
     }
 
     @classmethod
-    def __import_type_support__(cls) -> None:
+    def __import_type_support__(cls):
         try:
-            from rosidl_generator_py import import_type_support  # type: ignore[attr-defined]
+            from rosidl_generator_py import import_type_support
             module = import_type_support('action_cleaning_robot')
         except ImportError:
             import logging
@@ -830,11 +787,11 @@ class Metaclass_CleaningTask_SendGoal_Response(type):
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__action__cleaning_task__send_goal__response
 
             from builtin_interfaces.msg import Time
-            if Time._TYPE_SUPPORT is None:
-                Time.__import_type_support__()
+            if Time.__class__._TYPE_SUPPORT is None:
+                Time.__class__.__import_type_support__()
 
     @classmethod
-    def __prepare__(metacls, name: str, bases: tuple[type[typing.Any], ...], /, **kwds: typing.Any) -> collections.abc.MutableMapping[str, object]:
+    def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
@@ -851,35 +808,36 @@ class CleaningTask_SendGoal_Response(metaclass=Metaclass_CleaningTask_SendGoal_R
         '_check_fields',
     ]
 
-    _fields_and_field_types: dict[str, str] = {
+    _fields_and_field_types = {
         'accepted': 'boolean',
         'stamp': 'builtin_interfaces/Time',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
-    SLOT_TYPES: tuple[rosidl_parser.definition.AbstractType, ...] = (
+    SLOT_TYPES = (
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.NamespacedType(['builtin_interfaces', 'msg'], 'Time'),  # noqa: E501
     )
 
-    def __init__(self, *,
-                 accepted: typing.Optional[bool] = None,  # noqa: E501
-                 stamp: typing.Optional[Time] = None,  # noqa: E501
-                 check_fields: typing.Optional[bool] = None) -> None:
-        if check_fields is not None:
-            self._check_fields = check_fields
+    def __init__(self, **kwargs):
+        if 'check_fields' in kwargs:
+            self._check_fields = kwargs['check_fields']
         else:
             self._check_fields = ros_python_check_fields == '1'
-        self.accepted = accepted if accepted is not None else bool()
+        if self._check_fields:
+            assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
+                'Invalid arguments passed to constructor: %s' % \
+                ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        self.accepted = kwargs.get('accepted', bool())
         from builtin_interfaces.msg import Time
-        self.stamp = stamp if stamp is not None else Time()
+        self.stamp = kwargs.get('stamp', Time())
 
-    def __repr__(self) -> str:
+    def __repr__(self):
         typename = self.__class__.__module__.split('.')
         typename.pop()
         typename.append(self.__class__.__name__)
-        args: list[str] = []
+        args = []
         for s, t in zip(self.get_fields_and_field_types().keys(), self.SLOT_TYPES):
             field = getattr(self, s)
             fieldstr = repr(field)
@@ -902,8 +860,8 @@ class CleaningTask_SendGoal_Response(metaclass=Metaclass_CleaningTask_SendGoal_R
             args.append(s + '=' + fieldstr)
         return '%s(%s)' % ('.'.join(typename), ', '.join(args))
 
-    def __eq__(self, other: object) -> bool:
-        if not isinstance(other, CleaningTask_SendGoal_Response):
+    def __eq__(self, other):
+        if not isinstance(other, self.__class__):
             return False
         if self.accepted != other.accepted:
             return False
@@ -912,17 +870,17 @@ class CleaningTask_SendGoal_Response(metaclass=Metaclass_CleaningTask_SendGoal_R
         return True
 
     @classmethod
-    def get_fields_and_field_types(cls) -> dict[str, str]:
+    def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def accepted(self) -> bool:
+    def accepted(self):
         """Message field 'accepted'."""
         return self._accepted
 
     @accepted.setter
-    def accepted(self, value: bool) -> None:
+    def accepted(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, bool), \
@@ -930,23 +888,18 @@ class CleaningTask_SendGoal_Response(metaclass=Metaclass_CleaningTask_SendGoal_R
         self._accepted = value
 
     @builtins.property
-    def stamp(self) -> Time:
+    def stamp(self):
         """Message field 'stamp'."""
         return self._stamp
 
     @stamp.setter
-    def stamp(self, value: Time) -> None:
+    def stamp(self, value):
         if self._check_fields:
             from builtin_interfaces.msg import Time
             assert \
                 isinstance(value, Time), \
                 "The 'stamp' field must be a sub message of type 'Time'"
         self._stamp = value
-
-
-if typing.TYPE_CHECKING:
-    from service_msgs.msg import ServiceEventInfo
-    import collections
 
 
 # Import statements for member types
@@ -961,22 +914,19 @@ if typing.TYPE_CHECKING:
 class Metaclass_CleaningTask_SendGoal_Event(type):
     """Metaclass of message 'CleaningTask_SendGoal_Event'."""
 
-    _CREATE_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_FROM_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_TO_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _DESTROY_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _TYPE_SUPPORT: typing.ClassVar[typing.Optional[PyCapsule]] = None
+    _CREATE_ROS_MESSAGE = None
+    _CONVERT_FROM_PY = None
+    _CONVERT_TO_PY = None
+    _DESTROY_ROS_MESSAGE = None
+    _TYPE_SUPPORT = None
 
-    class CleaningTask_SendGoal_EventConstants(typing.TypedDict):
-        pass
-
-    __constants: CleaningTask_SendGoal_EventConstants = {
+    __constants = {
     }
 
     @classmethod
-    def __import_type_support__(cls) -> None:
+    def __import_type_support__(cls):
         try:
-            from rosidl_generator_py import import_type_support  # type: ignore[attr-defined]
+            from rosidl_generator_py import import_type_support
             module = import_type_support('action_cleaning_robot')
         except ImportError:
             import logging
@@ -994,11 +944,11 @@ class Metaclass_CleaningTask_SendGoal_Event(type):
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__action__cleaning_task__send_goal__event
 
             from service_msgs.msg import ServiceEventInfo
-            if ServiceEventInfo._TYPE_SUPPORT is None:
-                ServiceEventInfo.__import_type_support__()
+            if ServiceEventInfo.__class__._TYPE_SUPPORT is None:
+                ServiceEventInfo.__class__.__import_type_support__()
 
     @classmethod
-    def __prepare__(metacls, name: str, bases: tuple[type[typing.Any], ...], /, **kwds: typing.Any) -> collections.abc.MutableMapping[str, object]:
+    def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
@@ -1016,7 +966,7 @@ class CleaningTask_SendGoal_Event(metaclass=Metaclass_CleaningTask_SendGoal_Even
         '_check_fields',
     ]
 
-    _fields_and_field_types: dict[str, str] = {
+    _fields_and_field_types = {
         'info': 'service_msgs/ServiceEventInfo',
         'request': 'sequence<action_cleaning_robot/CleaningTask_SendGoal_Request, 1>',
         'response': 'sequence<action_cleaning_robot/CleaningTask_SendGoal_Response, 1>',
@@ -1024,31 +974,31 @@ class CleaningTask_SendGoal_Event(metaclass=Metaclass_CleaningTask_SendGoal_Even
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
-    SLOT_TYPES: tuple[rosidl_parser.definition.AbstractType, ...] = (
+    SLOT_TYPES = (
         rosidl_parser.definition.NamespacedType(['service_msgs', 'msg'], 'ServiceEventInfo'),  # noqa: E501
         rosidl_parser.definition.BoundedSequence(rosidl_parser.definition.NamespacedType(['action_cleaning_robot', 'action'], 'CleaningTask_SendGoal_Request'), 1),  # noqa: E501
         rosidl_parser.definition.BoundedSequence(rosidl_parser.definition.NamespacedType(['action_cleaning_robot', 'action'], 'CleaningTask_SendGoal_Response'), 1),  # noqa: E501
     )
 
-    def __init__(self, *,
-                 info: typing.Optional[ServiceEventInfo] = None,  # noqa: E501
-                 request: typing.Optional[typing.Union[collections.abc.Sequence[CleaningTask_SendGoal_Request], collections.abc.Set[CleaningTask_SendGoal_Request], collections.UserList[CleaningTask_SendGoal_Request]]] = None,  # noqa: E501
-                 response: typing.Optional[typing.Union[collections.abc.Sequence[CleaningTask_SendGoal_Response], collections.abc.Set[CleaningTask_SendGoal_Response], collections.UserList[CleaningTask_SendGoal_Response]]] = None,  # noqa: E501
-                 check_fields: typing.Optional[bool] = None) -> None:
-        if check_fields is not None:
-            self._check_fields = check_fields
+    def __init__(self, **kwargs):
+        if 'check_fields' in kwargs:
+            self._check_fields = kwargs['check_fields']
         else:
             self._check_fields = ros_python_check_fields == '1'
+        if self._check_fields:
+            assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
+                'Invalid arguments passed to constructor: %s' % \
+                ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         from service_msgs.msg import ServiceEventInfo
-        self.info = info if info is not None else ServiceEventInfo()
-        self.request = request if request is not None else []
-        self.response = response if response is not None else []
+        self.info = kwargs.get('info', ServiceEventInfo())
+        self.request = kwargs.get('request', [])
+        self.response = kwargs.get('response', [])
 
-    def __repr__(self) -> str:
+    def __repr__(self):
         typename = self.__class__.__module__.split('.')
         typename.pop()
         typename.append(self.__class__.__name__)
-        args: list[str] = []
+        args = []
         for s, t in zip(self.get_fields_and_field_types().keys(), self.SLOT_TYPES):
             field = getattr(self, s)
             fieldstr = repr(field)
@@ -1071,8 +1021,8 @@ class CleaningTask_SendGoal_Event(metaclass=Metaclass_CleaningTask_SendGoal_Even
             args.append(s + '=' + fieldstr)
         return '%s(%s)' % ('.'.join(typename), ', '.join(args))
 
-    def __eq__(self, other: object) -> bool:
-        if not isinstance(other, CleaningTask_SendGoal_Event):
+    def __eq__(self, other):
+        if not isinstance(other, self.__class__):
             return False
         if self.info != other.info:
             return False
@@ -1083,17 +1033,17 @@ class CleaningTask_SendGoal_Event(metaclass=Metaclass_CleaningTask_SendGoal_Even
         return True
 
     @classmethod
-    def get_fields_and_field_types(cls) -> dict[str, str]:
+    def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def info(self) -> ServiceEventInfo:
+    def info(self):
         """Message field 'info'."""
         return self._info
 
     @info.setter
-    def info(self, value: ServiceEventInfo) -> None:
+    def info(self, value):
         if self._check_fields:
             from service_msgs.msg import ServiceEventInfo
             assert \
@@ -1102,12 +1052,12 @@ class CleaningTask_SendGoal_Event(metaclass=Metaclass_CleaningTask_SendGoal_Even
         self._info = value
 
     @builtins.property
-    def request(self) -> typing.Union[collections.abc.Sequence[CleaningTask_SendGoal_Request], collections.abc.Set[CleaningTask_SendGoal_Request], collections.UserList[CleaningTask_SendGoal_Request]]:   # typing.Annotated can be remove after mypy 1.16+ see mypy#3004
+    def request(self):
         """Message field 'request'."""
         return self._request
 
     @request.setter
-    def request(self, value: typing.Union[collections.abc.Sequence[CleaningTask_SendGoal_Request], collections.abc.Set[CleaningTask_SendGoal_Request], collections.UserList[CleaningTask_SendGoal_Request]]) -> None:
+    def request(self, value):
         if self._check_fields:
             from action_cleaning_robot.action import CleaningTask_SendGoal_Request
             from collections.abc import Sequence
@@ -1127,12 +1077,12 @@ class CleaningTask_SendGoal_Event(metaclass=Metaclass_CleaningTask_SendGoal_Even
         self._request = value
 
     @builtins.property
-    def response(self) -> typing.Union[collections.abc.Sequence[CleaningTask_SendGoal_Response], collections.abc.Set[CleaningTask_SendGoal_Response], collections.UserList[CleaningTask_SendGoal_Response]]:   # typing.Annotated can be remove after mypy 1.16+ see mypy#3004
+    def response(self):
         """Message field 'response'."""
         return self._response
 
     @response.setter
-    def response(self, value: typing.Union[collections.abc.Sequence[CleaningTask_SendGoal_Response], collections.abc.Set[CleaningTask_SendGoal_Response], collections.UserList[CleaningTask_SendGoal_Response]]) -> None:
+    def response(self, value):
         if self._check_fields:
             from action_cleaning_robot.action import CleaningTask_SendGoal_Response
             from collections.abc import Sequence
@@ -1155,10 +1105,10 @@ class CleaningTask_SendGoal_Event(metaclass=Metaclass_CleaningTask_SendGoal_Even
 class Metaclass_CleaningTask_SendGoal(type):
     """Metaclass of service 'CleaningTask_SendGoal'."""
 
-    _TYPE_SUPPORT: typing.ClassVar[typing.Optional[PyCapsule]] = None
+    _TYPE_SUPPORT = None
 
     @classmethod
-    def __import_type_support__(cls) -> None:
+    def __import_type_support__(cls):
         try:
             from rosidl_generator_py import import_type_support
             module = import_type_support('action_cleaning_robot')
@@ -1187,13 +1137,8 @@ class CleaningTask_SendGoal(metaclass=Metaclass_CleaningTask_SendGoal):
     from action_cleaning_robot.action._cleaning_task import CleaningTask_SendGoal_Response as Response
     from action_cleaning_robot.action._cleaning_task import CleaningTask_SendGoal_Event as Event
 
-    # type ignore below fixed in mypy 1.0+ see mypy#10342
-    def __init__(self) -> typing.NoReturn:  # type: ignore
+    def __init__(self):
         raise NotImplementedError('Service classes can not be instantiated')
-
-
-if typing.TYPE_CHECKING:
-    pass
 
 
 # Import statements for member types
@@ -1208,22 +1153,19 @@ if typing.TYPE_CHECKING:
 class Metaclass_CleaningTask_GetResult_Request(type):
     """Metaclass of message 'CleaningTask_GetResult_Request'."""
 
-    _CREATE_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_FROM_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_TO_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _DESTROY_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _TYPE_SUPPORT: typing.ClassVar[typing.Optional[PyCapsule]] = None
+    _CREATE_ROS_MESSAGE = None
+    _CONVERT_FROM_PY = None
+    _CONVERT_TO_PY = None
+    _DESTROY_ROS_MESSAGE = None
+    _TYPE_SUPPORT = None
 
-    class CleaningTask_GetResult_RequestConstants(typing.TypedDict):
-        pass
-
-    __constants: CleaningTask_GetResult_RequestConstants = {
+    __constants = {
     }
 
     @classmethod
-    def __import_type_support__(cls) -> None:
+    def __import_type_support__(cls):
         try:
-            from rosidl_generator_py import import_type_support  # type: ignore[attr-defined]
+            from rosidl_generator_py import import_type_support
             module = import_type_support('action_cleaning_robot')
         except ImportError:
             import logging
@@ -1241,11 +1183,11 @@ class Metaclass_CleaningTask_GetResult_Request(type):
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__action__cleaning_task__get_result__request
 
             from unique_identifier_msgs.msg import UUID
-            if UUID._TYPE_SUPPORT is None:
-                UUID.__import_type_support__()
+            if UUID.__class__._TYPE_SUPPORT is None:
+                UUID.__class__.__import_type_support__()
 
     @classmethod
-    def __prepare__(metacls, name: str, bases: tuple[type[typing.Any], ...], /, **kwds: typing.Any) -> collections.abc.MutableMapping[str, object]:
+    def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
@@ -1261,31 +1203,33 @@ class CleaningTask_GetResult_Request(metaclass=Metaclass_CleaningTask_GetResult_
         '_check_fields',
     ]
 
-    _fields_and_field_types: dict[str, str] = {
+    _fields_and_field_types = {
         'goal_id': 'unique_identifier_msgs/UUID',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
-    SLOT_TYPES: tuple[rosidl_parser.definition.AbstractType, ...] = (
+    SLOT_TYPES = (
         rosidl_parser.definition.NamespacedType(['unique_identifier_msgs', 'msg'], 'UUID'),  # noqa: E501
     )
 
-    def __init__(self, *,
-                 goal_id: typing.Optional[UUID] = None,  # noqa: E501
-                 check_fields: typing.Optional[bool] = None) -> None:
-        if check_fields is not None:
-            self._check_fields = check_fields
+    def __init__(self, **kwargs):
+        if 'check_fields' in kwargs:
+            self._check_fields = kwargs['check_fields']
         else:
             self._check_fields = ros_python_check_fields == '1'
+        if self._check_fields:
+            assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
+                'Invalid arguments passed to constructor: %s' % \
+                ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         from unique_identifier_msgs.msg import UUID
-        self.goal_id = goal_id if goal_id is not None else UUID()
+        self.goal_id = kwargs.get('goal_id', UUID())
 
-    def __repr__(self) -> str:
+    def __repr__(self):
         typename = self.__class__.__module__.split('.')
         typename.pop()
         typename.append(self.__class__.__name__)
-        args: list[str] = []
+        args = []
         for s, t in zip(self.get_fields_and_field_types().keys(), self.SLOT_TYPES):
             field = getattr(self, s)
             fieldstr = repr(field)
@@ -1308,35 +1252,31 @@ class CleaningTask_GetResult_Request(metaclass=Metaclass_CleaningTask_GetResult_
             args.append(s + '=' + fieldstr)
         return '%s(%s)' % ('.'.join(typename), ', '.join(args))
 
-    def __eq__(self, other: object) -> bool:
-        if not isinstance(other, CleaningTask_GetResult_Request):
+    def __eq__(self, other):
+        if not isinstance(other, self.__class__):
             return False
         if self.goal_id != other.goal_id:
             return False
         return True
 
     @classmethod
-    def get_fields_and_field_types(cls) -> dict[str, str]:
+    def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def goal_id(self) -> UUID:
+    def goal_id(self):
         """Message field 'goal_id'."""
         return self._goal_id
 
     @goal_id.setter
-    def goal_id(self, value: UUID) -> None:
+    def goal_id(self, value):
         if self._check_fields:
             from unique_identifier_msgs.msg import UUID
             assert \
                 isinstance(value, UUID), \
                 "The 'goal_id' field must be a sub message of type 'UUID'"
         self._goal_id = value
-
-
-if typing.TYPE_CHECKING:
-    pass
 
 
 # Import statements for member types
@@ -1351,22 +1291,19 @@ if typing.TYPE_CHECKING:
 class Metaclass_CleaningTask_GetResult_Response(type):
     """Metaclass of message 'CleaningTask_GetResult_Response'."""
 
-    _CREATE_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_FROM_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_TO_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _DESTROY_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _TYPE_SUPPORT: typing.ClassVar[typing.Optional[PyCapsule]] = None
+    _CREATE_ROS_MESSAGE = None
+    _CONVERT_FROM_PY = None
+    _CONVERT_TO_PY = None
+    _DESTROY_ROS_MESSAGE = None
+    _TYPE_SUPPORT = None
 
-    class CleaningTask_GetResult_ResponseConstants(typing.TypedDict):
-        pass
-
-    __constants: CleaningTask_GetResult_ResponseConstants = {
+    __constants = {
     }
 
     @classmethod
-    def __import_type_support__(cls) -> None:
+    def __import_type_support__(cls):
         try:
-            from rosidl_generator_py import import_type_support  # type: ignore[attr-defined]
+            from rosidl_generator_py import import_type_support
             module = import_type_support('action_cleaning_robot')
         except ImportError:
             import logging
@@ -1384,11 +1321,11 @@ class Metaclass_CleaningTask_GetResult_Response(type):
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__action__cleaning_task__get_result__response
 
             from action_cleaning_robot.action import CleaningTask
-            if CleaningTask.Result._TYPE_SUPPORT is None:
-                CleaningTask.Result.__import_type_support__()
+            if CleaningTask.Result.__class__._TYPE_SUPPORT is None:
+                CleaningTask.Result.__class__.__import_type_support__()
 
     @classmethod
-    def __prepare__(metacls, name: str, bases: tuple[type[typing.Any], ...], /, **kwds: typing.Any) -> collections.abc.MutableMapping[str, object]:
+    def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
@@ -1405,35 +1342,36 @@ class CleaningTask_GetResult_Response(metaclass=Metaclass_CleaningTask_GetResult
         '_check_fields',
     ]
 
-    _fields_and_field_types: dict[str, str] = {
+    _fields_and_field_types = {
         'status': 'int8',
         'result': 'action_cleaning_robot/CleaningTask_Result',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
-    SLOT_TYPES: tuple[rosidl_parser.definition.AbstractType, ...] = (
+    SLOT_TYPES = (
         rosidl_parser.definition.BasicType('int8'),  # noqa: E501
         rosidl_parser.definition.NamespacedType(['action_cleaning_robot', 'action'], 'CleaningTask_Result'),  # noqa: E501
     )
 
-    def __init__(self, *,
-                 status: typing.Optional[int] = None,  # noqa: E501
-                 result: typing.Optional[CleaningTask_Result] = None,  # noqa: E501
-                 check_fields: typing.Optional[bool] = None) -> None:
-        if check_fields is not None:
-            self._check_fields = check_fields
+    def __init__(self, **kwargs):
+        if 'check_fields' in kwargs:
+            self._check_fields = kwargs['check_fields']
         else:
             self._check_fields = ros_python_check_fields == '1'
-        self.status = status if status is not None else int()
+        if self._check_fields:
+            assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
+                'Invalid arguments passed to constructor: %s' % \
+                ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        self.status = kwargs.get('status', int())
         from action_cleaning_robot.action._cleaning_task import CleaningTask_Result
-        self.result = result if result is not None else CleaningTask_Result()
+        self.result = kwargs.get('result', CleaningTask_Result())
 
-    def __repr__(self) -> str:
+    def __repr__(self):
         typename = self.__class__.__module__.split('.')
         typename.pop()
         typename.append(self.__class__.__name__)
-        args: list[str] = []
+        args = []
         for s, t in zip(self.get_fields_and_field_types().keys(), self.SLOT_TYPES):
             field = getattr(self, s)
             fieldstr = repr(field)
@@ -1456,8 +1394,8 @@ class CleaningTask_GetResult_Response(metaclass=Metaclass_CleaningTask_GetResult
             args.append(s + '=' + fieldstr)
         return '%s(%s)' % ('.'.join(typename), ', '.join(args))
 
-    def __eq__(self, other: object) -> bool:
-        if not isinstance(other, CleaningTask_GetResult_Response):
+    def __eq__(self, other):
+        if not isinstance(other, self.__class__):
             return False
         if self.status != other.status:
             return False
@@ -1466,17 +1404,17 @@ class CleaningTask_GetResult_Response(metaclass=Metaclass_CleaningTask_GetResult
         return True
 
     @classmethod
-    def get_fields_and_field_types(cls) -> dict[str, str]:
+    def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def status(self) -> int:
+    def status(self):
         """Message field 'status'."""
         return self._status
 
     @status.setter
-    def status(self, value: int) -> None:
+    def status(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, int), \
@@ -1486,22 +1424,18 @@ class CleaningTask_GetResult_Response(metaclass=Metaclass_CleaningTask_GetResult
         self._status = value
 
     @builtins.property
-    def result(self) -> CleaningTask_Result:
+    def result(self):
         """Message field 'result'."""
         return self._result
 
     @result.setter
-    def result(self, value: CleaningTask_Result) -> None:
+    def result(self, value):
         if self._check_fields:
             from action_cleaning_robot.action._cleaning_task import CleaningTask_Result
             assert \
                 isinstance(value, CleaningTask_Result), \
                 "The 'result' field must be a sub message of type 'CleaningTask_Result'"
         self._result = value
-
-
-if typing.TYPE_CHECKING:
-    pass
 
 
 # Import statements for member types
@@ -1516,22 +1450,19 @@ if typing.TYPE_CHECKING:
 class Metaclass_CleaningTask_GetResult_Event(type):
     """Metaclass of message 'CleaningTask_GetResult_Event'."""
 
-    _CREATE_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_FROM_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_TO_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _DESTROY_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _TYPE_SUPPORT: typing.ClassVar[typing.Optional[PyCapsule]] = None
+    _CREATE_ROS_MESSAGE = None
+    _CONVERT_FROM_PY = None
+    _CONVERT_TO_PY = None
+    _DESTROY_ROS_MESSAGE = None
+    _TYPE_SUPPORT = None
 
-    class CleaningTask_GetResult_EventConstants(typing.TypedDict):
-        pass
-
-    __constants: CleaningTask_GetResult_EventConstants = {
+    __constants = {
     }
 
     @classmethod
-    def __import_type_support__(cls) -> None:
+    def __import_type_support__(cls):
         try:
-            from rosidl_generator_py import import_type_support  # type: ignore[attr-defined]
+            from rosidl_generator_py import import_type_support
             module = import_type_support('action_cleaning_robot')
         except ImportError:
             import logging
@@ -1549,11 +1480,11 @@ class Metaclass_CleaningTask_GetResult_Event(type):
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__action__cleaning_task__get_result__event
 
             from service_msgs.msg import ServiceEventInfo
-            if ServiceEventInfo._TYPE_SUPPORT is None:
-                ServiceEventInfo.__import_type_support__()
+            if ServiceEventInfo.__class__._TYPE_SUPPORT is None:
+                ServiceEventInfo.__class__.__import_type_support__()
 
     @classmethod
-    def __prepare__(metacls, name: str, bases: tuple[type[typing.Any], ...], /, **kwds: typing.Any) -> collections.abc.MutableMapping[str, object]:
+    def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
@@ -1571,7 +1502,7 @@ class CleaningTask_GetResult_Event(metaclass=Metaclass_CleaningTask_GetResult_Ev
         '_check_fields',
     ]
 
-    _fields_and_field_types: dict[str, str] = {
+    _fields_and_field_types = {
         'info': 'service_msgs/ServiceEventInfo',
         'request': 'sequence<action_cleaning_robot/CleaningTask_GetResult_Request, 1>',
         'response': 'sequence<action_cleaning_robot/CleaningTask_GetResult_Response, 1>',
@@ -1579,31 +1510,31 @@ class CleaningTask_GetResult_Event(metaclass=Metaclass_CleaningTask_GetResult_Ev
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
-    SLOT_TYPES: tuple[rosidl_parser.definition.AbstractType, ...] = (
+    SLOT_TYPES = (
         rosidl_parser.definition.NamespacedType(['service_msgs', 'msg'], 'ServiceEventInfo'),  # noqa: E501
         rosidl_parser.definition.BoundedSequence(rosidl_parser.definition.NamespacedType(['action_cleaning_robot', 'action'], 'CleaningTask_GetResult_Request'), 1),  # noqa: E501
         rosidl_parser.definition.BoundedSequence(rosidl_parser.definition.NamespacedType(['action_cleaning_robot', 'action'], 'CleaningTask_GetResult_Response'), 1),  # noqa: E501
     )
 
-    def __init__(self, *,
-                 info: typing.Optional[ServiceEventInfo] = None,  # noqa: E501
-                 request: typing.Optional[typing.Union[collections.abc.Sequence[CleaningTask_GetResult_Request], collections.abc.Set[CleaningTask_GetResult_Request], collections.UserList[CleaningTask_GetResult_Request]]] = None,  # noqa: E501
-                 response: typing.Optional[typing.Union[collections.abc.Sequence[CleaningTask_GetResult_Response], collections.abc.Set[CleaningTask_GetResult_Response], collections.UserList[CleaningTask_GetResult_Response]]] = None,  # noqa: E501
-                 check_fields: typing.Optional[bool] = None) -> None:
-        if check_fields is not None:
-            self._check_fields = check_fields
+    def __init__(self, **kwargs):
+        if 'check_fields' in kwargs:
+            self._check_fields = kwargs['check_fields']
         else:
             self._check_fields = ros_python_check_fields == '1'
+        if self._check_fields:
+            assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
+                'Invalid arguments passed to constructor: %s' % \
+                ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         from service_msgs.msg import ServiceEventInfo
-        self.info = info if info is not None else ServiceEventInfo()
-        self.request = request if request is not None else []
-        self.response = response if response is not None else []
+        self.info = kwargs.get('info', ServiceEventInfo())
+        self.request = kwargs.get('request', [])
+        self.response = kwargs.get('response', [])
 
-    def __repr__(self) -> str:
+    def __repr__(self):
         typename = self.__class__.__module__.split('.')
         typename.pop()
         typename.append(self.__class__.__name__)
-        args: list[str] = []
+        args = []
         for s, t in zip(self.get_fields_and_field_types().keys(), self.SLOT_TYPES):
             field = getattr(self, s)
             fieldstr = repr(field)
@@ -1626,8 +1557,8 @@ class CleaningTask_GetResult_Event(metaclass=Metaclass_CleaningTask_GetResult_Ev
             args.append(s + '=' + fieldstr)
         return '%s(%s)' % ('.'.join(typename), ', '.join(args))
 
-    def __eq__(self, other: object) -> bool:
-        if not isinstance(other, CleaningTask_GetResult_Event):
+    def __eq__(self, other):
+        if not isinstance(other, self.__class__):
             return False
         if self.info != other.info:
             return False
@@ -1638,17 +1569,17 @@ class CleaningTask_GetResult_Event(metaclass=Metaclass_CleaningTask_GetResult_Ev
         return True
 
     @classmethod
-    def get_fields_and_field_types(cls) -> dict[str, str]:
+    def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def info(self) -> ServiceEventInfo:
+    def info(self):
         """Message field 'info'."""
         return self._info
 
     @info.setter
-    def info(self, value: ServiceEventInfo) -> None:
+    def info(self, value):
         if self._check_fields:
             from service_msgs.msg import ServiceEventInfo
             assert \
@@ -1657,12 +1588,12 @@ class CleaningTask_GetResult_Event(metaclass=Metaclass_CleaningTask_GetResult_Ev
         self._info = value
 
     @builtins.property
-    def request(self) -> typing.Union[collections.abc.Sequence[CleaningTask_GetResult_Request], collections.abc.Set[CleaningTask_GetResult_Request], collections.UserList[CleaningTask_GetResult_Request]]:   # typing.Annotated can be remove after mypy 1.16+ see mypy#3004
+    def request(self):
         """Message field 'request'."""
         return self._request
 
     @request.setter
-    def request(self, value: typing.Union[collections.abc.Sequence[CleaningTask_GetResult_Request], collections.abc.Set[CleaningTask_GetResult_Request], collections.UserList[CleaningTask_GetResult_Request]]) -> None:
+    def request(self, value):
         if self._check_fields:
             from action_cleaning_robot.action import CleaningTask_GetResult_Request
             from collections.abc import Sequence
@@ -1682,12 +1613,12 @@ class CleaningTask_GetResult_Event(metaclass=Metaclass_CleaningTask_GetResult_Ev
         self._request = value
 
     @builtins.property
-    def response(self) -> typing.Union[collections.abc.Sequence[CleaningTask_GetResult_Response], collections.abc.Set[CleaningTask_GetResult_Response], collections.UserList[CleaningTask_GetResult_Response]]:   # typing.Annotated can be remove after mypy 1.16+ see mypy#3004
+    def response(self):
         """Message field 'response'."""
         return self._response
 
     @response.setter
-    def response(self, value: typing.Union[collections.abc.Sequence[CleaningTask_GetResult_Response], collections.abc.Set[CleaningTask_GetResult_Response], collections.UserList[CleaningTask_GetResult_Response]]) -> None:
+    def response(self, value):
         if self._check_fields:
             from action_cleaning_robot.action import CleaningTask_GetResult_Response
             from collections.abc import Sequence
@@ -1710,10 +1641,10 @@ class CleaningTask_GetResult_Event(metaclass=Metaclass_CleaningTask_GetResult_Ev
 class Metaclass_CleaningTask_GetResult(type):
     """Metaclass of service 'CleaningTask_GetResult'."""
 
-    _TYPE_SUPPORT: typing.ClassVar[typing.Optional[PyCapsule]] = None
+    _TYPE_SUPPORT = None
 
     @classmethod
-    def __import_type_support__(cls) -> None:
+    def __import_type_support__(cls):
         try:
             from rosidl_generator_py import import_type_support
             module = import_type_support('action_cleaning_robot')
@@ -1742,13 +1673,8 @@ class CleaningTask_GetResult(metaclass=Metaclass_CleaningTask_GetResult):
     from action_cleaning_robot.action._cleaning_task import CleaningTask_GetResult_Response as Response
     from action_cleaning_robot.action._cleaning_task import CleaningTask_GetResult_Event as Event
 
-    # type ignore below fixed in mypy 1.0+ see mypy#10342
-    def __init__(self) -> typing.NoReturn:  # type: ignore
+    def __init__(self):
         raise NotImplementedError('Service classes can not be instantiated')
-
-
-if typing.TYPE_CHECKING:
-    pass
 
 
 # Import statements for member types
@@ -1763,22 +1689,19 @@ if typing.TYPE_CHECKING:
 class Metaclass_CleaningTask_FeedbackMessage(type):
     """Metaclass of message 'CleaningTask_FeedbackMessage'."""
 
-    _CREATE_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_FROM_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _CONVERT_TO_PY: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _DESTROY_ROS_MESSAGE: typing.ClassVar[typing.Optional[PyCapsule]] = None
-    _TYPE_SUPPORT: typing.ClassVar[typing.Optional[PyCapsule]] = None
+    _CREATE_ROS_MESSAGE = None
+    _CONVERT_FROM_PY = None
+    _CONVERT_TO_PY = None
+    _DESTROY_ROS_MESSAGE = None
+    _TYPE_SUPPORT = None
 
-    class CleaningTask_FeedbackMessageConstants(typing.TypedDict):
-        pass
-
-    __constants: CleaningTask_FeedbackMessageConstants = {
+    __constants = {
     }
 
     @classmethod
-    def __import_type_support__(cls) -> None:
+    def __import_type_support__(cls):
         try:
-            from rosidl_generator_py import import_type_support  # type: ignore[attr-defined]
+            from rosidl_generator_py import import_type_support
             module = import_type_support('action_cleaning_robot')
         except ImportError:
             import logging
@@ -1796,15 +1719,15 @@ class Metaclass_CleaningTask_FeedbackMessage(type):
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__action__cleaning_task__feedback_message
 
             from action_cleaning_robot.action import CleaningTask
-            if CleaningTask.Feedback._TYPE_SUPPORT is None:
-                CleaningTask.Feedback.__import_type_support__()
+            if CleaningTask.Feedback.__class__._TYPE_SUPPORT is None:
+                CleaningTask.Feedback.__class__.__import_type_support__()
 
             from unique_identifier_msgs.msg import UUID
-            if UUID._TYPE_SUPPORT is None:
-                UUID.__import_type_support__()
+            if UUID.__class__._TYPE_SUPPORT is None:
+                UUID.__class__.__import_type_support__()
 
     @classmethod
-    def __prepare__(metacls, name: str, bases: tuple[type[typing.Any], ...], /, **kwds: typing.Any) -> collections.abc.MutableMapping[str, object]:
+    def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
@@ -1821,36 +1744,37 @@ class CleaningTask_FeedbackMessage(metaclass=Metaclass_CleaningTask_FeedbackMess
         '_check_fields',
     ]
 
-    _fields_and_field_types: dict[str, str] = {
+    _fields_and_field_types = {
         'goal_id': 'unique_identifier_msgs/UUID',
         'feedback': 'action_cleaning_robot/CleaningTask_Feedback',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
-    SLOT_TYPES: tuple[rosidl_parser.definition.AbstractType, ...] = (
+    SLOT_TYPES = (
         rosidl_parser.definition.NamespacedType(['unique_identifier_msgs', 'msg'], 'UUID'),  # noqa: E501
         rosidl_parser.definition.NamespacedType(['action_cleaning_robot', 'action'], 'CleaningTask_Feedback'),  # noqa: E501
     )
 
-    def __init__(self, *,
-                 goal_id: typing.Optional[UUID] = None,  # noqa: E501
-                 feedback: typing.Optional[CleaningTask_Feedback] = None,  # noqa: E501
-                 check_fields: typing.Optional[bool] = None) -> None:
-        if check_fields is not None:
-            self._check_fields = check_fields
+    def __init__(self, **kwargs):
+        if 'check_fields' in kwargs:
+            self._check_fields = kwargs['check_fields']
         else:
             self._check_fields = ros_python_check_fields == '1'
+        if self._check_fields:
+            assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
+                'Invalid arguments passed to constructor: %s' % \
+                ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         from unique_identifier_msgs.msg import UUID
-        self.goal_id = goal_id if goal_id is not None else UUID()
+        self.goal_id = kwargs.get('goal_id', UUID())
         from action_cleaning_robot.action._cleaning_task import CleaningTask_Feedback
-        self.feedback = feedback if feedback is not None else CleaningTask_Feedback()
+        self.feedback = kwargs.get('feedback', CleaningTask_Feedback())
 
-    def __repr__(self) -> str:
+    def __repr__(self):
         typename = self.__class__.__module__.split('.')
         typename.pop()
         typename.append(self.__class__.__name__)
-        args: list[str] = []
+        args = []
         for s, t in zip(self.get_fields_and_field_types().keys(), self.SLOT_TYPES):
             field = getattr(self, s)
             fieldstr = repr(field)
@@ -1873,8 +1797,8 @@ class CleaningTask_FeedbackMessage(metaclass=Metaclass_CleaningTask_FeedbackMess
             args.append(s + '=' + fieldstr)
         return '%s(%s)' % ('.'.join(typename), ', '.join(args))
 
-    def __eq__(self, other: object) -> bool:
-        if not isinstance(other, CleaningTask_FeedbackMessage):
+    def __eq__(self, other):
+        if not isinstance(other, self.__class__):
             return False
         if self.goal_id != other.goal_id:
             return False
@@ -1883,17 +1807,17 @@ class CleaningTask_FeedbackMessage(metaclass=Metaclass_CleaningTask_FeedbackMess
         return True
 
     @classmethod
-    def get_fields_and_field_types(cls) -> dict[str, str]:
+    def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def goal_id(self) -> UUID:
+    def goal_id(self):
         """Message field 'goal_id'."""
         return self._goal_id
 
     @goal_id.setter
-    def goal_id(self, value: UUID) -> None:
+    def goal_id(self, value):
         if self._check_fields:
             from unique_identifier_msgs.msg import UUID
             assert \
@@ -1902,12 +1826,12 @@ class CleaningTask_FeedbackMessage(metaclass=Metaclass_CleaningTask_FeedbackMess
         self._goal_id = value
 
     @builtins.property
-    def feedback(self) -> CleaningTask_Feedback:
+    def feedback(self):
         """Message field 'feedback'."""
         return self._feedback
 
     @feedback.setter
-    def feedback(self, value: CleaningTask_Feedback) -> None:
+    def feedback(self, value):
         if self._check_fields:
             from action_cleaning_robot.action._cleaning_task import CleaningTask_Feedback
             assert \
@@ -1919,10 +1843,10 @@ class CleaningTask_FeedbackMessage(metaclass=Metaclass_CleaningTask_FeedbackMess
 class Metaclass_CleaningTask(type):
     """Metaclass of action 'CleaningTask'."""
 
-    _TYPE_SUPPORT: typing.ClassVar[typing.Optional[PyCapsule]] = None
+    _TYPE_SUPPORT = None
 
     @classmethod
-    def __import_type_support__(cls) -> None:
+    def __import_type_support__(cls):
         try:
             from rosidl_generator_py import import_type_support
             module = import_type_support('action_cleaning_robot')
@@ -1976,6 +1900,5 @@ class CleaningTask(metaclass=Metaclass_CleaningTask):
         # The generic message for get the status of a goal.
         from action_msgs.msg._goal_status_array import GoalStatusArray as GoalStatusMessage
 
-    # type ignore below fixed in mypy 1.0+ see mypy#10342
-    def __init__(self) -> typing.NoReturn:  # type: ignore
+    def __init__(self):
         raise NotImplementedError('Action classes can not be instantiated')
