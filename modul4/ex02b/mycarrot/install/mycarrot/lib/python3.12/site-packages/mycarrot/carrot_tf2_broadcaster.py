@@ -48,35 +48,56 @@ class FramePublisher(Node):
         # TF broadcaster
         self.tf_broadcaster = TransformBroadcaster(self)
 
-        # Подписка на позицию черепахи
+        # Переменные для плавного вращения
+        self.angle = 0.0
+        self.last_time = self.get_clock().now()
+        self.angular_speed = 0.5  # радиан в секунду
+
+        # Таймер для независимого обновления позиции морковки
+        self.timer = self.create_timer(0.05, self.update_carrot_position)  # 20 Hz
+
+        # Текущая позиция черепахи
+        self.turtle_pose = None
+
+        # Подписка на позицию черепахи (только для получения позиции родителя)
         self.subscription = self.create_subscription(
             Pose,
             f'/{self.turtlename}/pose',
             self.handle_turtle_pose,
             1
         )
-        
-        # Время начала
-        self.start_time = self.get_clock().now()
 
     def handle_turtle_pose(self, msg):
+        # Просто сохраняем позицию черепахи
+        self.turtle_pose = msg
+
+    def update_carrot_position(self):
+        if self.turtle_pose is None:
+            return  # Ждем первое сообщение о позиции черепахи
+
+        # Вычисляем дельту времени для плавного вращения
+        current_time = self.get_clock().now()
+        dt = (current_time - self.last_time).nanoseconds / 1e9
+        self.last_time = current_time
+
+        # Обновляем угол
+        self.angle += self.direction * self.angular_speed * dt
+
+        # Создаем трансформацию
         t = TransformStamped()
 
-        t.header.stamp = self.get_clock().now().to_msg()
+        t.header.stamp = current_time.to_msg()
         t.header.frame_id = self.turtlename 
         t.child_frame_id = self.carrotname
 
-        # Вычисляем позицию carrot на окружности
-        now = self.get_clock().now()
-        seconds = (now - self.start_time).nanoseconds / 1e9
-        angular_speed = 0.5
-        angle = self.direction * angular_speed * seconds
-        
-        t.transform.translation.x = self.radius * math.cos(angle)
-        t.transform.translation.y = self.radius * math.sin(angle)
+        # Позиция морковки на окружности
+        t.transform.translation.x = self.radius * math.cos(self.angle)
+        t.transform.translation.y = self.radius * math.sin(self.angle)
         t.transform.translation.z = 0.0
         
-        q = quaternion_from_euler(0, 0, 0)
+        # Ориентация (можно сделать морковку всегда ориентированной наружу)
+        carrot_orientation = self.angle + math.pi  # Смотрит наружу от центра
+        q = quaternion_from_euler(0, 0, carrot_orientation)
         t.transform.rotation.x = q[0]
         t.transform.rotation.y = q[1]
         t.transform.rotation.z = q[2]
