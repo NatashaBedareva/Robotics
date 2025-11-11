@@ -1,0 +1,27 @@
+[0.725s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul4/ex02/mycarrot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mycarrot build --build-base /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/build install --record /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/install.log --single-version-externally-managed install_data
+[1.024s] running egg_info
+[1.033s] writing ../build/mycarrot/mycarrot.egg-info/PKG-INFO
+[1.033s] writing dependency_links to ../build/mycarrot/mycarrot.egg-info/dependency_links.txt
+[1.033s] writing entry points to ../build/mycarrot/mycarrot.egg-info/entry_points.txt
+[1.033s] writing requirements to ../build/mycarrot/mycarrot.egg-info/requires.txt
+[1.033s] writing top-level names to ../build/mycarrot/mycarrot.egg-info/top_level.txt
+[1.051s] reading manifest file '../build/mycarrot/mycarrot.egg-info/SOURCES.txt'
+[1.051s] adding license file 'LICENSE'
+[1.052s] writing manifest file '../build/mycarrot/mycarrot.egg-info/SOURCES.txt'
+[1.052s] running build
+[1.052s] running build_py
+[1.052s] copying mycarrot/carrot_tf2_broadcaster.py -> /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/build/lib/mycarrot
+[1.052s] running install
+[1.056s] running install_lib
+[1.064s] copying /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/build/lib/mycarrot/carrot_tf2_broadcaster.py -> /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/python3.12/site-packages/mycarrot
+[1.065s] byte-compiling /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/python3.12/site-packages/mycarrot/carrot_tf2_broadcaster.py to carrot_tf2_broadcaster.cpython-312.pyc
+[1.065s] running install_data
+[1.065s] copying launch/turtle_tf2_launch.py -> /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/share/mycarrot/launch
+[1.065s] running install_egg_info
+[1.075s] removing '/home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/python3.12/site-packages/mycarrot-0.0.0-py3.12.egg-info' (and everything under it)
+[1.075s] Copying ../build/mycarrot/mycarrot.egg-info to /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/python3.12/site-packages/mycarrot-0.0.0-py3.12.egg-info
+[1.075s] running install_scripts
+[1.138s] Installing turtle_tf2_broadcaster script to /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/mycarrot
+[1.139s] Installing turtle_tf2_listener script to /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/mycarrot
+[1.139s] writing list of installed files to '/home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/install.log'
+[1.154s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul4/ex02/mycarrot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mycarrot build --build-base /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/build install --record /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/install.log --single-version-externally-managed install_data

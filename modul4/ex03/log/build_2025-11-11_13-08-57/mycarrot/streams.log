@@ -1,0 +1,44 @@
+[0.799s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul4/ex03/mycarrot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/natalia/Documents/STUDING/robotix/modul4/ex03/build/mycarrot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mycarrot build --build-base /home/natalia/Documents/STUDING/robotix/modul4/ex03/build/mycarrot/build install --record /home/natalia/Documents/STUDING/robotix/modul4/ex03/build/mycarrot/install.log --single-version-externally-managed install_data
+[1.030s] running egg_info
+[1.030s] creating ../build/mycarrot/mycarrot.egg-info
+[1.045s] writing ../build/mycarrot/mycarrot.egg-info/PKG-INFO
+[1.045s] writing dependency_links to ../build/mycarrot/mycarrot.egg-info/dependency_links.txt
+[1.046s] writing entry points to ../build/mycarrot/mycarrot.egg-info/entry_points.txt
+[1.046s] writing requirements to ../build/mycarrot/mycarrot.egg-info/requires.txt
+[1.046s] writing top-level names to ../build/mycarrot/mycarrot.egg-info/top_level.txt
+[1.046s] writing manifest file '../build/mycarrot/mycarrot.egg-info/SOURCES.txt'
+[1.076s] reading manifest file '../build/mycarrot/mycarrot.egg-info/SOURCES.txt'
+[1.076s] adding license file 'LICENSE'
+[1.077s] writing manifest file '../build/mycarrot/mycarrot.egg-info/SOURCES.txt'
+[1.078s] running build
+[1.078s] running build_py
+[1.078s] creating /home/natalia/Documents/STUDING/robotix/modul4/ex03/build/mycarrot/build
+[1.078s] creating /home/natalia/Documents/STUDING/robotix/modul4/ex03/build/mycarrot/build/lib
+[1.079s] creating /home/natalia/Documents/STUDING/robotix/modul4/ex03/build/mycarrot/build/lib/mycarrot
+[1.079s] copying mycarrot/turtle_tf2_listener.py -> /home/natalia/Documents/STUDING/robotix/modul4/ex03/build/mycarrot/build/lib/mycarrot
+[1.079s] copying mycarrot/__init__.py -> /home/natalia/Documents/STUDING/robotix/modul4/ex03/build/mycarrot/build/lib/mycarrot
+[1.079s] copying mycarrot/turtle_tf2_broadcaster.py -> /home/natalia/Documents/STUDING/robotix/modul4/ex03/build/mycarrot/build/lib/mycarrot
+[1.079s] running install
+[1.084s] running install_lib
+[1.098s] creating /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/lib/python3.12/site-packages/mycarrot
+[1.098s] copying /home/natalia/Documents/STUDING/robotix/modul4/ex03/build/mycarrot/build/lib/mycarrot/turtle_tf2_listener.py -> /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/lib/python3.12/site-packages/mycarrot
+[1.098s] copying /home/natalia/Documents/STUDING/robotix/modul4/ex03/build/mycarrot/build/lib/mycarrot/__init__.py -> /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/lib/python3.12/site-packages/mycarrot
+[1.098s] copying /home/natalia/Documents/STUDING/robotix/modul4/ex03/build/mycarrot/build/lib/mycarrot/turtle_tf2_broadcaster.py -> /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/lib/python3.12/site-packages/mycarrot
+[1.098s] byte-compiling /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/lib/python3.12/site-packages/mycarrot/turtle_tf2_listener.py to turtle_tf2_listener.cpython-312.pyc
+[1.099s] byte-compiling /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/lib/python3.12/site-packages/mycarrot/__init__.py to __init__.cpython-312.pyc
+[1.099s] byte-compiling /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/lib/python3.12/site-packages/mycarrot/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-312.pyc
+[1.100s] running install_data
+[1.100s] creating /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/share/ament_index
+[1.101s] creating /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/share/ament_index/resource_index
+[1.101s] creating /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/share/ament_index/resource_index/packages
+[1.101s] copying resource/mycarrot -> /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/share/ament_index/resource_index/packages
+[1.101s] copying package.xml -> /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/share/mycarrot
+[1.101s] creating /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/share/mycarrot/launch
+[1.101s] copying launch/turtle_tf2_launch.py -> /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/share/mycarrot/launch
+[1.101s] running install_egg_info
+[1.121s] Copying ../build/mycarrot/mycarrot.egg-info to /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/lib/python3.12/site-packages/mycarrot-0.0.0-py3.12.egg-info
+[1.121s] running install_scripts
+[1.233s] Installing turtle_tf2_broadcaster script to /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/lib/mycarrot
+[1.234s] Installing turtle_tf2_listener script to /home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/lib/mycarrot
+[1.234s] writing list of installed files to '/home/natalia/Documents/STUDING/robotix/modul4/ex03/build/mycarrot/install.log'
+[1.259s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul4/ex03/mycarrot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/natalia/Documents/STUDING/robotix/modul4/ex03/build/mycarrot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natalia/Documents/STUDING/robotix/modul4/ex03/install/mycarrot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mycarrot build --build-base /home/natalia/Documents/STUDING/robotix/modul4/ex03/build/mycarrot/build install --record /home/natalia/Documents/STUDING/robotix/modul4/ex03/build/mycarrot/install.log --single-version-externally-managed install_data

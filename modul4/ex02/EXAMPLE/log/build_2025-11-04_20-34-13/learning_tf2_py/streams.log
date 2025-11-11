@@ -1,0 +1,36 @@
+[0.677s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul4/ex02/learning_tf2_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/natalia/Documents/STUDING/robotix/modul4/ex02/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natalia/Documents/STUDING/robotix/modul4/ex02/install/learning_tf2_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/learning_tf2_py build --build-base /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/learning_tf2_py/build install --record /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/learning_tf2_py/install.log --single-version-externally-managed install_data
+[0.822s] running egg_info
+[0.822s] creating ../build/learning_tf2_py/learning_tf2_py.egg-info
+[0.831s] writing ../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[0.831s] writing dependency_links to ../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[0.831s] writing requirements to ../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[0.831s] writing top-level names to ../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[0.831s] writing manifest file '../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.850s] reading manifest file '../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.850s] adding license file 'LICENSE'
+[0.850s] writing manifest file '../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.850s] running build
+[0.850s] running build_py
+[0.850s] creating /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/learning_tf2_py/build
+[0.850s] creating /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/learning_tf2_py/build/lib
+[0.850s] creating /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.850s] copying learning_tf2_py/static_turtle_tf2_broadcaster.py -> /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.851s] copying learning_tf2_py/__init__.py -> /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.851s] running install
+[0.854s] running install_lib
+[0.863s] creating /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py
+[0.863s] copying /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/learning_tf2_py/build/lib/learning_tf2_py/static_turtle_tf2_broadcaster.py -> /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py
+[0.864s] copying /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/learning_tf2_py/build/lib/learning_tf2_py/__init__.py -> /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py
+[0.864s] byte-compiling /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-312.pyc
+[0.864s] byte-compiling /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py/__init__.py to __init__.cpython-312.pyc
+[0.864s] running install_data
+[0.864s] creating /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/learning_tf2_py/share/ament_index
+[0.865s] creating /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/learning_tf2_py/share/ament_index/resource_index
+[0.865s] creating /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/learning_tf2_py/share/ament_index/resource_index/packages
+[0.865s] copying resource/learning_tf2_py -> /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/learning_tf2_py/share/ament_index/resource_index/packages
+[0.865s] copying package.xml -> /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/learning_tf2_py/share/learning_tf2_py
+[0.865s] running install_egg_info
+[0.875s] Copying ../build/learning_tf2_py/learning_tf2_py.egg-info to /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/learning_tf2_py/lib/python3.12/site-packages/learning_tf2_py-0.0.0-py3.12.egg-info
+[0.875s] running install_scripts
+[0.942s] writing list of installed files to '/home/natalia/Documents/STUDING/robotix/modul4/ex02/build/learning_tf2_py/install.log'
+[0.957s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul4/ex02/learning_tf2_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/natalia/Documents/STUDING/robotix/modul4/ex02/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natalia/Documents/STUDING/robotix/modul4/ex02/install/learning_tf2_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/learning_tf2_py build --build-base /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/learning_tf2_py/build install --record /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/learning_tf2_py/install.log --single-version-externally-managed install_data

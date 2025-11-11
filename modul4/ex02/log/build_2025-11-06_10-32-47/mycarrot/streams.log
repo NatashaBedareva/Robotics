@@ -1,0 +1,28 @@
+[0.607s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul4/ex02/mycarrot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mycarrot build --build-base /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/build install --record /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/install.log --single-version-externally-managed install_data
+[0.902s] running egg_info
+[0.911s] writing ../build/mycarrot/mycarrot.egg-info/PKG-INFO
+[0.912s] writing dependency_links to ../build/mycarrot/mycarrot.egg-info/dependency_links.txt
+[0.912s] writing entry points to ../build/mycarrot/mycarrot.egg-info/entry_points.txt
+[0.912s] writing requirements to ../build/mycarrot/mycarrot.egg-info/requires.txt
+[0.912s] writing top-level names to ../build/mycarrot/mycarrot.egg-info/top_level.txt
+[0.930s] reading manifest file '../build/mycarrot/mycarrot.egg-info/SOURCES.txt'
+[0.930s] adding license file 'LICENSE'
+[0.931s] writing manifest file '../build/mycarrot/mycarrot.egg-info/SOURCES.txt'
+[0.931s] running build
+[0.931s] running build_py
+[0.931s] copying mycarrot/turtle3_tf2_listener.py -> /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/build/lib/mycarrot
+[0.931s] running install
+[0.935s] running install_lib
+[0.944s] copying /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/build/lib/mycarrot/turtle3_tf2_listener.py -> /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/python3.12/site-packages/mycarrot
+[0.944s] byte-compiling /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/python3.12/site-packages/mycarrot/turtle3_tf2_listener.py to turtle3_tf2_listener.cpython-312.pyc
+[0.945s] running install_data
+[0.945s] running install_egg_info
+[0.956s] removing '/home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/python3.12/site-packages/mycarrot-0.0.0-py3.12.egg-info' (and everything under it)
+[0.956s] Copying ../build/mycarrot/mycarrot.egg-info to /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/python3.12/site-packages/mycarrot-0.0.0-py3.12.egg-info
+[0.956s] running install_scripts
+[1.023s] Installing carrot_tf2_broadcaster script to /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/mycarrot
+[1.023s] Installing turtle3_tf2_listener script to /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/mycarrot
+[1.023s] Installing turtle_tf2_broadcaster script to /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/mycarrot
+[1.023s] Installing turtle_tf2_listener script to /home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/mycarrot
+[1.023s] writing list of installed files to '/home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/install.log'
+[1.039s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul4/ex02/mycarrot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natalia/Documents/STUDING/robotix/modul4/ex02/install/mycarrot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mycarrot build --build-base /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/build install --record /home/natalia/Documents/STUDING/robotix/modul4/ex02/build/mycarrot/install.log --single-version-externally-managed install_data

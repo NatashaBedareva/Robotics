@@ -1,0 +1,5 @@
+[console_scripts]
+carrot_tf2_broadcaster = mycarrot.carrot_tf2_broadcaster:main
+turtle3_tf2_listener = mycarrot.turtle3_tf2_listener:main
+turtle_tf2_broadcaster = mycarrot.turtle_tf2_broadcaster:main
+turtle_tf2_listener = mycarrot.turtle_tf2_listener:main
