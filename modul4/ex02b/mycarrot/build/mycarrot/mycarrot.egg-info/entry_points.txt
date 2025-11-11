@@ -1,0 +1,8 @@
+[console_scripts]
+carrot_tf2_broadcaster = mycarrot.carrot_tf2_broadcaster:main
+keyboard_input = mycarrot.keyboard_input:main
+static_target_broadcaster = mycarrot.static_target_broadcaster:main
+target_switcher = mycarrot.target_switcher:main
+turtle_controller = mycarrot.turtle_controller:main
+turtle_spawner = mycarrot.turtle_spawner:main
+turtle_tf2_broadcaster = mycarrot.turtle_tf2_broadcaster:main
