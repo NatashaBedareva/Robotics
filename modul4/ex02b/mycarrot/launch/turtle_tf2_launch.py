@@ -20,7 +20,7 @@ def generate_launch_description():
             name='sim'
         ),
 
-        # Спавнер черепашек (запускаем первым)
+        # Спавнер черепашек 
         Node(
             package='mycarrot',
             executable='turtle_spawner',
@@ -84,21 +84,20 @@ def generate_launch_description():
             name='static_target_broadcaster'
         ),
 
-        # Target switcher (добавляем задержку для инициализации TF)
+        # Target switcher 
         Node(
             package='mycarrot',
             executable='target_switcher',
             name='target_switcher',
             parameters=[{'switch_threshold': LaunchConfiguration('switch_threshold')}],
-            # Задержка для инициализации TF дерева
-            # arguments=['--ros-args', '--log-level', 'info']
+
         ),
 
-        # Turtle controller (также с задержкой)
+        # Turtle controller
         Node(
             package='mycarrot',
             executable='turtle_controller',
             name='turtle_controller',
-            # arguments=['--ros-args', '--log-level', 'info'] 
+
         )
     ])

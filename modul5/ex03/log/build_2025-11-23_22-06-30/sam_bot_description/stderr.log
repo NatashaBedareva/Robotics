@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/natalia/Documents/STUDING/robotix/modul5/ex03/sam_bot_description/rviz":
+  No such file or directory.
+
+[0m

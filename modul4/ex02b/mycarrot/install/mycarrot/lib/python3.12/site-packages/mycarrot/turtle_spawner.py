@@ -7,18 +7,16 @@ class TurtleSpawner(Node):
     def __init__(self):
         super().__init__('turtle_spawner')
         
-        # Клиент для спавна черепашек
+
         self.spawn_client = self.create_client(Spawn, 'spawn')
         
-        # Ждем сервис
         while not self.spawn_client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Spawn service not available, waiting...')
         
-        # Спавним turtle2
+
         self.spawn_turtle('turtle2', 4.0, 2.0, 0.0)
-        time.sleep(1)  # Небольшая задержка
+        time.sleep(1)
         
-        # Спавним turtle3  
         self.spawn_turtle('turtle3', 8.0, 8.0, 0.0)
         
         self.get_logger().info('All turtles spawned successfully')
@@ -41,7 +39,7 @@ class TurtleSpawner(Node):
 def main():
     rclpy.init()
     node = TurtleSpawner()
-    # Не держим узел активным, он завершится после спавна
+
     node.destroy_node()
     rclpy.shutdown()
 

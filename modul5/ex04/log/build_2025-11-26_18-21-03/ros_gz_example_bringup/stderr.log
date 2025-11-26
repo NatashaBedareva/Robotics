@@ -1,0 +1,11 @@
+[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+  ament_package_xml() package name 'ros_gz_example_bringup' in '/package.xml'
+  does not match current PROJECT_NAME 'ex04'.  You must call project() with
+  the same package name before.
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:60 (ament_package_xml)
+  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+  CMakeLists.txt:20 (ament_python_install_package)
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Ошибка 1

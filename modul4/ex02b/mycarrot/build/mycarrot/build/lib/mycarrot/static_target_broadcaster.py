@@ -41,7 +41,7 @@ class StaticTargetBroadcaster(Node):
         t.header.frame_id = 'world'
         t.child_frame_id = 'static_target'
         
-        # Статичная позиция (8.0, 2.0)
+     
         t.transform.translation.x = 8.0
         t.transform.translation.y = 2.0
         t.transform.translation.z = 0.0

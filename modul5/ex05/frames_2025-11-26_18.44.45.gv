@@ -1,0 +1,29 @@
+digraph G {
+"diff_drive" -> "diff_drive/caster"[label=" Broadcaster: default_authority\nAverage rate: 1000.21\nBuffer length: 4.77\nMost recent transform: 36.693\nOldest transform: 31.923\n"];
+"diff_drive/odom" -> "diff_drive"[label=" Broadcaster: default_authority\nAverage rate: 50.211\nBuffer length: 4.74\nMost recent transform: 36.68\nOldest transform: 31.94\n"];
+"diff_drive" -> "diff_drive/right_wheel"[label=" Broadcaster: default_authority\nAverage rate: 1000.21\nBuffer length: 4.77\nMost recent transform: 36.693\nOldest transform: 31.923\n"];
+"diff_drive" -> "diff_drive/left_wheel"[label=" Broadcaster: default_authority\nAverage rate: 1000.21\nBuffer length: 4.77\nMost recent transform: 36.693\nOldest transform: 31.923\n"];
+"chassis" -> "left_wheel"[label=" Broadcaster: default_authority\nAverage rate: 20.211\nBuffer length: 4.75\nMost recent transform: 36.65\nOldest transform: 31.9\n"];
+"chassis" -> "right_wheel"[label=" Broadcaster: default_authority\nAverage rate: 20.211\nBuffer length: 4.75\nMost recent transform: 36.65\nOldest transform: 31.9\n"];
+"golova" -> "glaza1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "golova"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"golova" -> "glaza2"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "lidar_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "nos2"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "nos"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "yxo1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "yxo2"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/lidar_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/glaza2"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/glaza1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/nos2"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/nos"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/yxo2"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/yxo1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/golova"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/chassis"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1764157485.0852048"[ shape=plaintext ] ;
+}->"chassis";
+}

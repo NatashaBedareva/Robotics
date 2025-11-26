@@ -58,7 +58,6 @@ class FramePublisher(Node):
         self.subscription  # prevent unused variable warning
 
 
-# Преобразование координат между разными системами отсчета!
 
     def handle_turtle_pose(self, msg):
         t = TransformStamped()

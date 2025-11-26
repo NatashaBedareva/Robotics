@@ -16,6 +16,7 @@ class KeyboardInput(Node):
         old_attr = termios.tcgetattr(sys.stdin)
         try:
             tty.setraw(sys.stdin.fileno())
+            self.get_logger().info('Keyboard listener active. Press keys now...')
             while rclpy.ok():
                 if select.select([sys.stdin], [], [], 0.1)[0]:
                     key = sys.stdin.read(1)
@@ -25,7 +26,12 @@ class KeyboardInput(Node):
                         self.publisher.publish(msg)
                         self.get_logger().info('Target switch command sent')
                     elif key == 'q':
+                        self.get_logger().info('Quitting...')
                         break
+                    else:
+                        self.get_logger().info(f'Pressed: {key} (only "n" and "q" work)')
+        except Exception as e:
+            self.get_logger().error(f'Error: {e}')
         finally:
             termios.tcsetattr(sys.stdin, termios.TCSADRAIN, old_attr)
 
