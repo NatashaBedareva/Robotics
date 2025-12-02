@@ -1,0 +1,29 @@
+digraph G {
+"diff_drive" -> "diff_drive/caster"[label=" Broadcaster: default_authority\nAverage rate: 1000.962\nBuffer length: 1.04\nMost recent transform: 4.733\nOldest transform: 3.693\n"];
+"diff_drive/odom" -> "diff_drive"[label=" Broadcaster: default_authority\nAverage rate: 50.98\nBuffer length: 1.02\nMost recent transform: 4.72\nOldest transform: 3.7\n"];
+"diff_drive" -> "diff_drive/right_wheel"[label=" Broadcaster: default_authority\nAverage rate: 1000.962\nBuffer length: 1.04\nMost recent transform: 4.733\nOldest transform: 3.693\n"];
+"diff_drive" -> "diff_drive/left_wheel"[label=" Broadcaster: default_authority\nAverage rate: 1000.962\nBuffer length: 1.04\nMost recent transform: 4.733\nOldest transform: 3.693\n"];
+"golova" -> "glaza1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "golova"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"golova" -> "glaza2"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "lidar_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "nos2"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "nos"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "yxo1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "yxo2"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/lidar_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/glaza2"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/glaza1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/nos2"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/nos"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/yxo2"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/yxo1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/golova"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"diff_drive" -> "diff_drive/chassis"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"chassis" -> "left_wheel"[label=" Broadcaster: default_authority\nAverage rate: 21.0\nBuffer length: 1.0\nMost recent transform: 4.7\nOldest transform: 3.7\n"];
+"chassis" -> "right_wheel"[label=" Broadcaster: default_authority\nAverage rate: 21.0\nBuffer length: 1.0\nMost recent transform: 4.7\nOldest transform: 3.7\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1764655607.5941818"[ shape=plaintext ] ;
+}->"chassis";
+}
