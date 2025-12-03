@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/natalia/Documents/STUDING/robotix/modul6/ex01/ros_gz_project_template/ros_gz_example_bringup
+CMAKE_SOURCE_DIR = /home/natalia/Documents/STUDING/robotix/modul6/ex02/ros_gz_project_template/ros_gz_example_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/natalia/Documents/STUDING/robotix/modul6/ex01/build/ros_gz_example_bringup
+CMAKE_BINARY_DIR = /home/natalia/Documents/STUDING/robotix/modul6/ex02/build/ros_gz_example_bringup
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/natalia/Documents/STUDING/robotix/modul6/ex01/build/ros_gz_example_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/natalia/Documents/STUDING/robotix/modul6/ex01/ros_gz_project_template/ros_gz_example_bringup /home/natalia/Documents/STUDING/robotix/modul6/ex01/ros_gz_project_template/ros_gz_example_bringup /home/natalia/Documents/STUDING/robotix/modul6/ex01/build/ros_gz_example_bringup /home/natalia/Documents/STUDING/robotix/modul6/ex01/build/ros_gz_example_bringup /home/natalia/Documents/STUDING/robotix/modul6/ex01/build/ros_gz_example_bringup/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/natalia/Documents/STUDING/robotix/modul6/ex02/build/ros_gz_example_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/natalia/Documents/STUDING/robotix/modul6/ex02/ros_gz_project_template/ros_gz_example_bringup /home/natalia/Documents/STUDING/robotix/modul6/ex02/ros_gz_project_template/ros_gz_example_bringup /home/natalia/Documents/STUDING/robotix/modul6/ex02/build/ros_gz_example_bringup /home/natalia/Documents/STUDING/robotix/modul6/ex02/build/ros_gz_example_bringup /home/natalia/Documents/STUDING/robotix/modul6/ex02/build/ros_gz_example_bringup/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

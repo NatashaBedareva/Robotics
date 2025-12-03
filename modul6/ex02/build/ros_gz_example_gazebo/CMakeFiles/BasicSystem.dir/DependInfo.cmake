@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/natalia/Documents/STUDING/robotix/modul6/ex01/ros_gz_project_template/ros_gz_example_gazebo/src/BasicSystem.cc" "CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o" "gcc" "CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o.d"
+  "/home/natalia/Documents/STUDING/robotix/modul6/ex02/ros_gz_project_template/ros_gz_example_gazebo/src/BasicSystem.cc" "CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o" "gcc" "CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

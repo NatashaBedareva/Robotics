@@ -1,0 +1,310 @@
+[0.040s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul6/ex02/build/ros_gz_example_gazebo': AMENT_PREFIX_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description/share/ros_gz_example_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake /home/natalia/Documents/STUDING/robotix/modul6/ex02/ros_gz_project_template/ros_gz_example_gazebo -DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo
+[0.317s] -- The C compiler identification is GNU 13.3.0
+[0.616s] -- The CXX compiler identification is GNU 13.3.0
+[0.701s] -- Detecting C compiler ABI info
+[1.132s] -- Detecting C compiler ABI info - done
+[1.181s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.182s] -- Detecting C compile features
+[1.185s] -- Detecting C compile features - done
+[1.238s] -- Detecting CXX compiler ABI info
+[1.723s] -- Detecting CXX compiler ABI info - done
+[1.774s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.775s] -- Detecting CXX compile features
+[1.778s] -- Detecting CXX compile features - done
+[1.791s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.306s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.551s] -- Found ros_gz_example_description: 0.0.0 (/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description/share/ros_gz_example_description/cmake)
+[2.573s] -- Looking for gz-plugin2 -- found version 2.0.4
+[2.576s] -- Searching for dependencies of gz-plugin2
+[2.585s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.585s] -- Searching for dependencies of gz-utils2
+[2.588s] -- Searching for <gz-utils2> component [cli]
+[2.597s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[2.598s] -- Searching for dependencies of gz-utils2-cli
+[2.604s] -- Searching for <gz-plugin2> component [register]
+[2.612s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[2.613s] -- Searching for dependencies of gz-plugin2-register
+[2.626s] -- Looking for gz-common5 -- found version 5.7.1
+[2.627s] -- Searching for dependencies of gz-common5
+[2.629s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.633s] -- Looking for dlfcn.h - found
+[2.677s] -- Looking for libdl - found
+[2.685s] -- Found DL: TRUE  
+[2.710s] -- Checking for module 'uuid'
+[2.792s] --   Found uuid, version 2.39.3
+[2.971s] -- Found UUID: TRUE  
+[2.983s] -- Searching for <gz-common5> component [profiler]
+[2.993s] -- Looking for gz-common5-profiler -- found version 5.7.1
+[2.994s] -- Searching for dependencies of gz-common5-profiler
+[3.029s] -- Looking for gz-sim8 -- found version 8.10.0
+[3.030s] -- Searching for dependencies of gz-sim8
+[3.038s] -- Looking for sdformat14 -- found version 14.8.0
+[3.039s] -- Searching for dependencies of sdformat14
+[3.063s] -- Checking for module 'tinyxml2'
+[3.138s] --   Found tinyxml2, version 10.0.0
+[3.298s] -- Looking for gz-math7 -- found version 7.5.2
+[3.299s] -- Searching for dependencies of gz-math7
+[3.301s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.306s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.320s] -- Looking for gz-plugin2 -- found version 2.0.4
+[3.321s] -- Searching for dependencies of gz-plugin2
+[3.323s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.324s] -- Searching for <gz-plugin2> component [loader]
+[3.332s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[3.333s] -- Searching for dependencies of gz-plugin2-loader
+[3.337s] -- Searching for <gz-plugin2> component [register]
+[3.344s] -- Looking for gz-transport13 -- found version 13.5.0
+[3.345s] -- Searching for dependencies of gz-transport13
+[3.924s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[3.985s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.013s] -- Checking for module 'libzmq >= 4'
+[4.103s] --   Found libzmq, version 4.3.5
+[4.332s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.369s] -- Looking for gz-utils2 -- found version 2.2.1
+[4.377s] -- Looking for gz-msgs10 -- found version 10.3.2
+[4.378s] -- Searching for dependencies of gz-msgs10
+[4.474s] -- Looking for gz-utils2 -- found version 2.2.1
+[4.476s] -- Looking for gz-math7 -- found version 7.5.2
+[4.513s] -- Searching for <gz-transport13> component [log]
+[4.519s] -- Looking for gz-transport13-log -- found version 13.5.0
+[4.521s] -- Searching for dependencies of gz-transport13-log
+[4.523s] -- Searching for <gz-transport13> component [parameters]
+[4.539s] -- Looking for gz-transport13-parameters -- found version 13.5.0
+[4.540s] -- Searching for dependencies of gz-transport13-parameters
+[4.546s] -- Looking for gz-msgs10 -- found version 10.3.2
+[4.548s] -- Looking for gz-common5 -- found version 5.7.1
+[4.550s] -- Searching for dependencies of gz-common5
+[4.551s] -- Looking for gz-utils2 -- found version 2.2.1
+[4.552s] -- Looking for dlfcn.h - found
+[4.553s] -- Looking for libdl - found
+[4.591s] -- Searching for <gz-common5> component [av]
+[4.601s] -- Looking for gz-common5-av -- found version 5.7.1
+[4.602s] -- Searching for dependencies of gz-common5-av
+[4.631s] -- Checking for module 'libswscale'
+[4.709s] --   Found libswscale, version 7.5.100
+[4.889s] -- Found SWSCALE: TRUE  
+[4.925s] -- Checking for module 'libavdevice >= 56.4.100'
+[5.004s] --   Found libavdevice, version 60.3.100
+[5.248s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[5.283s] -- Checking for module 'libavformat'
+[5.358s] --   Found libavformat, version 60.16.100
+[5.562s] -- Found AVFORMAT: TRUE  
+[5.599s] -- Checking for module 'libavcodec'
+[5.677s] --   Found libavcodec, version 60.31.102
+[5.864s] -- Found AVCODEC: TRUE  
+[5.900s] -- Checking for module 'libavutil'
+[5.975s] --   Found libavutil, version 58.29.100
+[6.151s] -- Found AVUTIL: TRUE  
+[6.163s] -- Searching for <gz-common5> component [events]
+[6.173s] -- Looking for gz-common5-events -- found version 5.7.1
+[6.174s] -- Searching for dependencies of gz-common5-events
+[6.176s] -- Looking for gz-math7 -- found version 7.5.2
+[6.181s] -- Searching for <gz-common5> component [graphics]
+[6.191s] -- Looking for gz-common5-graphics -- found version 5.7.1
+[6.193s] -- Searching for dependencies of gz-common5-graphics
+[6.194s] -- Looking for gz-math7 -- found version 7.5.2
+[6.223s] -- Found GzAssimp: TRUE (found version "5.3.0") 
+[6.227s] -- Searching for <gz-common5> component [io]
+[6.237s] -- Looking for gz-common5-io -- found version 5.7.1
+[6.238s] -- Searching for dependencies of gz-common5-io
+[6.242s] -- Searching for <gz-common5> component [profiler]
+[6.252s] -- Looking for gz-fuel_tools9 -- found version 9.1.1
+[6.253s] -- Searching for dependencies of gz-fuel_tools9
+[6.702s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  
+[6.756s] -- Checking for module 'jsoncpp'
+[6.839s] --   Found jsoncpp, version 1.9.5
+[7.032s] -- Found JSONCPP: TRUE  
+[7.128s] -- Checking for module 'yaml-0.1'
+[7.204s] --   Found yaml-0.1, version 0.2.5
+[7.375s] -- Found YAML: TRUE  
+[7.410s] -- Checking for module 'libzip'
+[7.499s] --   Found libzip, version 1.7.3
+[7.681s] -- Found ZIP: TRUE  
+[7.684s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.686s] -- Looking for gz-common5 -- found version 5.7.1
+[7.686s] -- Searching for dependencies of gz-common5
+[7.689s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.689s] -- Looking for dlfcn.h - found
+[7.690s] -- Looking for libdl - found
+[7.729s] -- Searching for <gz-common5> component [testing]
+[7.747s] -- Looking for gz-common5-testing -- found version 5.7.1
+[7.748s] -- Searching for dependencies of gz-common5-testing
+[7.755s] -- Looking for gz-math7 -- found version 7.5.2
+[7.757s] -- Looking for gz-msgs10 -- found version 10.3.2
+[7.772s] -- Looking for gz-gui8 -- found version 8.4.0
+[7.773s] -- Searching for dependencies of gz-gui8
+[7.911s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.913s] -- Looking for gz-math7 -- found version 7.5.2
+[7.915s] -- Looking for gz-common5 -- found version 5.7.1
+[7.917s] -- Looking for gz-plugin2 -- found version 2.0.4
+[7.919s] -- Looking for gz-transport13 -- found version 13.5.0
+[7.937s] -- Looking for gz-rendering8 -- found version 8.2.2
+[7.938s] -- Searching for dependencies of gz-rendering8
+[7.940s] -- Looking for gz-math7 -- found version 7.5.2
+[7.941s] -- Searching for dependencies of gz-math7
+[7.942s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.943s] -- Searching for <gz-math7> component [eigen3]
+[7.954s] -- Looking for gz-math7-eigen3 -- found version 7.5.2
+[7.955s] -- Searching for dependencies of gz-math7-eigen3
+[8.003s] -- Looking for gz-common5 -- found version 5.7.1
+[8.004s] -- Searching for dependencies of gz-common5
+[8.006s] -- Looking for gz-utils2 -- found version 2.2.1
+[8.007s] -- Looking for dlfcn.h - found
+[8.007s] -- Looking for libdl - found
+[8.049s] -- Searching for <gz-common5> component [graphics]
+[8.050s] -- Searching for <gz-common5> component [events]
+[8.050s] -- Searching for <gz-common5> component [geospatial]
+[8.060s] -- Looking for gz-common5-geospatial -- found version 5.7.1
+[8.061s] -- Searching for dependencies of gz-common5-geospatial
+[8.063s] -- Looking for gz-math7 -- found version 7.5.2
+[8.065s] -- Looking for gz-common5 -- found version 5.7.1
+[8.073s] -- Looking for gz-plugin2 -- found version 2.0.4
+[8.074s] -- Searching for dependencies of gz-plugin2
+[8.076s] -- Looking for gz-utils2 -- found version 2.2.1
+[8.077s] -- Searching for <gz-plugin2> component [all]
+[8.085s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[8.088s] -- Looking for gz-plugin2 -- found version 2.0.4
+[8.093s] -- Looking for gz-utils2 -- found version 2.2.1
+[8.150s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[8.159s] -- Looking for gz-msgs10 -- found version 10.3.2
+[8.342s] -- Looking for gz-physics7 -- found version 7.6.0
+[8.343s] -- Searching for dependencies of gz-physics7
+[8.345s] -- Looking for gz-common5 -- found version 5.7.1
+[8.348s] -- Looking for gz-math7 -- found version 7.5.2
+[8.350s] -- Looking for gz-plugin2 -- found version 2.0.4
+[8.352s] -- Looking for gz-utils2 -- found version 2.2.1
+[8.360s] -- Searching for <gz-physics7> component [heightmap]
+[8.366s] -- Looking for gz-physics7-heightmap -- found version 7.6.0
+[8.368s] -- Searching for dependencies of gz-physics7-heightmap
+[8.370s] -- Looking for gz-common5 -- found version 5.7.1
+[8.373s] -- Searching for <gz-physics7> component [mesh]
+[8.378s] -- Looking for gz-physics7-mesh -- found version 7.6.0
+[8.379s] -- Searching for dependencies of gz-physics7-mesh
+[8.381s] -- Looking for gz-common5 -- found version 5.7.1
+[8.383s] -- Searching for <gz-physics7> component [sdf]
+[8.388s] -- Looking for gz-physics7-sdf -- found version 7.6.0
+[8.388s] -- Searching for dependencies of gz-physics7-sdf
+[8.390s] -- Looking for sdformat14 -- found version 14.8.0
+[8.397s] -- Looking for gz-sensors8 -- found version 8.2.2
+[8.398s] -- Searching for dependencies of gz-sensors8
+[8.445s] -- Looking for gz-math7 -- found version 7.5.2
+[8.447s] -- Looking for gz-common5 -- found version 5.7.1
+[8.449s] -- Looking for gz-transport13 -- found version 13.5.0
+[8.450s] -- Looking for gz-rendering8 -- found version 8.2.2
+[8.451s] -- Looking for gz-msgs10 -- found version 10.3.2
+[8.452s] -- Looking for sdformat14 -- found version 14.8.0
+[8.456s] -- Searching for <gz-sensors8> component [air_pressure]
+[8.461s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+[8.461s] -- Searching for dependencies of gz-sensors8-air_pressure
+[8.465s] -- Searching for <gz-sensors8> component [air_speed]
+[8.470s] -- Looking for gz-sensors8-air_speed -- found version 8.2.2
+[8.471s] -- Searching for dependencies of gz-sensors8-air_speed
+[8.475s] -- Searching for <gz-sensors8> component [altimeter]
+[8.480s] -- Looking for gz-sensors8-altimeter -- found version 8.2.2
+[8.481s] -- Searching for dependencies of gz-sensors8-altimeter
+[8.484s] -- Searching for <gz-sensors8> component [imu]
+[8.491s] -- Looking for gz-sensors8-imu -- found version 8.2.2
+[8.491s] -- Searching for dependencies of gz-sensors8-imu
+[8.496s] -- Searching for <gz-sensors8> component [force_torque]
+[8.502s] -- Looking for gz-sensors8-force_torque -- found version 8.2.2
+[8.503s] -- Searching for dependencies of gz-sensors8-force_torque
+[8.508s] -- Searching for <gz-sensors8> component [logical_camera]
+[8.514s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+[8.516s] -- Searching for dependencies of gz-sensors8-logical_camera
+[8.520s] -- Searching for <gz-sensors8> component [magnetometer]
+[8.526s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+[8.527s] -- Searching for dependencies of gz-sensors8-magnetometer
+[8.531s] -- Searching for <gz-sensors8> component [navsat]
+[8.537s] -- Looking for gz-sensors8-navsat -- found version 8.2.2
+[8.538s] -- Searching for dependencies of gz-sensors8-navsat
+[8.542s] -- Searching for <gz-sensors8> component [dvl]
+[8.549s] -- Looking for gz-sensors8-dvl -- found version 8.2.2
+[8.550s] -- Searching for dependencies of gz-sensors8-dvl
+[8.552s] -- Looking for gz-sensors8 -- found version 8.2.2
+[8.553s] -- Searching for dependencies of gz-sensors8
+[8.620s] -- Looking for gz-math7 -- found version 7.5.2
+[8.622s] -- Looking for gz-common5 -- found version 5.7.1
+[8.624s] -- Looking for gz-transport13 -- found version 13.5.0
+[8.627s] -- Looking for gz-rendering8 -- found version 8.2.2
+[8.629s] -- Looking for gz-msgs10 -- found version 10.3.2
+[8.631s] -- Looking for sdformat14 -- found version 14.8.0
+[8.632s] -- Searching for <gz-sensors8> component [rendering]
+[8.639s] -- Looking for gz-sensors8-rendering -- found version 8.2.2
+[8.640s] -- Searching for dependencies of gz-sensors8-rendering
+[8.647s] -- Searching for <gz-sensors8> component [rendering]
+[8.648s] -- Searching for <gz-sensors8> component [lidar]
+[8.655s] -- Looking for gz-sensors8-lidar -- found version 8.2.2
+[8.656s] -- Searching for dependencies of gz-sensors8-lidar
+[8.658s] -- Looking for gz-sensors8 -- found version 8.2.2
+[8.662s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[8.669s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+[8.670s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[8.672s] -- Looking for gz-sensors8 -- found version 8.2.2
+[8.678s] -- Searching for <gz-sensors8> component [camera]
+[8.684s] -- Looking for gz-sensors8-camera -- found version 8.2.2
+[8.686s] -- Searching for dependencies of gz-sensors8-camera
+[8.688s] -- Looking for gz-sensors8 -- found version 8.2.2
+[8.692s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[8.699s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+[8.700s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[8.704s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[8.710s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+[8.711s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[8.715s] -- Searching for <gz-sensors8> component [depth_camera]
+[8.722s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+[8.723s] -- Searching for dependencies of gz-sensors8-depth_camera
+[8.725s] -- Looking for gz-sensors8 -- found version 8.2.2
+[8.730s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[8.736s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+[8.737s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[8.738s] -- Looking for gz-sensors8 -- found version 8.2.2
+[8.742s] -- Searching for <gz-sensors8> component [thermal_camera]
+[8.747s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+[8.748s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[8.750s] -- Looking for gz-sensors8 -- found version 8.2.2
+[8.753s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[8.760s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+[8.761s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[8.767s] -- Looking for gz-rendering8 -- found version 8.2.2
+[8.768s] -- Looking for gz-math7 -- found version 7.5.2
+[8.770s] -- Looking for gz-utils2 -- found version 2.2.1
+[8.826s] -- Compiling against Gazebo Garden
+[8.838s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.996s] -- Configuring done (8.9s)
+[9.039s] -- Generating done (0.0s)
+[9.048s] -- Build files have been written to: /home/natalia/Documents/STUDING/robotix/modul6/ex02/build/ros_gz_example_gazebo
+[9.064s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul6/ex02/build/ros_gz_example_gazebo' returned '0': AMENT_PREFIX_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description/share/ros_gz_example_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake /home/natalia/Documents/STUDING/robotix/modul6/ex02/ros_gz_project_template/ros_gz_example_gazebo -DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo
+[9.067s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul6/ex02/build/ros_gz_example_gazebo': AMENT_PREFIX_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description/share/ros_gz_example_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --build /home/natalia/Documents/STUDING/robotix/modul6/ex02/build/ros_gz_example_gazebo -- -j20 -l20
+[9.307s] [ 25%] [32mBuilding CXX object CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o[0m
+[9.312s] [ 50%] [32mBuilding CXX object CMakeFiles/FullSystem.dir/src/FullSystem.cc.o[0m
+[11.335s] [ 75%] [32m[1mLinking CXX shared library libBasicSystem.so[0m
+[11.487s] [100%] [32m[1mLinking CXX shared library libFullSystem.so[0m
+[11.533s] [100%] Built target BasicSystem
+[11.752s] [100%] Built target FullSystem
+[11.800s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul6/ex02/build/ros_gz_example_gazebo' returned '0': AMENT_PREFIX_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description/share/ros_gz_example_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --build /home/natalia/Documents/STUDING/robotix/modul6/ex02/build/ros_gz_example_gazebo -- -j20 -l20
+[11.808s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul6/ex02/build/ros_gz_example_gazebo': AMENT_PREFIX_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description/share/ros_gz_example_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --install /home/natalia/Documents/STUDING/robotix/modul6/ex02/build/ros_gz_example_gazebo
+[11.845s] -- Install configuration: ""
+[11.846s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/lib/ros_gz_example_gazebo/libBasicSystem.so
+[11.849s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/lib/ros_gz_example_gazebo/libBasicSystem.so" to ""
+[11.850s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/lib/ros_gz_example_gazebo/libFullSystem.so
+[11.852s] -- Set non-toolchain portion of runtime path of "/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/lib/ros_gz_example_gazebo/libFullSystem.so" to ""
+[11.854s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/worlds
+[11.855s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/worlds/diff_drive.sdf
+[11.856s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/ros_gz_example_gazebo.dsv
+[11.857s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/ros_gz_example_gazebo.sh
+[11.858s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ament_index/resource_index/package_run_dependencies/ros_gz_example_gazebo
+[11.859s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ament_index/resource_index/parent_prefix_path/ros_gz_example_gazebo
+[11.860s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/ament_prefix_path.sh
+[11.860s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/ament_prefix_path.dsv
+[11.860s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/path.sh
+[11.861s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/path.dsv
+[11.861s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/local_setup.bash
+[11.861s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/local_setup.sh
+[11.862s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/local_setup.zsh
+[11.862s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/local_setup.dsv
+[11.862s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/package.dsv
+[11.862s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ament_index/resource_index/packages/ros_gz_example_gazebo
+[11.863s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/cmake/ros_gz_example_gazeboConfig.cmake
+[11.863s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/cmake/ros_gz_example_gazeboConfig-version.cmake
+[11.863s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/package.xml
+[11.869s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul6/ex02/build/ros_gz_example_gazebo' returned '0': AMENT_PREFIX_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com GZ_SIM_RESOURCE_PATH=/home/natalia/Documents/STUDING/robotix/modul6/ex02/install/ros_gz_example_description/share/ros_gz_example_description/models:${GZ_SIM_RESOURCE_PATH} /usr/bin/cmake --install /home/natalia/Documents/STUDING/robotix/modul6/ex02/build/ros_gz_example_gazebo
