@@ -1,0 +1,39 @@
+[0.024s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul6/ex05/build/robot_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/natalia/Documents/STUDING/robotix/modul6/ex05/robot_app -DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app
+[0.447s] -- The C compiler identification is GNU 13.3.0
+[0.799s] -- The CXX compiler identification is GNU 13.3.0
+[0.907s] -- Detecting C compiler ABI info
+[1.371s] -- Detecting C compiler ABI info - done
+[1.419s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.431s] -- Detecting C compile features
+[1.433s] -- Detecting C compile features - done
+[1.487s] -- Detecting CXX compiler ABI info
+[1.973s] -- Detecting CXX compiler ABI info - done
+[2.017s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.018s] -- Detecting CXX compile features
+[2.019s] -- Detecting CXX compile features - done
+[2.073s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.665s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.253s] -- Configuring done (3.2s)
+[3.257s] -- Generating done (0.0s)
+[3.260s] -- Build files have been written to: /home/natalia/Documents/STUDING/robotix/modul6/ex05/build/robot_app
+[3.277s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul6/ex05/build/robot_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/natalia/Documents/STUDING/robotix/modul6/ex05/robot_app -DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app
+[3.278s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul6/ex05/build/robot_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natalia/Documents/STUDING/robotix/modul6/ex05/build/robot_app -- -j20 -l20
+[3.405s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul6/ex05/build/robot_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natalia/Documents/STUDING/robotix/modul6/ex05/build/robot_app -- -j20 -l20
+[3.452s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul6/ex05/build/robot_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natalia/Documents/STUDING/robotix/modul6/ex05/build/robot_app
+[3.489s] -- Install configuration: ""
+[3.491s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/ament_index/resource_index/package_run_dependencies/robot_app
+[3.491s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/ament_index/resource_index/parent_prefix_path/robot_app
+[3.492s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/environment/ament_prefix_path.sh
+[3.492s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/environment/ament_prefix_path.dsv
+[3.493s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/environment/path.sh
+[3.494s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/environment/path.dsv
+[3.494s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/local_setup.bash
+[3.495s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/local_setup.sh
+[3.495s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/local_setup.zsh
+[3.495s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/local_setup.dsv
+[3.496s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/package.dsv
+[3.497s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/ament_index/resource_index/packages/robot_app
+[3.497s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/cmake/robot_appConfig.cmake
+[3.497s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/cmake/robot_appConfig-version.cmake
+[3.498s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/package.xml
+[3.505s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul6/ex05/build/robot_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natalia/Documents/STUDING/robotix/modul6/ex05/build/robot_app
