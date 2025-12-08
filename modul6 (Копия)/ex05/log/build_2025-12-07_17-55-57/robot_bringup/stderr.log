@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/natalia/Documents/STUDING/robotix/modul6/ex05/robot_bringup/scripts/simple_stop.py":
+  No such file or directory.
+
+[0m

@@ -1,0 +1,39 @@
+[0.005s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul6/ex04/build/ros_gz_example_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/natalia/Documents/STUDING/robotix/modul6/ex04/ros_gz_project_template/ros_gz_example_application -DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application
+[0.157s] -- The C compiler identification is GNU 13.3.0
+[0.417s] -- The CXX compiler identification is GNU 13.3.0
+[0.505s] -- Detecting C compiler ABI info
+[0.933s] -- Detecting C compiler ABI info - done
+[0.975s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.976s] -- Detecting C compile features
+[0.977s] -- Detecting C compile features - done
+[1.008s] -- Detecting CXX compiler ABI info
+[1.496s] -- Detecting CXX compiler ABI info - done
+[1.546s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.548s] -- Detecting CXX compile features
+[1.549s] -- Detecting CXX compile features - done
+[1.561s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.973s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.304s] -- Configuring done (2.3s)
+[2.306s] -- Generating done (0.0s)
+[2.307s] -- Build files have been written to: /home/natalia/Documents/STUDING/robotix/modul6/ex04/build/ros_gz_example_application
+[2.311s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul6/ex04/build/ros_gz_example_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/natalia/Documents/STUDING/robotix/modul6/ex04/ros_gz_project_template/ros_gz_example_application -DCMAKE_INSTALL_PREFIX=/home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application
+[2.312s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul6/ex04/build/ros_gz_example_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natalia/Documents/STUDING/robotix/modul6/ex04/build/ros_gz_example_application -- -j20 -l20
+[2.470s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul6/ex04/build/ros_gz_example_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natalia/Documents/STUDING/robotix/modul6/ex04/build/ros_gz_example_application -- -j20 -l20
+[2.519s] Invoking command in '/home/natalia/Documents/STUDING/robotix/modul6/ex04/build/ros_gz_example_application': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natalia/Documents/STUDING/robotix/modul6/ex04/build/ros_gz_example_application
+[2.554s] -- Install configuration: ""
+[2.555s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application/share/ament_index/resource_index/package_run_dependencies/ros_gz_example_application
+[2.556s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application/share/ament_index/resource_index/parent_prefix_path/ros_gz_example_application
+[2.557s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application/share/ros_gz_example_application/environment/ament_prefix_path.sh
+[2.557s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application/share/ros_gz_example_application/environment/ament_prefix_path.dsv
+[2.558s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application/share/ros_gz_example_application/environment/path.sh
+[2.559s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application/share/ros_gz_example_application/environment/path.dsv
+[2.559s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.bash
+[2.560s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.sh
+[2.561s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.zsh
+[2.561s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.dsv
+[2.561s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application/share/ros_gz_example_application/package.dsv
+[2.561s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application/share/ament_index/resource_index/packages/ros_gz_example_application
+[2.562s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application/share/ros_gz_example_application/cmake/ros_gz_example_applicationConfig.cmake
+[2.562s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application/share/ros_gz_example_application/cmake/ros_gz_example_applicationConfig-version.cmake
+[2.562s] -- Installing: /home/natalia/Documents/STUDING/robotix/modul6/ex04/install/ros_gz_example_application/share/ros_gz_example_application/package.xml
+[2.570s] Invoked command in '/home/natalia/Documents/STUDING/robotix/modul6/ex04/build/ros_gz_example_application' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natalia/Documents/STUDING/robotix/modul6/ex04/build/ros_gz_example_application

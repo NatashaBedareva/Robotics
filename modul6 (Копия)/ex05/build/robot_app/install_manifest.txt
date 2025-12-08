@@ -1,0 +1,15 @@
+/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/ament_index/resource_index/package_run_dependencies/robot_app
+/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/ament_index/resource_index/parent_prefix_path/robot_app
+/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/environment/ament_prefix_path.sh
+/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/environment/ament_prefix_path.dsv
+/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/environment/path.sh
+/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/environment/path.dsv
+/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/local_setup.bash
+/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/local_setup.sh
+/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/local_setup.zsh
+/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/local_setup.dsv
+/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/package.dsv
+/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/ament_index/resource_index/packages/robot_app
+/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/cmake/robot_appConfig.cmake
+/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/cmake/robot_appConfig-version.cmake
+/home/natalia/Documents/STUDING/robotix/modul6/ex05/install/robot_app/share/robot_app/package.xml
