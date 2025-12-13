@@ -82,12 +82,12 @@ def generate_launch_description():
         output='screen'
     )
 
-    static_transform_publisher = Node(
+    static_transform_publisher_imu = Node(
         package='tf2_ros',
         executable='static_transform_publisher',
-        arguments=['0', '0', '0', '0', '0', '0', 'diff_drive/lidar_link', 'diff_drive/lidar_link/lidar'],
-        name='lidar_tf_publisher'
-        )
+        arguments=['1.8', '0', '1.5', '0', '0', '0', 'diff_drive/base_link', 'diff_drive/IMU_link'],
+        name='imu_tf_publisher'
+    )
 
     return LaunchDescription([
         gz_sim,
@@ -96,5 +96,5 @@ def generate_launch_description():
         bridge,
         robot_state_publisher,
         rviz,
-        static_transform_publisher
+        static_transform_publisher_imu
     ])

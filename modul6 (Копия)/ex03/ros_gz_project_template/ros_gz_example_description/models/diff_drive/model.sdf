@@ -535,6 +535,7 @@
             <update_rate>1</update_rate>
             <visualize>true</visualize>
             <topic>imu</topic>
+            <gz_frame_id>diff_drive/IMU_link</gz_frame_id>
         </sensor>
 
       </link>
